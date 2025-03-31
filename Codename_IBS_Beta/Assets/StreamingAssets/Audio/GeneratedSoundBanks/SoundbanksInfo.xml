@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../Codename_IBS_Beta_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../Codename_IBS_Beta_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../Codename_IBS_Beta_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E4D8D5E8-B627-DECB-D6C3-E5F80B66C9CA}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1313057045" Name="Amb Bus"/>
+				<Bus Id="1502772432" Name="SFX Bus"/>
+				<Bus Id="3127962312" Name="Music Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B1BE8BC8-3E67-315E-6899-4BC4E75898BC}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="747429870" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>IBS_amb_hospital_loop_v2.wav</ShortName>
+					<Path>Media/747429870.wem</Path>
+					<CachePath>SFX/IBS_amb_hospital_loop_v2_5A068A4E.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="747429870"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F5D6D306-7E62-F2FD-C2B8-F1DBFA6BC0B4}</FileHash>
+</SoundBanksInfo>

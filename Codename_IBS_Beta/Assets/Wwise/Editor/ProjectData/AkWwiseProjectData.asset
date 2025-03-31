@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584587591576277930
+    m_lastTime: -8584581515713832971
     List:
+    - name: Amb Bus
+      guid: f85a6836a5f95e4dbe58025a3854dbf7
+      id: 1313057045
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f39de0523dc72f4686375cb348f55b42
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Amb Bus
+        ObjectType: 2
+        guid: f85a6836a5f95e4dbe58025a3854dbf7
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +71,40 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music Bus
+      guid: 57ac13935252f44794c88cbbe96649b1
+      id: 3127962312
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f39de0523dc72f4686375cb348f55b42
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music Bus
+        ObjectType: 2
+        guid: 57ac13935252f44794c88cbbe96649b1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Bus
+    - name: SFX Bus
+      guid: ea6ce0e12ba4aa4292f8bd83387b928f
+      id: 1502772432
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f39de0523dc72f4686375cb348f55b42
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: ea6ce0e12ba4aa4292f8bd83387b928f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,8 +117,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584587591576165619
-    List: []
+    m_lastTime: -8584581503884158303
+    List:
+    - name: Main
+      guid: 9a659aa79ccb7543a63df51b4a43649d
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f63a113d2904b14c84bf993e7c493880
+      - ElementName: Main
+        ObjectType: 7
+        guid: 9a659aa79ccb7543a63df51b4a43649d
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +145,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584587591576277930
-    List: []
+    m_lastTime: -8584581499577839630
+    List:
+    - name: Amb_Hospital_Loop
+      guid: d1a3f9f9de620e418fb2acba33984e58
+      id: 3217822573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Amb_Hospital_Loop
+        ObjectType: 3
+        guid: d1a3f9f9de620e418fb2acba33984e58
+      Path: Events\Default Work Unit\Amb_Hospital_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +221,7 @@ MonoBehaviour:
     m_lastTime: -8584587591576062355
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 03000000040000000500000006000000070000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

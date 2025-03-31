@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B37E2CE8-61DE-230D-8BD6-34B0BA5371FC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6138517A-A096-9DA3-EB9D-0BBBD82FD5FD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,9 +19,30 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1313057045" Name="Amb Bus"/>
+				<Bus Id="1502772432" Name="SFX Bus"/>
+				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B1BE8BC8-3E67-315E-6899-4BC4E75898BC}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="747429870" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>IBS_amb_hospital_loop_v2.wav</ShortName>
+					<Path>Media/747429870.wem</Path>
+					<CachePath>SFX/IBS_amb_hospital_loop_v2_5A068A4E.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="747429870"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B19E9952-51F0-C795-FD73-AAF72F8432C0}</FileHash>
+	<FileHash>{29B61C7B-BAA1-734A-BD83-77EE949187ED}</FileHash>
 </SoundBanksInfo>

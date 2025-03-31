@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3217822573	Amb_Hospital_Loop			\Default Work Unit\Amb_Hospital_Loop	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	747429870	IBS_amb_hospital_loop_v2	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\IBS_amb_hospital_loop_v2	
+

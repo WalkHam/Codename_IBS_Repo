@@ -11,9 +11,23 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+    } // namespace EVENTS
+
+    namespace BANKS
+    {
+        static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MAIN = 3161908922U;
+    } // namespace BANKS
+
     namespace BUSSES
     {
+        static const AkUniqueID AMB_BUS = 1313057045U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC_BUS = 3127962312U;
+        static const AkUniqueID SFX_BUS = 1502772432U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

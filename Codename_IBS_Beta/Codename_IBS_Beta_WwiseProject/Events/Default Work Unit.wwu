@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
+					<ChildrenList>
+						<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0E81587-D0E6-4382-B1E4-5D65A7DCCB87}" ShortID="964598482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
