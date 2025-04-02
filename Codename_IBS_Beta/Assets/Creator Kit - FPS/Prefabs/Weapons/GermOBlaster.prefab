@@ -64,7 +64,7 @@ MonoBehaviour:
   FireWeapon:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+    WwiseObjectReference: {fileID: 11400000, guid: ddeb258e53dcd46dab85beb9efb2f054,
       type: 2}
   ReloadWeapon:
     idInternal: 0

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+        static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_FIRE = 1355404468U;
         static const AkUniqueID SFX_WEAPON_PILL_EXPLODE = 2968060059U;
         static const AkUniqueID TEST_POP = 3024126497U;

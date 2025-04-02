@@ -140,6 +140,132 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="GermOBlaster" ID="{4EB53A14-AE6E-4DC3-9394-35E72800BF5D}" ShortID="707807867">
+							<ChildrenList>
+								<RandomSequenceContainer Name="GermOBlaster Fire" ID="{476CEE0C-6555-4667-AB82-3F7467C59B54}" ShortID="648047817">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="sfx_weapon_germoblaster_fire_01" ID="{49D9C32F-095C-4C6A-8A50-506C43068160}" ShortID="648281251">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_fire_01" ID="{9D6DC07F-1630-4988-9CCD-F034E6365498}">
+													<Language>SFX</Language>
+													<AudioFile>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="287086954"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_fire_01" ID="{9D6DC07F-1630-4988-9CCD-F034E6365498}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_fire_02" ID="{D6773C94-D583-442F-A994-F69E81F33B99}" ShortID="216413768">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_fire_02" ID="{03BCFAB2-5461-4E45-87FB-6DF6E51AD673}">
+													<Language>SFX</Language>
+													<AudioFile>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="864586043"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_fire_02" ID="{03BCFAB2-5461-4E45-87FB-6DF6E51AD673}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_fire_03" ID="{EFBFF0B6-13DD-426A-B3F0-4E8FC03C7914}" ShortID="686221748">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_fire_03" ID="{DAFEF153-69EF-40FF-BBC5-5A02440488BF}">
+													<Language>SFX</Language>
+													<AudioFile>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624977598"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_fire_03" ID="{DAFEF153-69EF-40FF-BBC5-5A02440488BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_fire_04" ID="{13CFA14C-5906-4488-B212-FB059BE55DBA}" ShortID="169110032">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_fire_04" ID="{B52DBB2C-C4FB-43CF-AA2C-B8697CA8701C}">
+													<Language>SFX</Language>
+													<AudioFile>GermOBlaster Fire\sfx_weapon_germoblaster_fire_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="633341211"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_fire_04" ID="{B52DBB2C-C4FB-43CF-AA2C-B8697CA8701C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_fire_05" ID="{4249C439-BF60-4649-9302-DBB2F4A8B9FD}" ShortID="786728915">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_fire_05" ID="{92DC92BE-4AE9-47EF-84B6-47AC980B5432}">
+													<Language>SFX</Language>
+													<AudioFile>GermOBlaster Fire\sfx_weapon_germoblaster_fire_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="224893202"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_fire_05" ID="{92DC92BE-4AE9-47EF-84B6-47AC980B5432}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

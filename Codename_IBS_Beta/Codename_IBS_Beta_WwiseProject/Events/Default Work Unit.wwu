@@ -67,7 +67,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="GermOBlaster" ID="{8CB34434-42D5-463E-BB81-E916DBD5670E}" ShortID="977473251"/>
+						<Folder Name="GermOBlaster" ID="{8CB34434-42D5-463E-BB81-E916DBD5670E}" ShortID="977473251">
+							<ChildrenList>
+								<Event Name="sfx_weapon_germoblaster_fire" ID="{9FE6F6DC-C1DC-4F7A-98B7-0F28EEDF2E2B}">
+									<ChildrenList>
+										<Action Name="" ID="{0B0C6CF8-F898-490F-BB3D-8C7A0BB9833B}" ShortID="907215387">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GermOBlaster Fire" ID="{476CEE0C-6555-4667-AB82-3F7467C59B54}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584579787571938746
+    m_lastTime: -8584579764392196751
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584579768824905107
+    m_lastTime: -8584579764392222309
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -224,6 +224,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: sfx_weapon_germoblaster_fire
+      guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
+      id: 1631753596
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: GermOBlaster
+        ObjectType: 4
+        guid: 3444b38cd5423e46bb81e916dbd5670e
+      - ElementName: sfx_weapon_germoblaster_fire
+        ObjectType: 3
+        guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
+      Path: Events/Default Work Unit/Weapons/GermOBlaster/sfx_weapon_germoblaster_fire
+      maxAttenuation: 0
+      maxDuration: 0.07489584
+      minDuration: 0.07235417
     - name: sfx_weapon_healmatic500_fire
       guid: 948005223f67ea4eabcd5b2518911dc4
       id: 1355404468

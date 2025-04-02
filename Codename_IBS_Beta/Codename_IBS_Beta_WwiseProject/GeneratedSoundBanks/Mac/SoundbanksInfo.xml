@@ -25,7 +25,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FB55547B-9CB7-8B77-7E73-0766D97A0B36}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5B3B4639-F6FD-C410-62A4-474E0F7D4B27}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -33,9 +33,25 @@
 					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
 					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
 				</File>
+				<File Id="224893202" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_05.wav</ShortName>
+					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="287086954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</ShortName>
+					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="424706265" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_0CED370E.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_5C0657E3.wem</CachePath>
+				</File>
+				<File Id="624977598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</ShortName>
+					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633341211" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_04.wav</ShortName>
+					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="685681818" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_pill_explosion_01.wav</ShortName>
@@ -46,11 +62,24 @@
 					<Path>Media/747429870.wem</Path>
 					<CachePath>SFX/IBS_amb_hospital_loop_v2_5A068A4E.wem</CachePath>
 				</File>
+				<File Id="864586043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
+					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="747429870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
+					<MediaRefs>
+						<MediaRef Id="224893202"/>
+						<MediaRef Id="287086954"/>
+						<MediaRef Id="624977598"/>
+						<MediaRef Id="633341211"/>
+						<MediaRef Id="864586043"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1355404468" Name="sfx_weapon_healmatic500_fire" DurationType="OneShot" DurationMin="1.0493492" DurationMax="1.0493492">
@@ -71,5 +100,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6D6CC216-E7C3-BE56-9294-8D0F54359FCC}</FileHash>
+	<FileHash>{BBBDD63C-CC19-0AF8-6EF7-B78ED186FFE8}</FileHash>
 </SoundBanksInfo>
