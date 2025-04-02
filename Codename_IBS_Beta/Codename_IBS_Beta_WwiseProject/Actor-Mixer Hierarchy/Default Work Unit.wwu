@@ -81,6 +81,67 @@
 						<ActiveSource Name="1214698_audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio" ID="{534642AD-8CBD-46E6-BFBE-BCE937F9880A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Weapons" ID="{99B77F13-AE64-45B1-A274-C8002AB9F068}" ShortID="261829036">
+					<ChildrenList>
+						<Folder Name="Healmatic500" ID="{7D8FFCE2-3FCB-40E5-9EBC-5AACA6630A6C}" ShortID="659967143">
+							<ChildrenList>
+								<Sound Name="sfx_weapon_healmatic500_fire_01" ID="{6031E14F-5818-4025-BB77-B2E9998FAD8D}" ShortID="51790573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_healmatic500_fire_01" ID="{E897D156-8A4C-4100-827E-15B5A8B8A3AB}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.031798459563543"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0276508344030809"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_healmatic500_fire_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="424706265"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_healmatic500_fire_01" ID="{E897D156-8A4C-4100-827E-15B5A8B8A3AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pill Grenade" ID="{E6F13E6B-7BE2-4F24-B0FC-3F9D57FB3B52}" ShortID="1063624655">
+							<ChildrenList>
+								<Sound Name="sfx_weapon_pill_explosion_01" ID="{A7AC5476-2582-4D0A-A7EB-43718E3A37AC}" ShortID="588237084">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_pill_explosion_01" ID="{64F3B479-29FA-459E-ADCC-B17A7F227C8B}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_pill_explosion_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="685681818"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_pill_explosion_01" ID="{64F3B479-29FA-459E-ADCC-B17A7F227C8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

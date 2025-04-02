@@ -25,13 +25,21 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EB715D44-8DCE-B071-99E3-B1BCBBF0FFD7}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FB55547B-9CB7-8B77-7E73-0766D97A0B36}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
 					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
+				</File>
+				<File Id="424706265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
+					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_0CED370E.wem</CachePath>
+				</File>
+				<File Id="685681818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_weapon_pill_explosion_01.wav</ShortName>
+					<CachePath>SFX/sfx_weapon_pill_explosion_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="747429870" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>IBS_amb_hospital_loop_v2.wav</ShortName>
@@ -45,6 +53,16 @@
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1355404468" Name="sfx_weapon_healmatic500_fire" DurationType="OneShot" DurationMin="1.0493492" DurationMax="1.0493492">
+					<MediaRefs>
+						<MediaRef Id="424706265"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2968060059" Name="sfx_weapon_pill_explode" DurationType="OneShot" DurationMin="1.9435416" DurationMax="1.9435416">
+					<MediaRefs>
+						<MediaRef Id="685681818"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="2.6051562" DurationMax="2.6051562">
 					<MediaRefs>
 						<MediaRef Id="210565171"/>
@@ -53,5 +71,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{80C91BE0-8FEA-42E9-2B89-85EFE5773C3D}</FileHash>
+	<FileHash>{6D6CC216-E7C3-BE56-9294-8D0F54359FCC}</FileHash>
 </SoundBanksInfo>

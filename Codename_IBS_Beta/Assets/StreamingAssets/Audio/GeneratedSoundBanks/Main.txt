@@ -1,10 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1355404468	sfx_weapon_healmatic500_fire			\Default Work Unit\Weapons\Healmatic500\sfx_weapon_healmatic500_fire	
+	2968060059	sfx_weapon_pill_explode			\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_explode	
 	3024126497	Test_Pop			\Default Work Unit\Test_Pop	
 	3217822573	Amb_Hospital_Loop			\Default Work Unit\Amb_Hospital_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	210565171	Pop	C:\Users\glass\OneDrive\Desktop\School\School 2025\Game Sound II\GameSoundRepo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pop		500284
+	210565171	Pop	Y:\Documents\Codename IBS Git\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pop		500284
+	424706265	sfx_weapon_healmatic500_fire_01	Y:\Documents\Codename IBS Git\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_healmatic500_fire_01_0CED370E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Healmatic500\sfx_weapon_healmatic500_fire_01		201572
+	685681818	sfx_weapon_pill_explosion_01	Y:\Documents\Codename IBS Git\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_pill_explosion_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pill Grenade\sfx_weapon_pill_explosion_01		373256
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	747429870	IBS_amb_hospital_loop_v2	C:\Users\glass\OneDrive\Desktop\School\School 2025\Game Sound II\GameSoundRepo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\IBS_amb_hospital_loop_v2	
+	747429870	IBS_amb_hospital_loop_v2	Y:\Documents\Codename IBS Git\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\IBS_amb_hospital_loop_v2	
 

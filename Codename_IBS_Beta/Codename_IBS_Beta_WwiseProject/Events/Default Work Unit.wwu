@@ -35,6 +35,40 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Weapons" ID="{11266CFB-8A90-4D43-BE0C-FB7A038A3DA4}" ShortID="1000356522">
+					<ChildrenList>
+						<Folder Name="PIll Grenade" ID="{F1BCEBE0-E02C-4E04-B0B0-2A39AA39B519}" ShortID="478317240">
+							<ChildrenList>
+								<Event Name="sfx_weapon_pill_explode" ID="{BF70E668-057C-461F-A7CA-065FED72F5DD}">
+									<ChildrenList>
+										<Action Name="" ID="{63DABA41-4874-4216-8263-F24DF9BE64DD}" ShortID="470088104">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_pill_explosion_01" ID="{A7AC5476-2582-4D0A-A7EB-43718E3A37AC}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Healmatic500" ID="{52D6B08A-B570-4C27-86D2-6ACC11CBAA03}" ShortID="464314564">
+							<ChildrenList>
+								<Event Name="sfx_weapon_healmatic500_fire" ID="{22058094-673F-4EEA-ABCD-5B2518911DC4}">
+									<ChildrenList>
+										<Action Name="" ID="{071A6525-FC09-4176-B0B7-0D2833374479}" ShortID="879058600">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_healmatic500_fire_01" ID="{6031E14F-5818-4025-BB77-B2E9998FAD8D}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
