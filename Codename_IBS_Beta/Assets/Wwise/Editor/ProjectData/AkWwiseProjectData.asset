@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584581515713832971
+    m_lastTime: -8584581222487368259
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584581503884158303
+    m_lastTime: -8584579828769640583
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584581499577839630
+    m_lastTime: -8584579828769516936
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -164,6 +164,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Pill_Explode
+      guid: 896d6b2bf2b5d745af99d2a58ec152ee
+      id: 259158998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Pill_Explode
+        ObjectType: 3
+        guid: 896d6b2bf2b5d745af99d2a58ec152ee
+      Path: Events\Default Work Unit\Pill_Explode
+      maxAttenuation: 0
+      maxDuration: 6.960365
+      minDuration: 6.960365
+    - name: Pill_Woosh
+      guid: 148e2398c9feff42a49bbd484b1da254
+      id: 1694379961
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Pill_Woosh
+        ObjectType: 3
+        guid: 148e2398c9feff42a49bbd484b1da254
+      Path: Events\Default Work Unit\Pill_Woosh
+      maxAttenuation: 0
+      maxDuration: 0.35337868
+      minDuration: 0.35337868
+    - name: Test_Pop
+      guid: 8d0579ca31eca84d9b470e24eba21c1c
+      id: 3024126497
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Test_Pop
+        ObjectType: 3
+        guid: 8d0579ca31eca84d9b470e24eba21c1c
+      Path: Events\Default Work Unit\Test_Pop
+      maxAttenuation: 0
+      maxDuration: 2.6051562
+      minDuration: 2.6051562
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

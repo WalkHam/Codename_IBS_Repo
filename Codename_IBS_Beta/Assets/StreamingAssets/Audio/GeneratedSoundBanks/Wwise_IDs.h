@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+        static const AkUniqueID TEST_POP = 3024126497U;
     } // namespace EVENTS
 
     namespace BANKS

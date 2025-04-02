@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{A79A659A-CB9C-4375-A63D-F51B4A43649D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Test_Pop" ID="{CA79058D-EC31-4DA8-9B47-0E24EBA21C1C}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

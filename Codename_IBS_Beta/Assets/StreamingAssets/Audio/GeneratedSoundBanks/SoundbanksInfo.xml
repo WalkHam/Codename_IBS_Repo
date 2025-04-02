@@ -25,10 +25,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B1BE8BC8-3E67-315E-6899-4BC4E75898BC}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{EB715D44-8DCE-B071-99E3-B1BCBBF0FFD7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
+					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
+				</File>
 				<File Id="747429870" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>IBS_amb_hospital_loop_v2.wav</ShortName>
 					<Path>Media/747429870.wem</Path>
@@ -41,8 +45,13 @@
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="2.6051562" DurationMax="2.6051562">
+					<MediaRefs>
+						<MediaRef Id="210565171"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F5D6D306-7E62-F2FD-C2B8-F1DBFA6BC0B4}</FileHash>
+	<FileHash>{9000223A-A1E9-7003-0D06-F55208AC0811}</FileHash>
 </SoundBanksInfo>

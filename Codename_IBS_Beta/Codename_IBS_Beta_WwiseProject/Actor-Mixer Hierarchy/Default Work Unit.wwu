@@ -59,6 +59,28 @@
 						<ActiveSource Name="IBS_amb_hospital_loop_v2" ID="{EFB7DFC4-FD8A-4E31-9089-594CA0CA93A0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" ShortID="784169249">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="1214698_audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio" ID="{534642AD-8CBD-46E6-BFBE-BCE937F9880A}">
+							<Language>SFX</Language>
+							<AudioFile>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="210565171"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="1214698_audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio" ID="{534642AD-8CBD-46E6-BFBE-BCE937F9880A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

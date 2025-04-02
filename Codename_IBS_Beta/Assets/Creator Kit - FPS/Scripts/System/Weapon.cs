@@ -60,10 +60,10 @@ public class Weapon : MonoBehaviour
     public AnimationClip FireAnimationClip;
     public AnimationClip ReloadAnimationClip;
 
-    [Header("Audio Clips")]
-    public AudioClip FireAudioClip;
-    public AudioClip ReloadAudioClip;
-    
+    [Header("Wwise Events")]
+    [SerializeField] public AK.Wwise.Event FireWeapon;
+    [SerializeField] public AK.Wwise.Event ReloadWeapon;
+
     [Header("Visual Settings")]
     public LineRenderer PrefabRayTrail;
     public bool DisabledOnEmpty;
@@ -215,8 +215,9 @@ public class Weapon : MonoBehaviour
         
         m_Animator.SetTrigger("fire");
 
-        m_Source.pitch = Random.Range(0.7f, 1.0f);
-        m_Source.PlayOneShot(FireAudioClip);
+        //fire event trigger here
+        FireWeapon.Post(gameObject);
+
         
         CameraShaker.Instance.Shake(0.2f, 0.05f * advancedSettings.screenShakeMultiplier);
 
@@ -318,10 +319,9 @@ public class Weapon : MonoBehaviour
         }
 
 
-        if (ReloadAudioClip != null)
+        if (ReloadWeapon != null)
         {
-            m_Source.pitch = Random.Range(0.7f, 1.0f);
-            m_Source.PlayOneShot(ReloadAudioClip);
+            ReloadWeapon.Post(gameObject);
         }
 
         int chargeInClip = Mathf.Min(remainingBullet, clipSize - m_ClipContent);
@@ -494,8 +494,8 @@ public class WeaponEditor : Editor
    SerializedProperty m_AdvancedSettingsProp;
    SerializedProperty m_FireAnimationClipProp;
    SerializedProperty m_ReloadAnimationClipProp;
-   SerializedProperty m_FireAudioClipProp;
-   SerializedProperty m_ReloadAudioClipProp;
+   SerializedProperty m_FireWeaponProp;
+   SerializedProperty m_ReloadWeaponProp;
    SerializedProperty m_PrefabRayTrailProp;
    SerializedProperty m_AmmoDisplayProp;
    SerializedProperty m_DisabledOnEmpty;
@@ -515,8 +515,8 @@ public class WeaponEditor : Editor
        m_AdvancedSettingsProp = serializedObject.FindProperty("advancedSettings");
        m_FireAnimationClipProp = serializedObject.FindProperty("FireAnimationClip");
        m_ReloadAnimationClipProp = serializedObject.FindProperty("ReloadAnimationClip");
-       m_FireAudioClipProp = serializedObject.FindProperty("FireAudioClip");
-       m_ReloadAudioClipProp = serializedObject.FindProperty("ReloadAudioClip");
+       m_FireWeaponProp = serializedObject.FindProperty("FireWeapon");
+       m_ReloadWeaponProp = serializedObject.FindProperty("ReloadWeapon");
        m_PrefabRayTrailProp = serializedObject.FindProperty("PrefabRayTrail");
        m_AmmoDisplayProp = serializedObject.FindProperty("AmmoDisplay");
        m_DisabledOnEmpty = serializedObject.FindProperty("DisabledOnEmpty");
@@ -544,8 +544,8 @@ public class WeaponEditor : Editor
         EditorGUILayout.PropertyField(m_AdvancedSettingsProp, new GUIContent("Advance Settings"), true);
         EditorGUILayout.PropertyField(m_FireAnimationClipProp);
         EditorGUILayout.PropertyField(m_ReloadAnimationClipProp);
-        EditorGUILayout.PropertyField(m_FireAudioClipProp);
-        EditorGUILayout.PropertyField(m_ReloadAudioClipProp);
+        EditorGUILayout.PropertyField(m_FireWeaponProp);
+        EditorGUILayout.PropertyField(m_ReloadWeaponProp);
 
         if (m_WeaponTypeProp.intValue == (int)Weapon.WeaponType.Raycast)
         {

@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	3024126497	Test_Pop			\Default Work Unit\Test_Pop	
 	3217822573	Amb_Hospital_Loop			\Default Work Unit\Amb_Hospital_Loop	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	210565171	Pop	C:\Users\glass\OneDrive\Desktop\School\School 2025\Game Sound II\GameSoundRepo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Mac\SFX\1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pop		500284
+
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	747429870	IBS_amb_hospital_loop_v2	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Mac\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\IBS_amb_hospital_loop_v2	
+	747429870	IBS_amb_hospital_loop_v2	C:\Users\glass\OneDrive\Desktop\School\School 2025\Game Sound II\GameSoundRepo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Mac\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\IBS_amb_hospital_loop_v2	
 
