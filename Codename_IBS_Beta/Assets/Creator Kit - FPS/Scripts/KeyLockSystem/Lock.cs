@@ -65,7 +65,7 @@ public class LockEditor : Editor
         m_Lock = target as Lock;
         m_ActionListProperty = serializedObject.FindProperty("actions");
         m_KeyNameTextProperty = serializedObject.FindProperty("KeyNameText");
-
+        
         var allKeys = Resources.FindObjectsOfTypeAll<Key>();
         foreach (var key in allKeys)
         {
@@ -82,7 +82,7 @@ public class LockEditor : Editor
     {
         EditorGUILayout.PropertyField(m_KeyNameTextProperty);
         EditorGUILayout.PropertyField(m_ActionListProperty, true);
-
+       
         if (m_AllKeyType.Length > 0)
         {
             int index = EditorGUILayout.Popup("Key Type", m_KeyTypeIndex, m_AllKeyType);

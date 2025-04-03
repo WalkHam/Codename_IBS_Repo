@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using static ak;
 
 public class DissolveAction : GameAction
 {
@@ -15,6 +16,9 @@ public class DissolveAction : GameAction
 
     Renderer[] m_Renderers;
     MaterialPropertyBlock m_PropertyBlock;
+
+    //wwise events
+    public AK.Wwise.Event BlobDissolve;
 
     int m_CutoffProperty;
 
@@ -50,6 +54,8 @@ public class DissolveAction : GameAction
         {
             foreach (var gameAction in FinishedAction)
             {
+                
+
                 gameAction.Activated();
             }
             
@@ -59,7 +65,12 @@ public class DissolveAction : GameAction
     
     public override void Activated()
     {
+        //play wwise event
+        BlobDissolve.Post(gameObject);
+
         enabled = true;
         m_ParticleSystem.Play();
+
+        
     }
 }
