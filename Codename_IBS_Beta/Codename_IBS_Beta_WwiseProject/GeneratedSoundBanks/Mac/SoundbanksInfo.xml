@@ -25,7 +25,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E5E1E65F-59C9-62A6-47CC-60A03FCC2AB1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{115A2E77-D6C2-78F8-42A7-69137B018C0C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -49,6 +49,10 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="296078886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_bloodcell_idle_02.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_bloodcell_idle_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="316645899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_04.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_04_818F3B66.wem</CachePath>
@@ -67,7 +71,7 @@
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_BCD3298A.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_1C69580D.wem</CachePath>
 				</File>
 				<File Id="624977598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</ShortName>
@@ -94,6 +98,10 @@
 					<ShortName>sfx_weapon_healmatic500_reload_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="803988425" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_bloodcell_hit_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_bloodcell_hit_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="854236484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_01_818F3B66.wem</CachePath>
@@ -102,11 +110,35 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="910005856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_bloodcell_idle_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_bloodcell_idle_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1002797084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_bloodcell_death_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_bloodcell_death_01_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="747429870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.77589583" DurationMax="0.77589583">
+					<MediaRefs>
+						<MediaRef Id="1002797084"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" DurationType="OneShot" DurationMin="0.5438333" DurationMax="0.5438333">
+					<MediaRefs>
+						<MediaRef Id="803988425"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1098573287" Name="sfx_enemies_bloodcell_idle" MaxAttenuation="60" DurationType="OneShot" DurationMin="0.802625" DurationMax="1.0555416">
+					<MediaRefs>
+						<MediaRef Id="296078886"/>
+						<MediaRef Id="910005856"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
@@ -161,5 +193,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{75249D11-674F-8823-A0A8-A87E07A123B1}</FileHash>
+	<FileHash>{51FE38E8-D04D-6262-65E2-2C10F0299E54}</FileHash>
 </SoundBanksInfo>

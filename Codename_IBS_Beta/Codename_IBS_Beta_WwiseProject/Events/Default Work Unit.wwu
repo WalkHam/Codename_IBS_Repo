@@ -223,6 +223,55 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Blood Cell" ID="{85BAB6FA-E251-4A9D-982D-236091B8FD8C}" ShortID="141440566">
+							<ChildrenList>
+								<Folder Name="Idle" ID="{AE4010D1-60E7-4535-B2F1-D96F237B8186}" ShortID="946424961">
+									<ChildrenList>
+										<Event Name="sfx_enemies_bloodcell_idle" ID="{09B5DAF1-111B-4CE2-962B-4E367D61D782}">
+											<ChildrenList>
+												<Action Name="" ID="{B80349C5-38CB-491C-B755-67FCAE14F8CB}" ShortID="723750681">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bloodcell Idle" ID="{EDC43C3D-144A-44F4-8F94-B73B4AA99CBE}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Death" ID="{AD1F795D-DECB-4131-81E8-A462C08FD2ED}" ShortID="206261644">
+									<ChildrenList>
+										<Event Name="sfx_enemies_bloodcell_death" ID="{FF280226-89B7-4E50-B7AC-16F02CF6A2E8}">
+											<ChildrenList>
+												<Action Name="" ID="{C34B446E-4AE3-4009-B181-3E552B237A7C}" ShortID="650751321">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_bloodcell_death_01" ID="{16C6268A-1D59-405B-B2FB-CCFEA1914410}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Hit" ID="{3A5E8233-8A9E-426D-AA63-AB5A8CE39AE5}" ShortID="596175527">
+									<ChildrenList>
+										<Event Name="sfx_enemies_bloodcell_hit" ID="{C2EA9BCC-E2BF-4893-B56F-7A78D8421628}">
+											<ChildrenList>
+												<Action Name="" ID="{3C1E8387-7804-4C33-A9C3-C01ED04D5378}" ShortID="574410030">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_bloodcell_hit_01" ID="{B4D1488B-513E-448E-BA4E-4E31B4C2CF28}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

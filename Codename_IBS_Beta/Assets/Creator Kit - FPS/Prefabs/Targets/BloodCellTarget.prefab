@@ -211,16 +211,17 @@ MonoBehaviour:
   EnemyHit:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+    WwiseObjectReference: {fileID: 11400000, guid: 6bfda4358e71c4d0a8c078c08f9282e9,
       type: 2}
   EnemyIdle:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2ee1d8ee1625e40f18e415f261d32def,
+      type: 2}
   EnemyDeath:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 65b9b6ce255d045efb9be626ee7e42a3,
+    WwiseObjectReference: {fileID: 11400000, guid: d3da2b6a2663441bbbb7e6d53451aa8c,
       type: 2}
 --- !u!136 &6689394087353256158
 CapsuleCollider:

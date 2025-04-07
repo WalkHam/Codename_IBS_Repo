@@ -668,6 +668,128 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Blood Cell" ID="{62775EB9-12EA-4EAC-828B-0DDADCBE0C17}" ShortID="840177373">
+							<ChildrenList>
+								<Folder Name="Idle" ID="{BCC20060-FDE7-40CE-A9C5-CFA5A9C12219}" ShortID="635347030">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Bloodcell Idle" ID="{EDC43C3D-144A-44F4-8F94-B73B4AA99CBE}" ShortID="917771964">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Blood Cell Attenuation" ID="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}" WorkUnitID="{D970CDAD-57DB-484E-8C9C-7BB354F5BCEF}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_enemy_bloodcell_idle_02" ID="{0DFEDABD-450A-4326-AF31-4F668BE75962}" ShortID="503200745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_bloodcell_idle_02" ID="{4A1E46C2-C3A1-43FD-8728-E5E135EF2E73}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_enemy_bloodcell_idle_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="296078886"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_bloodcell_idle_02" ID="{4A1E46C2-C3A1-43FD-8728-E5E135EF2E73}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_bloodcell_idle_01" ID="{4B6AB4F6-BD04-4CDC-9C6B-76454EEB52F4}" ShortID="92820305">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_bloodcell_idle_01" ID="{07F35F14-0579-4E9F-A7CB-9974C8BF0B97}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_enemy_bloodcell_idle_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="910005856"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_bloodcell_idle_01" ID="{07F35F14-0579-4E9F-A7CB-9974C8BF0B97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Death" ID="{10C39F57-E08C-4FC4-BD03-E5ED386A4FF9}" ShortID="730703095">
+									<ChildrenList>
+										<Sound Name="sfx_enemy_bloodcell_death_01" ID="{16C6268A-1D59-405B-B2FB-CCFEA1914410}" ShortID="77413898">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_enemy_bloodcell_death_01" ID="{06C3B927-A511-4DEA-B48B-6BFDD6FCE7FE}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_enemy_bloodcell_death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1002797084"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_enemy_bloodcell_death_01" ID="{06C3B927-A511-4DEA-B48B-6BFDD6FCE7FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Hit" ID="{E18EE472-59CB-4B96-969B-E9B39502107C}" ShortID="445652457">
+									<ChildrenList>
+										<Sound Name="sfx_enemy_bloodcell_hit_01" ID="{B4D1488B-513E-448E-BA4E-4E31B4C2CF28}" ShortID="25418101">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_enemy_bloodcell_hit_01" ID="{D08E35D5-191F-4124-BC2E-549EA861562A}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_enemy_bloodcell_hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="803988425"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_enemy_bloodcell_hit_01" ID="{D08E35D5-191F-4124-BC2E-549EA861562A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

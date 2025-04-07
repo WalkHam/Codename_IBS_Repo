@@ -282,6 +282,10 @@ MonoBehaviour:
     m_RotationOrder: 4
   FinishedAction:
   - {fileID: 2369494938325170268}
+  BlobDissolve:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &5657199915929785364
 MonoBehaviour:
   m_ObjectHideFlags: 0
