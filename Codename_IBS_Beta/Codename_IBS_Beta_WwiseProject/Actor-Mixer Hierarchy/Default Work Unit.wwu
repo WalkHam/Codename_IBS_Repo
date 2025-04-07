@@ -112,6 +112,54 @@
 										<ActiveSource Name="sfx_weapon_healmatic500_fire_01" ID="{E897D156-8A4C-4100-827E-15B5A8B8A3AB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Healmatic500 Reload" ID="{D964D274-72F5-422E-A8E8-897B15CD9BDA}" ShortID="647743315">
+									<ChildrenList>
+										<Sound Name="sfx_weapon_healmatic500_reload_02" ID="{6F77F5D1-69FF-41AC-968F-B9EFD9AEB7DB}" ShortID="1069662499">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_healmatic500_reload_02" ID="{A59957C3-377D-414A-A3EB-B4B118F6522E}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_healmatic500_reload_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="564281337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_healmatic500_reload_02" ID="{A59957C3-377D-414A-A3EB-B4B118F6522E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_healmatic500_reload_01" ID="{7A3D0EB4-AC17-4750-9BD4-1B7401DD7BAE}" ShortID="108942463">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_healmatic500_reload_01" ID="{F456F809-4E9D-4EAD-82B7-7003664B1241}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_healmatic500_reload_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756462970"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_healmatic500_reload_01" ID="{F456F809-4E9D-4EAD-82B7-7003664B1241}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Pill Grenade" ID="{E6F13E6B-7BE2-4F24-B0FC-3F9D57FB3B52}" ShortID="1063624655">
@@ -136,6 +184,87 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="sfx_weapon_pill_explosion_01" ID="{64F3B479-29FA-459E-ADCC-B17A7F227C8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_weapon_pill_throw_01" ID="{306AD535-A862-43E3-A6EC-BDDA726B7743}" ShortID="536940517">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B52C20D5-1DE4-424D-8E8C-DCBFF18C607F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="500"/>
+															<Property Name="Min" Type="Real64" Value="-500"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_pill_throw_01" ID="{43BC5D0E-F4A4-4F23-8173-165E58A68EE4}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_pill_throw_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96736177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_pill_throw_01" ID="{43BC5D0E-F4A4-4F23-8173-165E58A68EE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_weapon_pill_reload_02" ID="{86DB72C2-EE74-437B-9A26-B238E510A67F}" ShortID="448981291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_pill_reload_02" ID="{4FE3A05F-A460-4159-9F6A-96A5D5496B57}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_pill_reload_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692757743"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_pill_reload_02" ID="{4FE3A05F-A460-4159-9F6A-96A5D5496B57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_weapon_pill_reload_01" ID="{02D30F10-2378-4D2D-83D4-840FB3D65221}" ShortID="740875885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_pill_reload_01" ID="{84068A48-63F4-4804-884C-8935727C847B}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_pill_reload_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="416187476"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_pill_reload_01" ID="{84068A48-63F4-4804-884C-8935727C847B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -264,6 +393,279 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Folder Name="Reload" ID="{3F5A93BE-D14B-406A-932B-05BD56C87A85}" ShortID="767384923">
+									<ChildrenList>
+										<Sound Name="sfx_weapon_germoblaster_reload_03" ID="{FD568774-6790-4CDD-8A56-C13134FC9462}" ShortID="610804">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_reload_03" ID="{2968B3D8-3FAF-42A6-9816-40394AE6468E}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.061385248655914"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.311111601142473"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_germoblaster_reload_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578939607"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_reload_03" ID="{2968B3D8-3FAF-42A6-9816-40394AE6468E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_reload_02" ID="{EF4105CD-24A8-4E34-BC75-46087E3A2E80}" ShortID="438634434">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_reload_02" ID="{DFF195BF-D480-44BC-9B1B-0E0D22F7203A}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_germoblaster_reload_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027938954"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_reload_02" ID="{DFF195BF-D480-44BC-9B1B-0E0D22F7203A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_reload_01" ID="{49B9D6B8-32EE-4FD6-80F1-72460685DFBD}" ShortID="103023606">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_reload_01" ID="{58C9E1E7-798F-48CD-B563-FD74BA2D07D8}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_germoblaster_reload_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854236484"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_reload_01" ID="{58C9E1E7-798F-48CD-B563-FD74BA2D07D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_reload_04" ID="{1C79FF99-2994-4087-8AE8-926AF1AF65E0}" ShortID="104929416">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_reload_04" ID="{023BA972-D0B5-4FD1-9DF3-60A50AEE10A7}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_germoblaster_reload_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="316645899"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_reload_04" ID="{023BA972-D0B5-4FD1-9DF3-60A50AEE10A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_weapon_germoblaster_reload_05" ID="{681ED32E-F599-4E36-ACB6-5D7DD8E87123}" ShortID="500576579">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_weapon_germoblaster_reload_05" ID="{BF41A3EE-F523-4A4C-BDC2-CBEE6648DF99}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_weapon_germoblaster_reload_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="132580410"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_weapon_germoblaster_reload_05" ID="{BF41A3EE-F523-4A4C-BDC2-CBEE6648DF99}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapon Swap" ID="{171C99C9-AFB5-4ECA-AE7F-27E32EF731A6}" ShortID="1050237144">
+							<ChildrenList>
+								<Sound Name="sfx_weapon_all_swap_01" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" ShortID="898738591">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_weapon_all_swap_01" ID="{DD8DA857-9592-473F-BEBF-12EEF7562F6B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.75753603830645"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.55531376008064"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>sfx_weapon_all_swap_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="757333123"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_weapon_all_swap_01" ID="{DD8DA857-9592-473F-BEBF-12EEF7562F6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{8BF3F912-8CF1-4B21-800C-B08C93B6E307}" ShortID="823526370">
+					<ChildrenList>
+						<Folder Name="Fat Blob" ID="{6CDB018F-EC8D-424B-982B-0D344A90A2DA}" ShortID="218760312">
+							<ChildrenList>
+								<Folder Name="Idle" ID="{7FAE64B7-7BB6-4F47-AAEF-718E49B26E0D}" ShortID="174661276">
+									<ChildrenList>
+										<Sound Name="sfx_enemy_fatblob_idle_01" ID="{4904578B-A5E0-4AD9-9BD6-C37219E525EA}" ShortID="372016517">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{01A696F3-E368-4605-8943-B6226642ABF6}" ShortID="405996469">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="60"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{48AF4AC7-9538-431C-AE3F-1F7F5C4DFBA3}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>60</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_enemy_fatblob_idle_01" ID="{6B4CD43E-28BC-4CA1-BA5E-AB07809BF5A5}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_enemy_fatblob_idle_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="952692363"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_enemy_fatblob_idle_01" ID="{6B4CD43E-28BC-4CA1-BA5E-AB07809BF5A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584579764392196751
+    m_lastTime: -8584576159082593659
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584579764392222309
+    m_lastTime: -8584576159082616539
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -161,6 +161,43 @@ MonoBehaviour:
         ObjectType: 3
         guid: d1a3f9f9de620e418fb2acba33984e58
       Path: Events/Default Work Unit/Amb_Hospital_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Enemies
+      guid: 0358b1b3c8f424469d1189412c51dd27
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      Path: Events/Default Work Unit/Enemies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fat Blob
+      guid: a1ecc39dc901a949b66eda3f6c7c609a
+      id: 2487842699
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Fat Blob
+        ObjectType: 4
+        guid: a1ecc39dc901a949b66eda3f6c7c609a
+      Path: Events/Default Work Unit/Enemies/Fat Blob
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -204,6 +241,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Idle
+      guid: 52ed2eff80549a4f95ce6aae5614d871
+      id: 1874288895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Fat Blob
+        ObjectType: 4
+        guid: a1ecc39dc901a949b66eda3f6c7c609a
+      - ElementName: Idle
+        ObjectType: 4
+        guid: 52ed2eff80549a4f95ce6aae5614d871
+      Path: Events/Default Work Unit/Enemies/Fat Blob/Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PIll Grenade
       guid: e0ebbcf12ce0044eb0b02a39aa39b519
       id: 1698239534
@@ -221,6 +281,55 @@ MonoBehaviour:
         ObjectType: 4
         guid: e0ebbcf12ce0044eb0b02a39aa39b519
       Path: Events/Default Work Unit/Weapons/PIll Grenade
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_enemies_fatblob_idle
+      guid: bc642c4299f3694e9260961204235e42
+      id: 3292684059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Fat Blob
+        ObjectType: 4
+        guid: a1ecc39dc901a949b66eda3f6c7c609a
+      - ElementName: Idle
+        ObjectType: 4
+        guid: 52ed2eff80549a4f95ce6aae5614d871
+      - ElementName: sfx_enemies_fatblob_idle
+        ObjectType: 3
+        guid: bc642c4299f3694e9260961204235e42
+      Path: Events/Default Work Unit/Enemies/Fat Blob/Idle/sfx_enemies_fatblob_idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_weapon_all_swap
+      guid: a0dc18047d046841b502566dda9e5fe3
+      id: 3791724757
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: Weapon Swap
+        ObjectType: 4
+        guid: 7de4dd5142138c4f89695c21ae9fbd58
+      - ElementName: sfx_weapon_all_swap
+        ObjectType: 3
+        guid: a0dc18047d046841b502566dda9e5fe3
+      Path: Events/Default Work Unit/Weapons/Weapon Swap/sfx_weapon_all_swap
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -247,6 +356,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.07489584
       minDuration: 0.07235417
+    - name: sfx_weapon_germoblaster_reload
+      guid: 5b846ab96f2b3f498ea778d8b27df380
+      id: 228935287
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: GermOBlaster
+        ObjectType: 4
+        guid: 3444b38cd5423e46bb81e916dbd5670e
+      - ElementName: sfx_weapon_germoblaster_reload
+        ObjectType: 3
+        guid: 5b846ab96f2b3f498ea778d8b27df380
+      Path: Events/Default Work Unit/Weapons/GermOBlaster/sfx_weapon_germoblaster_reload
+      maxAttenuation: 0
+      maxDuration: 1.660625
+      minDuration: 1.660625
     - name: sfx_weapon_healmatic500_fire
       guid: 948005223f67ea4eabcd5b2518911dc4
       id: 1355404468
@@ -270,6 +402,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0493492
       minDuration: 1.0493492
+    - name: sfx_weapon_healmatic500_reload
+      guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
+      id: 3358445023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: Healmatic500
+        ObjectType: 4
+        guid: 8ab0d65270b5274c86d26acc11cbaa03
+      - ElementName: sfx_weapon_healmatic500_reload
+        ObjectType: 3
+        guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
+      Path: Events/Default Work Unit/Weapons/Healmatic500/sfx_weapon_healmatic500_reload
+      maxAttenuation: 0
+      maxDuration: 1.1590416
+      minDuration: 1.1590416
     - name: sfx_weapon_pill_explode
       guid: 68e670bf7c051f46a7ca065fed72f5dd
       id: 2968060059
@@ -293,6 +448,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.9435416
       minDuration: 1.9435416
+    - name: sfx_weapon_pill_reload
+      guid: a55f92279c226c4fa0df460bbc32c900
+      id: 1796022955
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: PIll Grenade
+        ObjectType: 4
+        guid: e0ebbcf12ce0044eb0b02a39aa39b519
+      - ElementName: sfx_weapon_pill_reload
+        ObjectType: 3
+        guid: a55f92279c226c4fa0df460bbc32c900
+      Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_reload
+      maxAttenuation: 0
+      maxDuration: 0.9199375
+      minDuration: 0.9199375
+    - name: sfx_weapon_pill_throw
+      guid: ccb1e42a82f0264080dcc310340ecab5
+      id: 1104292844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: PIll Grenade
+        ObjectType: 4
+        guid: e0ebbcf12ce0044eb0b02a39aa39b519
+      - ElementName: sfx_weapon_pill_throw
+        ObjectType: 3
+        guid: ccb1e42a82f0264080dcc310340ecab5
+      Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_throw
+      maxAttenuation: 0
+      maxDuration: 0.5050144
+      minDuration: 0.28342977
     - name: Test_Pop
       guid: 8d0579ca31eca84d9b470e24eba21c1c
       id: 3024126497
@@ -310,6 +511,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.6051562
       minDuration: 2.6051562
+    - name: Weapon Swap
+      guid: 7de4dd5142138c4f89695c21ae9fbd58
+      id: 1370454546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: Weapon Swap
+        ObjectType: 4
+        guid: 7de4dd5142138c4f89695c21ae9fbd58
+      Path: Events/Default Work Unit/Weapons/Weapon Swap
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Weapons
       guid: fb6c2611908a434dbe0cfb7a038a3da4
       id: 1467963052
@@ -384,7 +605,7 @@ MonoBehaviour:
     m_lastTime: -8584591887352288038
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0300000004000000050000000600000007000000090000000b0000000c000000180000001c0000001f000000
+  ExpandedWaapiItemIds: 03000000040000000500000006000000070000000b0000000c0000001700000018000000190000001c0000001e0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

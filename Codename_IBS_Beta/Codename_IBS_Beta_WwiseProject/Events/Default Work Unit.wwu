@@ -50,6 +50,41 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="sfx_weapon_pill_throw" ID="{2AE4B1CC-F082-4026-80DC-C310340ECAB5}">
+									<ChildrenList>
+										<Action Name="" ID="{AB365988-E0B2-4081-9F1D-4DA50905D16E}" ShortID="957020762">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_pill_throw_01" ID="{306AD535-A862-43E3-A6EC-BDDA726B7743}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="sfx_weapon_pill_reload" ID="{27925FA5-229C-4F6C-A0DF-460BBC32C900}">
+									<ChildrenList>
+										<Action Name="" ID="{412E1F2B-05C5-40DE-BB41-36FE2599CC77}" ShortID="696070263">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_pill_reload_01" ID="{02D30F10-2378-4D2D-83D4-840FB3D65221}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F05DE52B-7281-48DB-A967-9873610BE71D}" ShortID="877593325">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_pill_reload_02" ID="{86DB72C2-EE74-437B-9A26-B238E510A67F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Healmatic500" ID="{52D6B08A-B570-4C27-86D2-6ACC11CBAA03}" ShortID="464314564">
@@ -60,6 +95,30 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="sfx_weapon_healmatic500_fire_01" ID="{6031E14F-5818-4025-BB77-B2E9998FAD8D}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="sfx_weapon_healmatic500_reload" ID="{AA0EF781-A304-4BEE-830A-D3CE1D9FBFC0}">
+									<ChildrenList>
+										<Action Name="" ID="{36E84535-D3F6-40E7-9C72-BF0258AAC0A8}" ShortID="470090176">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_healmatic500_reload_01" ID="{7A3D0EB4-AC17-4750-9BD4-1B7401DD7BAE}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{CA4970D0-7353-4D5B-8ED5-5832B345725F}" ShortID="176041874">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_healmatic500_reload_02" ID="{6F77F5D1-69FF-41AC-968F-B9EFD9AEB7DB}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -80,6 +139,88 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="sfx_weapon_germoblaster_reload" ID="{B96A845B-2B6F-493F-8EA7-78D8B27DF380}">
+									<ChildrenList>
+										<Action Name="" ID="{6DD2468A-9879-45D0-B8CA-ED14372B8AAB}" ShortID="536400766">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.45"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_germoblaster_reload_01" ID="{49B9D6B8-32EE-4FD6-80F1-72460685DFBD}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2E437007-B68F-4EF5-8C5B-D17B83A478AE}" ShortID="1007288758">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.45"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_germoblaster_reload_04" ID="{1C79FF99-2994-4087-8AE8-926AF1AF65E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0F8BD12C-4237-4C65-9867-EE9421A503B6}" ShortID="374595679">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_germoblaster_reload_03" ID="{FD568774-6790-4CDD-8A56-C13134FC9462}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{481B09FD-3B64-4B86-8374-04A7FF4108EB}" ShortID="612433470">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_germoblaster_reload_05" ID="{681ED32E-F599-4E36-ACB6-5D7DD8E87123}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Weapon Swap" ID="{51DDE47D-1342-4F8C-8969-5C21AE9FBD58}" ShortID="842669528">
+							<ChildrenList>
+								<Event Name="sfx_weapon_all_swap" ID="{0418DCA0-047D-4168-B502-566DDA9E5FE3}">
+									<ChildrenList>
+										<Action Name="" ID="{2A7D8FF1-D2E2-4510-BFF1-D82F8EB62A9F}" ShortID="148912515">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_all_swap_01" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{B3B15803-F4C8-4624-9D11-89412C51DD27}" ShortID="455612260">
+					<ChildrenList>
+						<Folder Name="Fat Blob" ID="{9DC3ECA1-01C9-49A9-B66E-DA3F6C7C609A}" ShortID="10876503">
+							<ChildrenList>
+								<Folder Name="Idle" ID="{FF2EED52-5480-4F9A-95CE-6AAE5614D871}" ShortID="639283716">
+									<ChildrenList>
+										<Event Name="sfx_enemies_fatblob_idle" ID="{422C64BC-F399-4E69-9260-961204235E42}">
+											<ChildrenList>
+												<Action Name="" ID="{68DB9030-7CA5-4908-94EF-BBC200A57E5E}" ShortID="810408570">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_fatblob_idle_01" ID="{4904578B-A5E0-4AD9-9BD6-C37219E525EA}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

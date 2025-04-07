@@ -15,8 +15,12 @@ namespace AK
     {
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
+        static const AkUniqueID SFX_WEAPON_GERMOBLASTER_RELOAD = 228935287U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_FIRE = 1355404468U;
+        static const AkUniqueID SFX_WEAPON_HEALMATIC500_RELOAD = 3358445023U;
         static const AkUniqueID SFX_WEAPON_PILL_EXPLODE = 2968060059U;
+        static const AkUniqueID SFX_WEAPON_PILL_RELOAD = 1796022955U;
+        static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;
         static const AkUniqueID TEST_POP = 3024126497U;
     } // namespace EVENTS
 

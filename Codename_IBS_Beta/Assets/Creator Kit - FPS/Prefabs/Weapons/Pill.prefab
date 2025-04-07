@@ -97,11 +97,13 @@ MonoBehaviour:
   FireWeapon:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a1f5fd27dc8db44d79b1c712edaef75b,
+      type: 2}
   ReloadWeapon:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e231d0509c7084ffbaafb698b1ee76ca,
+      type: 2}
   PrefabRayTrail: {fileID: 0}
   DisabledOnEmpty: 1
   AmmoDisplay: {fileID: 0}

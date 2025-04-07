@@ -70,7 +70,7 @@ MonoBehaviour:
   ReloadWeapon:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+    WwiseObjectReference: {fileID: 11400000, guid: e85820c68715b4a7bacc7c521d97ac7d,
       type: 2}
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
