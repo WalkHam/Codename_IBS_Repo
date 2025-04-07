@@ -8,6 +8,9 @@ public class Key : MonoBehaviour
     public string keyType;
     public Text KeyNameText;
 
+    [Header("Wwise Event")]
+    public AK.Wwise.Event keyPickup;
+
     void OnEnable()
     {
         KeyNameText.text = keyType;
@@ -21,6 +24,9 @@ public class Key : MonoBehaviour
         {
             keychain.GrabbedKey(keyType);
             Destroy(gameObject);
+
+            //play wwise event when picked up
+            keyPickup.Post(gameObject);
         }
     }
 }

@@ -72,11 +72,10 @@ public class Projectile : MonoBehaviour
         m_Rigidbody.angularVelocity = Vector3.zero;
         m_Owner.ReturnProjecticle(this);
 
-        var source = WorldAudioPool.GetWorldSFXSource();
+        //var source = WorldAudioPool.GetWorldSFXSource();
 
 
-        //play wwise event
-        Pill_Explode.Post(gameObject);
+        
     }
 
     void Update()
@@ -85,6 +84,9 @@ public class Projectile : MonoBehaviour
 
         if (m_TimeSinceLaunch >= TimeToDestroyed)
         {
+            //play wwise event
+            Pill_Explode.Post(gameObject);
+
             Destroy();
         }
     }
