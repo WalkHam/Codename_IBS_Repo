@@ -11,6 +11,7 @@
 						<ObjectRef Name="sfx_weapon_germoblaster_reload" ID="{B96A845B-2B6F-493F-8EA7-78D8B27DF380}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_healmatic500_reload" ID="{AA0EF781-A304-4BEE-830A-D3CE1D9FBFC0}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Pop" ID="{CA79058D-EC31-4DA8-9B47-0E24EBA21C1C}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Amb_RoomStomach" ID="{9B2676E6-E495-4E70-90D0-2F910800B818}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_healmatic500_fire" ID="{22058094-673F-4EEA-ABCD-5B2518911DC4}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_pill_reload" ID="{27925FA5-229C-4F6C-A0DF-460BBC32C900}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_germoblaster_fire" ID="{9FE6F6DC-C1DC-4F7A-98B7-0F28EEDF2E2B}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>

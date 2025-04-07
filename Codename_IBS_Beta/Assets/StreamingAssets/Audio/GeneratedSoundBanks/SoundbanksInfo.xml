@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E4D8D5E8-B627-DECB-D6C3-E5F80B66C9CA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DFCE01B9-6649-C26C-6233-0C16BD54F0A6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,11 +24,26 @@
 				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="539467320" Name="RoomAmbience">
+					<States>
+						<State Id="602546716" Name="Room_Large"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="2995775460" Name="Room_Small"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E5E1E65F-59C9-62A6-47CC-60A03FCC2AB1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{14FB0192-A9AA-BAE9-98A8-3CE949E9360F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="95767525" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_room_small_loop.wav</ShortName>
+					<Path>Media/95767525.wem</Path>
+					<CachePath>SFX/amb_room_small_loop_72413F1D.wem</CachePath>
+				</File>
 				<File Id="96736177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_pill_throw_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_throw_01_818F3B66.wem</CachePath>
@@ -36,6 +51,11 @@
 				<File Id="132580410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="185616748" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_stomach_loop_Dripping Amb.wav</ShortName>
+					<Path>Media/185616748.wem</Path>
+					<CachePath>SFX/amb_stomach_loop_Dripping Amb_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
@@ -61,13 +81,18 @@
 					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_5C0657E3.wem</CachePath>
 				</File>
+				<File Id="557479579" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_room_large_loop.wav</ShortName>
+					<Path>Media/557479579.wem</Path>
+					<CachePath>SFX/amb_room_large_loop_4624A646.wem</CachePath>
+				</File>
 				<File Id="564281337" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_02_818F3B66.wem</CachePath>
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_BCD3298A.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_1C69580D.wem</CachePath>
 				</File>
 				<File Id="624977598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</ShortName>
@@ -108,6 +133,16 @@
 					<MediaRefs>
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="720143714" Name="Amb_RoomStomach" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="95767525"/>
+						<MediaRef Id="185616748"/>
+						<MediaRef Id="557479579"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="539467320" Id="602546716" Name="Room_Large"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
 					<MediaRefs>
@@ -159,7 +194,17 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="539467320" Name="RoomAmbience">
+					<States>
+						<State Id="602546716" Name="Room_Large"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="2995775460" Name="Room_Small"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7E5A3CAE-4E9E-1713-0928-5C61C1E78005}</FileHash>
+	<FileHash>{85B90026-E80C-4540-D70A-E145CD4C3C19}</FileHash>
 </SoundBanksInfo>
