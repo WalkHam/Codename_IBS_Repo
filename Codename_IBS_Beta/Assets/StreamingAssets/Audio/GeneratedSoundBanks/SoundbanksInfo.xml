@@ -25,7 +25,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{115A2E77-D6C2-78F8-42A7-69137B018C0C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C39155-9182-D1EF-88E6-BBF9AF1D9D52}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -37,9 +37,17 @@
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_bloodcell_idle_03_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
 					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
+				</File>
+				<File Id="214146599" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_germslime_idle_02.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_germslime_idle_02_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="224893202" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_05.wav</ShortName>
@@ -49,9 +57,9 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_01_818F3B66.wem</CachePath>
 				</File>
-				<File Id="296078886" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_enemy_bloodcell_idle_02.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_bloodcell_idle_02_818F3B66.wem</CachePath>
+				<File Id="292638115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_germspike_idle_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_germspike_idle_01_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="316645899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_04.wav</ShortName>
@@ -68,6 +76,10 @@
 				<File Id="564281337" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="564359925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_fatblob_dissolve_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_B156F963.wem</CachePath>
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
@@ -98,6 +110,10 @@
 					<ShortName>sfx_weapon_healmatic500_reload_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="757333123" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_weapon_all_swap_01.wav</ShortName>
+					<CachePath>SFX/sfx_weapon_all_swap_01_1403AD7D.wem</CachePath>
+				</File>
 				<File Id="803988425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_hit_01.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_hit_01_818F3B66.wem</CachePath>
@@ -110,13 +126,13 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
-				<File Id="910005856" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_enemy_bloodcell_idle_01.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_bloodcell_idle_01_818F3B66.wem</CachePath>
+				<File Id="953187999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_fatblob_idle_02.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_fatblob_idle_02_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="1002797084" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_enemy_bloodcell_death_01.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_bloodcell_death_01_818F3B66.wem</CachePath>
+				<File Id="1064385070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_all_death_01.wav</ShortName>
+					<CachePath>SFX/sfx_enemy_all_death_01_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -125,9 +141,9 @@
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.77589583" DurationMax="0.77589583">
+				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
 					<MediaRefs>
-						<MediaRef Id="1002797084"/>
+						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" DurationType="OneShot" DurationMin="0.5438333" DurationMax="0.5438333">
@@ -135,10 +151,44 @@
 						<MediaRef Id="803988425"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1098573287" Name="sfx_enemies_bloodcell_idle" MaxAttenuation="60" DurationType="OneShot" DurationMin="0.802625" DurationMax="1.0555416">
+				<Event Id="1098573287" Name="sfx_enemies_bloodcell_idle" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="296078886"/>
-						<MediaRef Id="910005856"/>
+						<MediaRef Id="189460687"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3801009704" Name="sfx_enemies_fatblob_dissolve" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.967026" DurationMax="5.967026">
+					<MediaRefs>
+						<MediaRef Id="564359925"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3292684059" Name="sfx_enemies_fatblob_idle" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="953187999"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="102550024" Name="sfx_enemies_germslime_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
+					<MediaRefs>
+						<MediaRef Id="1064385070"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3055844788" Name="sfx_enemies_germslime_idle" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="214146599"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1948922918" Name="sfx_enemies_germspike_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
+					<MediaRefs>
+						<MediaRef Id="1064385070"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2334927414" Name="sfx_enemies_germspike_idle" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="292638115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.7977777" DurationMax="0.7977777">
+					<MediaRefs>
+						<MediaRef Id="757333123"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
@@ -193,5 +243,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{20B76804-548C-6287-B8A0-AC2B250C2E97}</FileHash>
+	<FileHash>{B3AEC83E-F553-A53A-ABC4-482CD1FE1DCC}</FileHash>
 </SoundBanksInfo>

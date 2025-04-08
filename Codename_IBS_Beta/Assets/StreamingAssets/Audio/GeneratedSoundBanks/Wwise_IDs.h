@@ -17,6 +17,13 @@ namespace AK
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_DEATH = 1012708473U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_HIT = 3902373752U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_IDLE = 1098573287U;
+        static const AkUniqueID SFX_ENEMIES_FATBLOB_DISSOLVE = 3801009704U;
+        static const AkUniqueID SFX_ENEMIES_FATBLOB_IDLE = 3292684059U;
+        static const AkUniqueID SFX_ENEMIES_GERMSLIME_DEATH = 102550024U;
+        static const AkUniqueID SFX_ENEMIES_GERMSLIME_IDLE = 3055844788U;
+        static const AkUniqueID SFX_ENEMIES_GERMSPIKE_DEATH = 1948922918U;
+        static const AkUniqueID SFX_ENEMIES_GERMSPIKE_IDLE = 2334927414U;
+        static const AkUniqueID SFX_WEAPON_ALL_SWAP = 3791724757U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_RELOAD = 228935287U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_FIRE = 1355404468U;

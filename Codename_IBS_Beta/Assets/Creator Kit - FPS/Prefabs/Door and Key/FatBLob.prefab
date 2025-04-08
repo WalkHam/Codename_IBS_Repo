@@ -285,7 +285,8 @@ MonoBehaviour:
   BlobDissolve:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f22bd0959be544971970f4a5037b1f4a,
+      type: 2}
 --- !u!114 &5657199915929785364
 MonoBehaviour:
   m_ObjectHideFlags: 0
