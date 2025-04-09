@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E4D8D5E8-B627-DECB-D6C3-E5F80B66C9CA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4AD2CA2F-5DA7-7D9A-270C-CE7CA14B4194}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,8 +24,18 @@
 				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3789107537" Name="Room_Amb">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="1846755610" Name="Small"/>
+						<State Id="4284352190" Name="Large"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C39155-9182-D1EF-88E6-BBF9AF1D9D52}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D9A63315-5717-A7A1-2B6A-617F4E3D217B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -73,17 +83,27 @@
 					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_5C0657E3.wem</CachePath>
 				</File>
+				<File Id="468109344" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_stomach_loop_Dripping Amb.wav</ShortName>
+					<Path>Media/468109344.wem</Path>
+					<CachePath>SFX/amb_stomach_loop_Dripping Amb_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="564281337" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_02_818F3B66.wem</CachePath>
 				</File>
 				<File Id="564359925" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_fatblob_dissolve_01.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_B156F963.wem</CachePath>
+					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_1EF358E8.wem</CachePath>
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_1C69580D.wem</CachePath>
+				</File>
+				<File Id="604475359" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_room_small_loop.wav</ShortName>
+					<Path>Media/604475359.wem</Path>
+					<CachePath>SFX/amb_room_small_loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="624977598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</ShortName>
@@ -118,6 +138,11 @@
 					<ShortName>sfx_enemy_bloodcell_hit_01.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_hit_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="853583580" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>amb_room_large_loop.wav</ShortName>
+					<Path>Media/853583580.wem</Path>
+					<CachePath>SFX/amb_room_large_loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="854236484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_01_818F3B66.wem</CachePath>
@@ -139,6 +164,13 @@
 				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="747429870"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3789107537" Name="Room_Amb" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="468109344"/>
+						<MediaRef Id="604475359"/>
+						<MediaRef Id="853583580"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
@@ -171,6 +203,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3369942825" Name="sfx_enemies_germslime_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3055844788" Name="sfx_enemies_germslime_idle" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="214146599"/>
@@ -181,6 +214,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2334927414" Name="sfx_enemies_germspike_idle" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="292638115"/>
@@ -243,5 +277,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B3AEC83E-F553-A53A-ABC4-482CD1FE1DCC}</FileHash>
+	<FileHash>{6ED830C7-6F6D-082C-F016-ED8826D632C4}</FileHash>
 </SoundBanksInfo>

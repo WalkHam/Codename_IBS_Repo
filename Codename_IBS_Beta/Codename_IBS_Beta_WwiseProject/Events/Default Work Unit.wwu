@@ -3,27 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
-					<ChildrenList>
-						<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{E0E81587-D0E6-4382-B1E4-5D65A7DCCB87}" ShortID="964598482">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Test_Pop" ID="{CA79058D-EC31-4DA8-9B47-0E24EBA21C1C}">
 					<ChildrenList>
 						<Action Name="" ID="{05AD9059-C5A7-4213-951B-2A8329951BEC}" ShortID="184277900">
@@ -385,6 +364,86 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{A328592D-ECF2-48B5-9F04-BCE52EA7D017}" ShortID="105802097">
+					<ChildrenList>
+						<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
+							<ChildrenList>
+								<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0E81587-D0E6-4382-B1E4-5D65A7DCCB87}" ShortID="964598482">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Room_Amb" ID="{458BEDB1-4F4D-42F9-BA02-569A7C04C4EE}">
+							<ChildrenList>
+								<Action Name="" ID="{510AB05A-C2A5-4C0E-9004-1F05EA020FB1}" ShortID="795406554">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_large_loop" ID="{8289B1C4-D125-4793-9119-0D04A8641781}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D455C0E-B98D-4FB6-9F55-41F1C04F0AEA}" ShortID="750946896">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_small_loop" ID="{6DEAAF13-811B-4F47-A6F8-CB6A83997643}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13A6994E-6C57-4B66-B856-83FF707EDCE4}" ShortID="907459354">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_stomach_loop_Dripping Amb" ID="{ABCC7A46-CD93-42B5-87EE-5A1E46255851}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D74E08A6-4DE5-4D57-AB34-DDADA0EB7EE0}" ShortID="972785644">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_large_loop" ID="{8289B1C4-D125-4793-9119-0D04A8641781}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{773384E9-CE2D-4CFB-9896-A3D65A939979}" ShortID="771996270">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_small_loop" ID="{6DEAAF13-811B-4F47-A6F8-CB6A83997643}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1E9D0441-130C-4707-824A-83EFB89F4F14}" ShortID="347509169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_stomach_loop_Dripping Amb" ID="{ABCC7A46-CD93-42B5-87EE-5A1E46255851}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

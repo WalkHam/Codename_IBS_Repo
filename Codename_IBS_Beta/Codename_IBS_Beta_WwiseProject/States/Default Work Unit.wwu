@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Room_Amb" ID="{DD421E4B-4769-436D-B4EA-854CCEC91A6A}">
+					<ChildrenList>
+						<State Name="None" ID="{2BBC6CBC-6506-44B8-B4A4-FC1EA45DA307}"/>
+						<State Name="Large" ID="{499C507A-BC19-4826-9B65-77E06320CB8F}"/>
+						<State Name="Small" ID="{C85A5E7F-38B1-4558-9831-E3178DA51CFA}"/>
+						<State Name="Stomach" ID="{1C650F84-0F60-41F3-A767-24AC423C0E65}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

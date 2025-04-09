@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Room_Amb			
+	1434060888	Stomach	Room_Amb			
+	1846755610	Small	Room_Amb			
+	4284352190	Large	Room_Amb			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1313057045	Amb Bus			\Default Work Unit\Master Audio Bus\Amb Bus	
 	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
