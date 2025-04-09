@@ -25,7 +25,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E5E1E65F-59C9-62A6-47CC-60A03FCC2AB1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B91EDD9D-0D83-3CB0-A504-3E0859B59349}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -67,7 +67,7 @@
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_BCD3298A.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_1C69580D.wem</CachePath>
 				</File>
 				<File Id="624977598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_03.wav</ShortName>
@@ -161,5 +161,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{75249D11-674F-8823-A0A8-A87E07A123B1}</FileHash>
+	<FileHash>{94D73E21-DD63-4C57-3FB4-408374139A7D}</FileHash>
 </SoundBanksInfo>
