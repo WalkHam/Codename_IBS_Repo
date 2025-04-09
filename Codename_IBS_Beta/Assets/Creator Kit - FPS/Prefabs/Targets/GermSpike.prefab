@@ -251,8 +251,20 @@ MonoBehaviour:
   health: 15
   pointValue: 0
   DestroyedEffect: {fileID: 0}
-  HitPlayer: {fileID: 0}
-  IdleSource: {fileID: 0}
+  EnemyHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  EnemyIdle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3ba0d57bf29d640c5aec5c4a52ebd87a,
+      type: 2}
+  EnemyDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 74df5da1fd1c344d2b52de74dffa0c5a,
+      type: 2}
 --- !u!1 &7837388604096433168
 GameObject:
   m_ObjectHideFlags: 0

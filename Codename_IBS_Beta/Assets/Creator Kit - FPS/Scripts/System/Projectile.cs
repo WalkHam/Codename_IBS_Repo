@@ -10,10 +10,15 @@ public class Projectile : MonoBehaviour
     public float TimeToDestroyed = 4.0f;
     public float ReachRadius = 5.0f;
     public float damage = 10.0f;
-    public AudioClip DestroyedSound;
+    
     
     //TODO : maybe pool that somewhere to not have to create one for each projectile.
     public GameObject PrefabOnDestruction;
+
+
+    [Header("Wwise Event")]
+    public AK.Wwise.Event Pill_Explode;
+
 
     Weapon m_Owner;
     Rigidbody m_Rigidbody;
@@ -67,11 +72,10 @@ public class Projectile : MonoBehaviour
         m_Rigidbody.angularVelocity = Vector3.zero;
         m_Owner.ReturnProjecticle(this);
 
-        var source = WorldAudioPool.GetWorldSFXSource();
+        //var source = WorldAudioPool.GetWorldSFXSource();
 
-        source.transform.position = position;
-        source.pitch = Random.Range(0.8f, 1.1f);
-        source.PlayOneShot(DestroyedSound);
+
+        
     }
 
     void Update()
@@ -80,6 +84,9 @@ public class Projectile : MonoBehaviour
 
         if (m_TimeSinceLaunch >= TimeToDestroyed)
         {
+            //play wwise event
+            Pill_Explode.Post(gameObject);
+
             Destroy();
         }
     }

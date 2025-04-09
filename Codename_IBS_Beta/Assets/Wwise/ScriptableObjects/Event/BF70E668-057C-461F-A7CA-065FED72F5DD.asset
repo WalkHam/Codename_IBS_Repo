@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5750893cd60e7f54fb581e102f253c8b, type: 3}
+  m_Name: BF70E668-057C-461F-A7CA-065FED72F5DD
+  m_EditorClassIdentifier: 
+  objectName: sfx_weapon_pill_explode
+  id: 2968060059
+  guid: BF70E668-057C-461F-A7CA-065FED72F5DD
