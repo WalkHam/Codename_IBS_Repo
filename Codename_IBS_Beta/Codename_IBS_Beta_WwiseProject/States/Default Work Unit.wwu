@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Rooms" ID="{1968472F-36E8-4D1A-8073-E1DA1CFE3A3B}">
+					<ChildrenList>
+						<State Name="None" ID="{2789CE82-3988-4206-8109-2BCAD5D8CA44}"/>
+						<State Name="Blood_Vessel" ID="{FD233564-F06F-4BF6-B8C7-9C0FDC3589A8}"/>
+						<State Name="Heart_Room" ID="{A93FB753-09E7-4A17-A5A6-84C90CA605D8}"/>
+						<State Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

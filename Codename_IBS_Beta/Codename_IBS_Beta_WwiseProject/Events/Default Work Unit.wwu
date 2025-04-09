@@ -225,6 +225,90 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Brain_Room" ID="{DBEF193D-FAA9-414F-AFA5-ADABB39747AB}">
+					<ChildrenList>
+						<Action Name="" ID="{0187F8B7-3406-4DCB-80ED-7E7829AFC7ED}" ShortID="539617568">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Heart_Room" ID="{B8365D60-12D8-40EE-A6E8-6C795EDF6DE1}">
+					<ChildrenList>
+						<Action Name="" ID="{D7FF6956-916B-42EF-AA7C-AFFA3E5BAFA3}" ShortID="361385259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heart_Room" ID="{A93FB753-09E7-4A17-A5A6-84C90CA605D8}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Blood_Vessel" ID="{A68C4FDA-17AD-4787-8969-AE3B12755D25}">
+					<ChildrenList>
+						<Action Name="" ID="{9563EFBB-A99E-4BF4-807F-65B74584DBD3}" ShortID="420943787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Blood_Vessel" ID="{FD233564-F06F-4BF6-B8C7-9C0FDC3589A8}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Game_Start" ID="{1E447546-DADB-449E-BB25-0B31AD6672F9}">
+					<ChildrenList>
+						<Action Name="" ID="{02EDD8F8-A817-4753-BE9C-51C6CB240132}" ShortID="248145046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scrongly_01_Peaceful 2025-04-03 1751" ID="{0A02638E-EA5C-4D92-A066-F0CD5A7DED0C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EC3AD83B-8AAB-4EF0-ADF4-A0DA4D12F0FC}" ShortID="808578960">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1403901A-9936-4BE7-B4B4-49E81F0670B4}" ShortID="266436276">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chord_Progression" ID="{B8D95A68-CA63-4478-9F7E-9CDBF703E7E2}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E63122E-2F30-4FBF-BE1A-9C2176B68947}" ShortID="351970959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alternate_Chord_Progression" ID="{2E39EA7F-0B4C-46FC-B3BD-201B8B785A2B}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E287D4D0-C840-41F1-AB8C-D8CBBA3170DB}" ShortID="1019728299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funky_Bass_Loop" ID="{F445C4DD-07D9-452F-8609-4EA485BF6DD8}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

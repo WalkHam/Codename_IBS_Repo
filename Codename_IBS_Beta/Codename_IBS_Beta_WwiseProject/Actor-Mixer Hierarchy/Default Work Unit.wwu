@@ -670,6 +670,288 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{163AD140-5768-4D13-9B27-DA92DE4EA120}" ShortID="371875447">
+					<ChildrenList>
+						<Sound Name="01 LOOP" ID="{E5F0C228-69CA-442C-A7C8-2D6E9099E019}" ShortID="898068936">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="01 LOOP" ID="{E763779E-7115-4A87-B702-5F9298DAAB40}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\01 LOOP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="878577587"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="01 LOOP" ID="{E763779E-7115-4A87-B702-5F9298DAAB40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="02 LOOP" ID="{AF1015C3-49D5-41FE-BA27-6AF60677073E}" ShortID="1018131243">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="02 LOOP" ID="{0C6CF824-C03F-436C-B1E8-2923BAF103E8}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\02 LOOP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="890491665"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="02 LOOP" ID="{0C6CF824-C03F-436C-B1E8-2923BAF103E8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="03 Audio 3" ID="{AC7C1444-F8FB-467D-A76D-12C260C19E2B}" ShortID="1059665222">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="03 Audio 3" ID="{E826BF20-F61F-4539-BCD7-F27AC2784ED6}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\03 Audio 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="962061266"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="03 Audio 3" ID="{E826BF20-F61F-4539-BCD7-F27AC2784ED6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Alternate_Chord_Progression" ID="{2E39EA7F-0B4C-46FC-B3BD-201B8B785A2B}" ShortID="534217840">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Alternate_Chord_Progression" ID="{58DA1025-FB8C-4FA6-9F1B-202A5275A80D}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\Alternate_Chord_Progression.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="749385576"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Rooms" ID="{1968472F-36E8-4D1A-8073-E1DA1CFE3A3B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}"/>
+										<CustomState Name="" ID="{90C4EF5D-BC87-45D0-BC80-58C71815EFE8}" ShortID="893700414">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Heart_Room" ID="{A93FB753-09E7-4A17-A5A6-84C90CA605D8}"/>
+										<CustomState Name="" ID="{DFFF30ED-A498-46C7-B937-13B989B65544}" ShortID="67676143"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Blood_Vessel" ID="{FD233564-F06F-4BF6-B8C7-9C0FDC3589A8}"/>
+										<CustomState Name="" ID="{D7289E1D-6161-4BEB-802E-ED134F6BA220}" ShortID="501508799">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Alternate_Chord_Progression" ID="{58DA1025-FB8C-4FA6-9F1B-202A5275A80D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chord_Progression" ID="{B8D95A68-CA63-4478-9F7E-9CDBF703E7E2}" ShortID="1037030422">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chord_Progression" ID="{7CA61EE2-0062-4441-970F-26AAF7225E9E}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\Chord_Progression.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845173706"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Rooms" ID="{1968472F-36E8-4D1A-8073-E1DA1CFE3A3B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}"/>
+										<CustomState Name="" ID="{CA8A38B7-335D-4A6C-9C4A-5D8C7FD35EB3}" ShortID="660278837"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Heart_Room" ID="{A93FB753-09E7-4A17-A5A6-84C90CA605D8}"/>
+										<CustomState Name="" ID="{1B8DCFD0-3D02-4027-90F9-70FFD8E8C085}" ShortID="979728492">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Blood_Vessel" ID="{FD233564-F06F-4BF6-B8C7-9C0FDC3589A8}"/>
+										<CustomState Name="" ID="{C69A0C7D-E1CA-49A2-B0EE-453ABAAFBA3D}" ShortID="977350955">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Chord_Progression" ID="{7CA61EE2-0062-4441-970F-26AAF7225E9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Funky_Bass_Loop" ID="{F445C4DD-07D9-452F-8609-4EA485BF6DD8}" ShortID="203033737">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Funky_Bass_Loop" ID="{D6C4D13C-3A2B-4EC3-AFB1-549C9F268A0C}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\Funky_Bass_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="981100123"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Rooms" ID="{1968472F-36E8-4D1A-8073-E1DA1CFE3A3B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Brain_Room" ID="{3E0079D0-D49A-4374-9C92-F1F0D3AD2571}"/>
+										<CustomState Name="" ID="{387BB6D4-6C3B-41F5-9A4C-91DB6DB7B195}" ShortID="153332364">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Heart_Room" ID="{A93FB753-09E7-4A17-A5A6-84C90CA605D8}"/>
+										<CustomState Name="" ID="{AE388A4C-5D99-4291-880F-2C2A0B094738}" ShortID="888346953">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Blood_Vessel" ID="{FD233564-F06F-4BF6-B8C7-9C0FDC3589A8}"/>
+										<CustomState Name="" ID="{DB30F289-21F1-4D74-B9EE-DA82D3720303}" ShortID="998115169"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Funky_Bass_Loop" ID="{D6C4D13C-3A2B-4EC3-AFB1-549C9F268A0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Scrongly_01_Peaceful 2025-04-03 1751" ID="{0A02638E-EA5C-4D92-A066-F0CD5A7DED0C}" ShortID="2693639">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>51</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Scrongly_01_Peaceful 2025-04-03 1751" ID="{4EAA7B08-3036-441E-82BB-E115424C4D0B}">
+									<Language>SFX</Language>
+									<AudioFile>Codename_IBS_Sounds\Scrongly_01_Peaceful 2025-04-03 1751.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="951657889"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Scrongly_01_Peaceful 2025-04-03 1751" ID="{4EAA7B08-3036-441E-82BB-E115424C4D0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
