@@ -3,62 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" ShortID="950341674">
-					<PropertyList>
-						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="IsStreamingEnabled" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>60</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MaxSoundPerInstance" Type="int16">
-							<ValueList>
-								<Value>1</Value>
-							</ValueList>
-						</Property>
-						<Property Name="UseMaxSoundPerInstance" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-9</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="IBS_amb_hospital_loop_v2" ID="{EFB7DFC4-FD8A-4E31-9089-594CA0CA93A0}">
-							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="178.379511387141"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>IBS_amb_hospital_loop_v2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="747429870"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="IBS_amb_hospital_loop_v2" ID="{EFB7DFC4-FD8A-4E31-9089-594CA0CA93A0}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" ShortID="784169249">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1471,6 +1415,273 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{7F4258DD-B9D8-4FD3-A00C-7D116A9BCFFD}" ShortID="888625412">
+					<ChildrenList>
+						<Sound Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" ShortID="950341674">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="IBS_amb_hospital_loop_v2" ID="{EFB7DFC4-FD8A-4E31-9089-594CA0CA93A0}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="178.379511387141"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>IBS_amb_hospital_loop_v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="747429870"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="IBS_amb_hospital_loop_v2" ID="{EFB7DFC4-FD8A-4E31-9089-594CA0CA93A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_room_large_loop" ID="{E41D6132-EE37-4DF1-B5DC-C874F280F2E8}" ShortID="932325772">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_room_large_loop" ID="{4D2B7376-92CF-4ABB-B6A6-AB945936E782}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0959745761819912"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0383898304728021"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="28.3978111972837"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>amb_room_large_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557479579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="RoomAmbience" ID="{A630B542-F845-495D-B504-D5BCA264E53E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Stomach" ID="{D348292B-BCCB-401C-8719-8CF65DD717A3}"/>
+										<CustomState Name="" ID="{C4EC6933-314A-4AD7-B547-A125F261DFE1}" ShortID="936867421">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-14"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Large" ID="{35839ECC-647F-480F-923E-DE609373CD67}"/>
+										<CustomState Name="" ID="{34B27AF7-41D2-4FB3-A161-60C44090BA0A}" ShortID="372220014">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-14"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Small" ID="{F72D2C20-77E6-4926-B594-A36ADCA562A6}"/>
+										<CustomState Name="" ID="{326583A8-0013-4126-AC32-307D632E8060}" ShortID="888160017">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_room_large_loop" ID="{4D2B7376-92CF-4ABB-B6A6-AB945936E782}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_room_small_loop" ID="{9CBF648B-8D93-403E-80C1-72B8ECDBAE35}" ShortID="240118419">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_room_small_loop" ID="{FDEF3AAA-F6AF-421B-A32C-D1456961D59C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.045260606060606"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0309136029373747"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.271563636363636"/>
+										<Property Name="TrimEnd" Type="Real64" Value="25.8438060606061"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>amb_room_small_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="95767525"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="RoomAmbience" ID="{A630B542-F845-495D-B504-D5BCA264E53E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Stomach" ID="{D348292B-BCCB-401C-8719-8CF65DD717A3}"/>
+										<CustomState Name="" ID="{4ACEB7CB-7D98-46F2-B85F-2F37B8FAD75B}" ShortID="389987929">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Large" ID="{35839ECC-647F-480F-923E-DE609373CD67}"/>
+										<CustomState Name="" ID="{896A9C1F-FB55-4D93-A36C-79294C199984}" ShortID="592638765">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Small" ID="{F72D2C20-77E6-4926-B594-A36ADCA562A6}"/>
+										<CustomState Name="" ID="{E20AC66D-DCD4-4BAF-A058-621EE282CC68}" ShortID="321650075">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-18"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_room_small_loop" ID="{FDEF3AAA-F6AF-421B-A32C-D1456961D59C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_stomach_loop_Dripping Amb" ID="{7865A33E-E362-48C0-85A3-38C5928B55F9}" ShortID="99907674">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_stomach_loop_Dripping Amb" ID="{F51AD63F-1CA5-46C7-99E9-3C3BD90C457B}">
+									<Language>SFX</Language>
+									<AudioFile>amb_stomach_loop_Dripping Amb.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="185616748"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="RoomAmbience" ID="{A630B542-F845-495D-B504-D5BCA264E53E}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Stomach" ID="{D348292B-BCCB-401C-8719-8CF65DD717A3}"/>
+										<CustomState Name="" ID="{571C3B80-5A66-4D65-8C85-E394DDE96EA0}" ShortID="46868316">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Large" ID="{35839ECC-647F-480F-923E-DE609373CD67}"/>
+										<CustomState Name="" ID="{A9B7F447-6338-4D41-BEF3-E316B59719BF}" ShortID="676206571">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Room_Small" ID="{F72D2C20-77E6-4926-B594-A36ADCA562A6}"/>
+										<CustomState Name="" ID="{DD8DC32C-0DFD-47AE-B932-59324F4088FA}" ShortID="1013151663">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_stomach_loop_Dripping Amb" ID="{F51AD63F-1CA5-46C7-99E9-3C3BD90C457B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

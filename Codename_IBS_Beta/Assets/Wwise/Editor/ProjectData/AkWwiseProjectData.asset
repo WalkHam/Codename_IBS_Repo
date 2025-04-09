@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
+<<<<<<< HEAD
   - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+=======
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,6 +25,7 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1c6696757420b74db109cb710b8a6735
+<<<<<<< HEAD
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 1c6696757420b74db109cb710b8a6735
     GuidInternal: 
@@ -28,6 +33,15 @@ MonoBehaviour:
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+=======
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 1c6696757420b74db109cb710b8a6735
+    GuidInternal: 
+    m_lastTime: -8584593472417029149
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +49,17 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f39de0523dc72f4686375cb348f55b42
+<<<<<<< HEAD
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
     m_lastTime: -8584581490361343248
+=======
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: f39de0523dc72f4686375cb348f55b42
+    GuidInternal: 
+    m_lastTime: -8584581515713832971
+>>>>>>> origin/Dev
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -56,7 +77,11 @@ MonoBehaviour:
       - ElementName: Amb Bus
         ObjectType: 2
         guid: f85a6836a5f95e4dbe58025a3854dbf7
+<<<<<<< HEAD
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Amb Bus
+=======
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb Bus
+>>>>>>> origin/Dev
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -70,7 +95,11 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+<<<<<<< HEAD
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+=======
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+>>>>>>> origin/Dev
     - name: Music Bus
       guid: 57ac13935252f44794c88cbbe96649b1
       id: 3127962312
@@ -87,7 +116,11 @@ MonoBehaviour:
       - ElementName: Music Bus
         ObjectType: 2
         guid: 57ac13935252f44794c88cbbe96649b1
+<<<<<<< HEAD
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music Bus
+=======
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Bus
+>>>>>>> origin/Dev
     - name: SFX Bus
       guid: ea6ce0e12ba4aa4292f8bd83387b928f
       id: 1502772432
@@ -104,9 +137,15 @@ MonoBehaviour:
       - ElementName: SFX Bus
         ObjectType: 2
         guid: ea6ce0e12ba4aa4292f8bd83387b928f
+<<<<<<< HEAD
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX Bus
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
+=======
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -114,10 +153,17 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f63a113d2904b14c84bf993e7c493880
+<<<<<<< HEAD
     ParentPath: SoundBanks/Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
     m_lastTime: -8584574559745121003
+=======
+    ParentPath: SoundBanks\Default Work Unit
+    guid: f63a113d2904b14c84bf993e7c493880
+    GuidInternal: 
+    m_lastTime: -8584575461849910604
+>>>>>>> origin/Dev
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -132,9 +178,15 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 9a659aa79ccb7543a63df51b4a43649d
+<<<<<<< HEAD
       Path: SoundBanks/Default Work Unit/Main
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
+=======
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -142,10 +194,17 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 808f5e8fc580c44b891c6abf8edc7be1
+<<<<<<< HEAD
     ParentPath: Events/Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
     m_lastTime: -8584574559745262384
+=======
+    ParentPath: Events\Default Work Unit
+    guid: 808f5e8fc580c44b891c6abf8edc7be1
+    GuidInternal: 
+    m_lastTime: -8584575457215206903
+>>>>>>> origin/Dev
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -157,6 +216,7 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 808f5e8fc580c44b891c6abf8edc7be1
+<<<<<<< HEAD
       - ElementName: Amb_Hospital_Loop
         ObjectType: 3
         guid: d1a3f9f9de620e418fb2acba33984e58
@@ -167,6 +227,21 @@ MonoBehaviour:
     - name: Blood Cell
       guid: fab6ba8551e29d4a982d236091b8fd8c
       id: 4063484133
+=======
+      - ElementName: Ambiences
+        ObjectType: 4
+        guid: 963d52cd9141b848985bdde059ed06c9
+      - ElementName: Amb_Hospital_Loop
+        ObjectType: 3
+        guid: d1a3f9f9de620e418fb2acba33984e58
+      Path: Events\Default Work Unit\Ambiences\Amb_Hospital_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_RoomStomach
+      guid: e676269b95e4704e90d02f910800b818
+      id: 720143714
+>>>>>>> origin/Dev
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -174,6 +249,7 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 808f5e8fc580c44b891c6abf8edc7be1
+<<<<<<< HEAD
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
@@ -187,6 +263,21 @@ MonoBehaviour:
     - name: Death
       guid: e411166fdadc05418f6e194bf845982d
       id: 779278001
+=======
+      - ElementName: Ambiences
+        ObjectType: 4
+        guid: 963d52cd9141b848985bdde059ed06c9
+      - ElementName: Amb_RoomStomach
+        ObjectType: 3
+        guid: e676269b95e4704e90d02f910800b818
+      Path: Events\Default Work Unit\Ambiences\Amb_RoomStomach
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ambiences
+      guid: 963d52cd9141b848985bdde059ed06c9
+      id: 1017660616
+>>>>>>> origin/Dev
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -194,6 +285,7 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 808f5e8fc580c44b891c6abf8edc7be1
+<<<<<<< HEAD
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
@@ -276,6 +368,12 @@ MonoBehaviour:
         ObjectType: 4
         guid: d3f8366b6af68745b920957d2071442a
       Path: Events/Default Work Unit/Enemies/Fat Blob/Dissolve
+=======
+      - ElementName: Ambiences
+        ObjectType: 4
+        guid: 963d52cd9141b848985bdde059ed06c9
+      Path: Events\Default Work Unit\Ambiences
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -292,7 +390,11 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemies
+=======
+      Path: Events\Default Work Unit\Enemies
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -312,6 +414,7 @@ MonoBehaviour:
       - ElementName: Fat Blob
         ObjectType: 4
         guid: a1ecc39dc901a949b66eda3f6c7c609a
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemies/Fat Blob
       maxAttenuation: 0
       maxDuration: -1
@@ -422,6 +525,9 @@ MonoBehaviour:
         ObjectType: 4
         guid: 4de301080640cd4380edcbf40bdee100
       Path: Events/Default Work Unit/Enemies/Germ Spike
+=======
+      Path: Events\Default Work Unit\Enemies\Fat Blob
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -441,7 +547,11 @@ MonoBehaviour:
       - ElementName: GermOBlaster
         ObjectType: 4
         guid: 3444b38cd5423e46bb81e916dbd5670e
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/GermOBlaster
+=======
+      Path: Events\Default Work Unit\Weapons\GermOBlaster
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -461,6 +571,7 @@ MonoBehaviour:
       - ElementName: Healmatic500
         ObjectType: 4
         guid: 8ab0d65270b5274c86d26acc11cbaa03
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/Healmatic500
       maxAttenuation: 0
       maxDuration: -1
@@ -583,6 +694,9 @@ MonoBehaviour:
         ObjectType: 4
         guid: ce61295a39bb1643aecb5a2ceacf8995
       Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Idle
+=======
+      Path: Events\Default Work Unit\Weapons\Healmatic500
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -605,6 +719,7 @@ MonoBehaviour:
       - ElementName: Idle
         ObjectType: 4
         guid: 52ed2eff80549a4f95ce6aae5614d871
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemies/Fat Blob/Idle
       maxAttenuation: 0
       maxDuration: -1
@@ -629,6 +744,9 @@ MonoBehaviour:
         ObjectType: 4
         guid: d11040aee7603545b2f1d96f237b8186
       Path: Events/Default Work Unit/Enemies/Blood Cell/Idle
+=======
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -648,6 +766,7 @@ MonoBehaviour:
       - ElementName: PIll Grenade
         ObjectType: 4
         guid: e0ebbcf12ce0044eb0b02a39aa39b519
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/PIll Grenade
       maxAttenuation: 0
       maxDuration: -1
@@ -802,6 +921,12 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: 5.967026
       minDuration: 5.967026
+=======
+      Path: Events\Default Work Unit\Weapons\PIll Grenade
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+>>>>>>> origin/Dev
     - name: sfx_enemies_fatblob_idle
       guid: bc642c4299f3694e9260961204235e42
       id: 3292684059
@@ -824,6 +949,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_fatblob_idle
         ObjectType: 3
         guid: bc642c4299f3694e9260961204235e42
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Enemies/Fat Blob/Idle/sfx_enemies_fatblob_idle
       maxAttenuation: 15
       maxDuration: -1
@@ -991,6 +1117,10 @@ MonoBehaviour:
         guid: ebaf4828812cc4429df82870ca62ed0b
       Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Idle/sfx_enemies_germspike_idle
       maxAttenuation: 15
+=======
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle\sfx_enemies_fatblob_idle
+      maxAttenuation: 0
+>>>>>>> origin/Dev
       maxDuration: -1
       minDuration: -1
     - name: sfx_weapon_all_swap
@@ -1012,10 +1142,17 @@ MonoBehaviour:
       - ElementName: sfx_weapon_all_swap
         ObjectType: 3
         guid: a0dc18047d046841b502566dda9e5fe3
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/Weapon Swap/sfx_weapon_all_swap
       maxAttenuation: 0
       maxDuration: 0.7977777
       minDuration: 0.7977777
+=======
+      Path: Events\Default Work Unit\Weapons\Weapon Swap\sfx_weapon_all_swap
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+>>>>>>> origin/Dev
     - name: sfx_weapon_germoblaster_fire
       guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
       id: 1631753596
@@ -1032,6 +1169,7 @@ MonoBehaviour:
       - ElementName: GermOBlaster
         ObjectType: 4
         guid: 3444b38cd5423e46bb81e916dbd5670e
+<<<<<<< HEAD
       - ElementName: Fire
         ObjectType: 4
         guid: 24dadd0be9285044a6b0c70c7fda699a
@@ -1039,6 +1177,12 @@ MonoBehaviour:
         ObjectType: 3
         guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
       Path: Events/Default Work Unit/Weapons/GermOBlaster/Fire/sfx_weapon_germoblaster_fire
+=======
+      - ElementName: sfx_weapon_germoblaster_fire
+        ObjectType: 3
+        guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\sfx_weapon_germoblaster_fire
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 0.07489584
       minDuration: 0.07235417
@@ -1058,6 +1202,7 @@ MonoBehaviour:
       - ElementName: GermOBlaster
         ObjectType: 4
         guid: 3444b38cd5423e46bb81e916dbd5670e
+<<<<<<< HEAD
       - ElementName: Reload
         ObjectType: 4
         guid: c65a21a314b07a49b69acaae61d14085
@@ -1065,6 +1210,12 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5b846ab96f2b3f498ea778d8b27df380
       Path: Events/Default Work Unit/Weapons/GermOBlaster/Reload/sfx_weapon_germoblaster_reload
+=======
+      - ElementName: sfx_weapon_germoblaster_reload
+        ObjectType: 3
+        guid: 5b846ab96f2b3f498ea778d8b27df380
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\sfx_weapon_germoblaster_reload
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 1.660625
       minDuration: 1.660625
@@ -1084,6 +1235,7 @@ MonoBehaviour:
       - ElementName: Healmatic500
         ObjectType: 4
         guid: 8ab0d65270b5274c86d26acc11cbaa03
+<<<<<<< HEAD
       - ElementName: Fire
         ObjectType: 4
         guid: 70be67c47411ba4bb3f06c4509e24404
@@ -1091,6 +1243,12 @@ MonoBehaviour:
         ObjectType: 3
         guid: 948005223f67ea4eabcd5b2518911dc4
       Path: Events/Default Work Unit/Weapons/Healmatic500/Fire/sfx_weapon_healmatic500_fire
+=======
+      - ElementName: sfx_weapon_healmatic500_fire
+        ObjectType: 3
+        guid: 948005223f67ea4eabcd5b2518911dc4
+      Path: Events\Default Work Unit\Weapons\Healmatic500\sfx_weapon_healmatic500_fire
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 1.0493492
       minDuration: 1.0493492
@@ -1110,6 +1268,7 @@ MonoBehaviour:
       - ElementName: Healmatic500
         ObjectType: 4
         guid: 8ab0d65270b5274c86d26acc11cbaa03
+<<<<<<< HEAD
       - ElementName: Reload
         ObjectType: 4
         guid: 098ae234c727bd4bb4dc8ae36d0ff679
@@ -1117,6 +1276,12 @@ MonoBehaviour:
         ObjectType: 3
         guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
       Path: Events/Default Work Unit/Weapons/Healmatic500/Reload/sfx_weapon_healmatic500_reload
+=======
+      - ElementName: sfx_weapon_healmatic500_reload
+        ObjectType: 3
+        guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
+      Path: Events\Default Work Unit\Weapons\Healmatic500\sfx_weapon_healmatic500_reload
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 1.1590416
       minDuration: 1.1590416
@@ -1139,7 +1304,11 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_explode
         ObjectType: 3
         guid: 68e670bf7c051f46a7ca065fed72f5dd
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_explode
+=======
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_explode
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 1.9435416
       minDuration: 1.9435416
@@ -1162,7 +1331,11 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_reload
         ObjectType: 3
         guid: a55f92279c226c4fa0df460bbc32c900
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_reload
+=======
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_reload
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 0.9199375
       minDuration: 0.9199375
@@ -1185,7 +1358,11 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_throw
         ObjectType: 3
         guid: ccb1e42a82f0264080dcc310340ecab5
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_throw
+=======
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_throw
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 0.5050144
       minDuration: 0.28342977
@@ -1202,7 +1379,11 @@ MonoBehaviour:
       - ElementName: Test_Pop
         ObjectType: 3
         guid: 8d0579ca31eca84d9b470e24eba21c1c
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Test_Pop
+=======
+      Path: Events\Default Work Unit\Test_Pop
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: 2.6051562
       minDuration: 2.6051562
@@ -1222,7 +1403,11 @@ MonoBehaviour:
       - ElementName: Weapon Swap
         ObjectType: 4
         guid: 7de4dd5142138c4f89695c21ae9fbd58
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons/Weapon Swap
+=======
+      Path: Events\Default Work Unit\Weapons\Weapon Swap
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1239,12 +1424,20 @@ MonoBehaviour:
       - ElementName: Weapons
         ObjectType: 4
         guid: fb6c2611908a434dbe0cfb7a038a3da4
+<<<<<<< HEAD
       Path: Events/Default Work Unit/Weapons
+=======
+      Path: Events\Default Work Unit\Weapons
+>>>>>>> origin/Dev
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
+<<<<<<< HEAD
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
+=======
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1252,6 +1445,7 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 45732d1542a3c04fb8444cdb3851cb22
+<<<<<<< HEAD
     ParentPath: Game Parameters/Default Work Unit
     guid: 45732d1542a3c04fb8444cdb3851cb22
     GuidInternal: 
@@ -1259,6 +1453,15 @@ MonoBehaviour:
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
+=======
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 45732d1542a3c04fb8444cdb3851cb22
+    GuidInternal: 
+    m_lastTime: -8584593472418489484
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1266,6 +1469,7 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+<<<<<<< HEAD
     ParentPath: States/Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
@@ -1273,6 +1477,97 @@ MonoBehaviour:
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
+=======
+    ParentPath: States\Default Work Unit
+    guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+    GuidInternal: 
+    m_lastTime: -8584575457215246915
+    List:
+    - name: RoomAmbience
+      guid: 42b530a645f85d49b504d5bca264e53e
+      id: 539467320
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+      - ElementName: RoomAmbience
+        ObjectType: 9
+        guid: 42b530a645f85d49b504d5bca264e53e
+      Path: States\Default Work Unit\RoomAmbience
+      values:
+      - name: None
+        guid: 0238b31d1f096344a65c995f9a1abf43
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 42b530a645f85d49b504d5bca264e53e
+        - ElementName: None
+          ObjectType: 8
+          guid: 0238b31d1f096344a65c995f9a1abf43
+      - name: Room_Large
+        guid: cc9e83357f640f48923ede609373cd67
+        id: 602546716
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 42b530a645f85d49b504d5bca264e53e
+        - ElementName: Room_Large
+          ObjectType: 8
+          guid: cc9e83357f640f48923ede609373cd67
+      - name: Room_Small
+        guid: 202c2df7e6772649b594a36adca562a6
+        id: 2995775460
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 42b530a645f85d49b504d5bca264e53e
+        - ElementName: Room_Small
+          ObjectType: 8
+          guid: 202c2df7e6772649b594a36adca562a6
+      - name: Stomach
+        guid: 2b2948d3cbbc1c4087198cf65dd717a3
+        id: 1434060888
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: RoomAmbience
+          ObjectType: 9
+          guid: 42b530a645f85d49b504d5bca264e53e
+        - ElementName: Stomach
+          ObjectType: 8
+          guid: 2b2948d3cbbc1c4087198cf65dd717a3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -1280,6 +1575,7 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 5fd339d132c13d42a72b1aa2b4179e0e
+<<<<<<< HEAD
     ParentPath: Switches/Default Work Unit
     guid: 5fd339d132c13d42a72b1aa2b4179e0e
     GuidInternal: 
@@ -1287,6 +1583,15 @@ MonoBehaviour:
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
+=======
+    ParentPath: Switches\Default Work Unit
+    guid: 5fd339d132c13d42a72b1aa2b4179e0e
+    GuidInternal: 
+    m_lastTime: -8584593472418579505
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+>>>>>>> origin/Dev
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -1294,6 +1599,7 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 69907736d8ee8f41a3a314b0fb9a5b05
+<<<<<<< HEAD
     ParentPath: Triggers/Default Work Unit
     guid: 69907736d8ee8f41a3a314b0fb9a5b05
     GuidInternal: 
@@ -1301,6 +1607,15 @@ MonoBehaviour:
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000060000000700000008000000090000001d00000020000000210000002a0000003a0000003b000000410000004400000086000000
+=======
+    ParentPath: Triggers\Default Work Unit
+    guid: 69907736d8ee8f41a3a314b0fb9a5b05
+    GuidInternal: 
+    m_lastTime: -8584593472417409241
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: d7000000d8000000d9000000dc000000dd000000de000000
+>>>>>>> origin/Dev
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
