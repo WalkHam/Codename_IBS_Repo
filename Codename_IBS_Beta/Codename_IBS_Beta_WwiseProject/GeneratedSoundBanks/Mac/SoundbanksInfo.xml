@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6138517A-A096-9DA3-EB9D-0BBBD82FD5FD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6E55A17B-9343-FF57-7133-C7E7A6548709}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,8 +24,18 @@
 				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="1359360203" Name="Rooms">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="801321847" Name="Heart_Room"/>
+						<State Id="1483119992" Name="Blood_Vessel"/>
+						<State Id="3087911671" Name="Brain_Room"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B91EDD9D-0D83-3CB0-A504-3E0859B59349}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{81C09713-2465-587B-309D-4221953EC313}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -90,9 +100,19 @@
 					<Path>Media/747429870.wem</Path>
 					<CachePath>SFX/IBS_amb_hospital_loop_v2_5A068A4E.wem</CachePath>
 				</File>
+				<File Id="749385576" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Codename_IBS_Sounds\Alternate_Chord_Progression.wav</ShortName>
+					<Path>Media/749385576.wem</Path>
+					<CachePath>SFX/Codename_IBS_Sounds/Alternate_Chord_Progression_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="756462970" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="845173706" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Codename_IBS_Sounds\Chord_Progression.wav</ShortName>
+					<Path>Media/845173706.wem</Path>
+					<CachePath>SFX/Codename_IBS_Sounds/Chord_Progression_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="854236484" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_01.wav</ShortName>
@@ -102,12 +122,48 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="951657889" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Codename_IBS_Sounds\Scrongly_01_Peaceful 2025-04-03 1751.wav</ShortName>
+					<Path>Media/951657889.wem</Path>
+					<CachePath>SFX/Codename_IBS_Sounds/Scrongly_01_Peaceful 2025-04-03 1751_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="981100123" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Codename_IBS_Sounds\Funky_Bass_Loop.wav</ShortName>
+					<Path>Media/981100123.wem</Path>
+					<CachePath>SFX/Codename_IBS_Sounds/Funky_Bass_Loop_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="3217822573" Name="Amb_Hospital_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="1483119992" Name="Blood_Vessel" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1359360203" Id="1483119992" Name="Blood_Vessel"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3087911671" Name="Brain_Room" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1359360203" Id="3087911671" Name="Brain_Room"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="733168346" Name="Game_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="749385576"/>
+						<MediaRef Id="845173706"/>
+						<MediaRef Id="951657889"/>
+						<MediaRef Id="981100123"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1359360203" Id="3087911671" Name="Brain_Room"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="801321847" Name="Heart_Room" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1359360203" Id="801321847" Name="Heart_Room"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
 					<MediaRefs>
@@ -159,7 +215,17 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="1359360203" Name="Rooms">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="801321847" Name="Heart_Room"/>
+						<State Id="1483119992" Name="Blood_Vessel"/>
+						<State Id="3087911671" Name="Brain_Room"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{94D73E21-DD63-4C57-3FB4-408374139A7D}</FileHash>
+	<FileHash>{5F254162-F1EB-83CE-B209-1C15A35B8F0E}</FileHash>
 </SoundBanksInfo>

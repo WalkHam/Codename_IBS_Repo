@@ -14,6 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+        static const AkUniqueID BLOOD_VESSEL = 1483119992U;
+        static const AkUniqueID BRAIN_ROOM = 3087911671U;
+        static const AkUniqueID GAME_START = 733168346U;
+        static const AkUniqueID HEART_ROOM = 801321847U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_RELOAD = 228935287U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_FIRE = 1355404468U;
@@ -23,6 +27,23 @@ namespace AK
         static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;
         static const AkUniqueID TEST_POP = 3024126497U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace ROOMS
+        {
+            static const AkUniqueID GROUP = 1359360203U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BLOOD_VESSEL = 1483119992U;
+                static const AkUniqueID BRAIN_ROOM = 3087911671U;
+                static const AkUniqueID HEART_ROOM = 801321847U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ROOMS
+
+    } // namespace STATES
 
     namespace BANKS
     {
