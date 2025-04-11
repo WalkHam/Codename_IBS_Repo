@@ -1294,6 +1294,7 @@ GameObject:
   - component: {fileID: 356419433}
   - component: {fileID: 356419432}
   - component: {fileID: 356419431}
+  - component: {fileID: 356419436}
   m_Layer: 0
   m_Name: StateTriggerSmall (4)
   m_TagString: Untagged
@@ -1412,6 +1413,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -89.569, z: 0}
+--- !u!114 &356419436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356419430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb0d831732520324d8a3c57b14a5fd1c,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!114 &362306810 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2854975671627387452, guid: 21a463888965eb14ea0abb606bdbca2b,
@@ -1599,6 +1625,7 @@ GameObject:
   - component: {fileID: 408865803}
   - component: {fileID: 408865802}
   - component: {fileID: 408865806}
+  - component: {fileID: 408865807}
   m_Layer: 0
   m_Name: Hospital POV
   m_TagString: Untagged
@@ -1784,6 +1811,36 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 91ad06dd9cae1bb4ea1669494415a2a8,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &408865807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408865797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263479c0317d25f4a89122758bd4e3ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cf64bb6dffc7b684b8105dbdcf9f294e,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -3416,6 +3473,7 @@ GameObject:
   - component: {fileID: 824768775}
   - component: {fileID: 824768774}
   - component: {fileID: 824768773}
+  - component: {fileID: 824768778}
   m_Layer: 0
   m_Name: StateTriggerSmall (1)
   m_TagString: Untagged
@@ -3534,6 +3592,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -95.968, z: 0}
+--- !u!114 &824768778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824768772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb0d831732520324d8a3c57b14a5fd1c,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!114 &839702986 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5752958656259902145, guid: 0cd31afd7f54bbc4183a5847d566e3d6,
@@ -4614,6 +4697,7 @@ GameObject:
   - component: {fileID: 1213427324}
   - component: {fileID: 1213427323}
   - component: {fileID: 1213427322}
+  - component: {fileID: 1213427327}
   m_Layer: 0
   m_Name: StateTriggerStomach
   m_TagString: Untagged
@@ -4732,6 +4816,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -89.569, z: 0}
+--- !u!114 &1213427327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213427321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5de900d05bf26cd4cb6139d0917663a3,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!114 &1239119267 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3759635406596314947, guid: b839185e8530797479d5b4df13785446,
@@ -4842,6 +4951,7 @@ GameObject:
   - component: {fileID: 1355566579}
   - component: {fileID: 1355566578}
   - component: {fileID: 1355566577}
+  - component: {fileID: 1355566582}
   m_Layer: 0
   m_Name: StateTriggerSmall
   m_TagString: Untagged
@@ -4960,6 +5070,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -95.968, z: 0}
+--- !u!114 &1355566582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355566576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb0d831732520324d8a3c57b14a5fd1c,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &1363209043
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,6 +5108,7 @@ GameObject:
   - component: {fileID: 1363209045}
   - component: {fileID: 1363209044}
   - component: {fileID: 1363209048}
+  - component: {fileID: 1363209049}
   m_Layer: 0
   m_Name: StateTriggerLarge
   m_TagString: Untagged
@@ -5086,6 +5222,31 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4c63e38f431846144a869dc166815f90,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &1363209049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363209043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb0d831732520324d8a3c57b14a5fd1c,
       type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
@@ -5394,6 +5555,7 @@ GameObject:
   - component: {fileID: 1443341580}
   - component: {fileID: 1443341579}
   - component: {fileID: 1443341578}
+  - component: {fileID: 1443341583}
   m_Layer: 0
   m_Name: StateTriggerLarge (2)
   m_TagString: Untagged
@@ -5512,6 +5674,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -84.592, z: 0}
+--- !u!114 &1443341583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443341577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87c9a88c1d03ce941972394b1f3ac58a,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!198 &1445483757 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198321120434662062, guid: a176d052b7377f04fadcaa8c6ffc1132,
@@ -5537,6 +5724,7 @@ GameObject:
   - component: {fileID: 1450780231}
   - component: {fileID: 1450780230}
   - component: {fileID: 1450780229}
+  - component: {fileID: 1450780234}
   m_Layer: 0
   m_Name: StateTriggerLarge (1)
   m_TagString: Untagged
@@ -5655,6 +5843,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1450780234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450780228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bb0d831732520324d8a3c57b14a5fd1c,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1001 &1491254368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7870,6 +8083,7 @@ GameObject:
   - component: {fileID: 1870236808}
   - component: {fileID: 1870236807}
   - component: {fileID: 1870236806}
+  - component: {fileID: 1870236811}
   m_Layer: 0
   m_Name: StateTriggerLarge (3)
   m_TagString: Untagged
@@ -7988,6 +8202,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1060241950}
   m_LocalEulerAnglesHint: {x: 0, y: -95.968, z: 0}
+--- !u!114 &1870236811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870236805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4249ec56d339424da582afdb7bbf475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87c9a88c1d03ce941972394b1f3ac58a,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1001 &1893717807
 PrefabInstance:
   m_ObjectHideFlags: 0

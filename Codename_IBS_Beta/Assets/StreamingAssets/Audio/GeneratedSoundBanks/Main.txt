@@ -17,15 +17,22 @@ Event	ID	Name			Wwise Object Path	Notes
 	3347914759	sfx_enemies_germspike_hit			\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit\sfx_enemies_germspike_hit	
 	3358445023	sfx_weapon_healmatic500_reload			\Default Work Unit\Weapons\Healmatic500\Reload\sfx_weapon_healmatic500_reload	
 	3369942825	sfx_enemies_germslime_hit			\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemies_germslime_hit	
+	3725903807	Music_Start			\Default Work Unit\Ambiences\Music_Start	
 	3789107537	Room_Amb			\Default Work Unit\Ambiences\Room_Amb	
 	3791724757	sfx_weapon_all_swap			\Default Work Unit\Weapons\Weapon Swap\sfx_weapon_all_swap	
 	3801009704	sfx_enemies_fatblob_dissolve			\Default Work Unit\Enemies\Fat Blob\Dissolve\sfx_enemies_fatblob_dissolve	
 	3902373752	sfx_enemies_bloodcell_hit			\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemies_bloodcell_hit	
 
 State Group	ID	Name			Wwise Object Path	Notes
+	212799888	Music_Room			\Default Work Unit\Music_Room	
 	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
 
 State	ID	Name	State Group			Notes
+	136808247	Brain	Music_Room			
+	748895195	None	Music_Room			
+	1434060888	Stomach	Music_Room			
+	2665378999	Heart	Music_Room			
+	3181406844	Home	Music_Room			
 	748895195	None	Room_Amb			
 	1434060888	Stomach	Room_Amb			
 	1846755610	Small	Room_Amb			
@@ -59,8 +66,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1064385070	sfx_enemy_all_death_01	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_all_death_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\All\sfx_enemy_all_death_01		100624
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	70606778	Heart Room Loop	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Main Loop_FBC78EF0.wem	70606778.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Heart Room Loop	
+	273973747	Blood Vessel Loop	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Blood Vessel Loop_FBC78EF0.wem	273973747.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Blood Vessel Loop	
 	468109344	amb_stomach_loop_Dripping Amb	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_stomach_loop_Dripping Amb_FBC78EF0.wem	468109344.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_stomach_loop_Dripping Amb	
 	604475359	amb_room_small_loop	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_room_small_loop_FBC78EF0.wem	604475359.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_room_small_loop	
 	747429870	IBS_amb_hospital_loop_v2	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\IBS_amb_hospital_loop_v2_5A068A4E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\IBS_amb_hospital_loop_v2	
+	763917729	Brain Room Loop	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Brain Room Loop_FBC78EF0.wem	763917729.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Brain Room Loop	
 	853583580	amb_room_large_loop	C:\Users\Walker Hammond\Downloads\School Stuff\Game Sound 2\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_room_large_loop_FBC78EF0.wem	853583580.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_room_large_loop	
 

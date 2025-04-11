@@ -421,6 +421,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{E07FF0F8-0808-42AE-9EA2-D1E42F981808}" ShortID="868284679">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Large" ID="{499C507A-BC19-4826-9B65-77E06320CB8F}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{D74E08A6-4DE5-4D57-AB34-DDADA0EB7EE0}" ShortID="972785644">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -439,6 +449,71 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="amb_stomach_loop_Dripping Amb" ID="{ABCC7A46-CD93-42B5-87EE-5A1E46255851}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Start" ID="{0A05025D-4515-448B-B249-10E40D8542D2}">
+							<ChildrenList>
+								<Action Name="" ID="{07EF3621-4A72-4AFF-BBB4-8CF1ED1FA67C}" ShortID="168009141">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blood Vessel Loop" ID="{11C24740-793C-4002-8737-B8BE95D34C88}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{871876A5-1BBD-4C96-87DD-634C934E11BE}" ShortID="827451342">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Brain Room Loop" ID="{865670F8-A575-47CD-977E-6523622F823C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{228F7888-E1A0-465F-B7BD-46316901AE18}" ShortID="377402545">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1EE8667E-E5DA-4A5D-8590-FA0E1A6E964E}" ShortID="86800567">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B1449B0-0803-46A7-B98D-A3872FCC0139}" ShortID="645418962">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blood Vessel Loop" ID="{11C24740-793C-4002-8737-B8BE95D34C88}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AE6CD060-E003-4A79-BE08-30E796451EA9}" ShortID="603840591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Brain Room Loop" ID="{865670F8-A575-47CD-977E-6523622F823C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B7C58A24-FE50-4FAF-9670-24D1306D7F55}" ShortID="782231984">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

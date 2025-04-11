@@ -10,9 +10,40 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music Bus" ID="{9313AC57-5252-47F4-94C8-8CBBE96649B1}"/>
+						<Bus Name="Music Bus" ID="{9313AC57-5252-47F4-94C8-8CBBE96649B1}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E5F7AA88-D810-4E71-9D25-989503EC57F3}" ShortID="58673623">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<ObjectRef Name="New_Parametric_EQ" ID="{79036A2A-6745-4977-8540-7D21882C947C}" WorkUnitID="{EC65DDEB-63EE-4ACA-8E39-E97CBFF15473}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 						<Bus Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}"/>
-						<Bus Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}"/>
+						<Bus Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584581515713832971
+    m_lastTime: -8584572747044456085
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584573722713763249
+    m_lastTime: -8584573034751767263
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584573722713933278
+    m_lastTime: -8584572744748280781
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -228,6 +228,29 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Death
+      guid: c1251c0b351d4f4e84a9a4f0163b44b3
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Germ Slime
+        ObjectType: 4
+        guid: 4b418d7d94343447a41afa44d69ee8f4
+      - ElementName: Death
+        ObjectType: 4
+        guid: c1251c0b351d4f4e84a9a4f0163b44b3
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Death
       guid: e411166fdadc05418f6e194bf845982d
       id: 779278001
       PathAndIcons:
@@ -250,29 +273,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: e411166fdadc05418f6e194bf845982d
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Death
-      guid: c1251c0b351d4f4e84a9a4f0163b44b3
-      id: 779278001
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Enemies
-        ObjectType: 4
-        guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Germ Slime
-        ObjectType: 4
-        guid: 4b418d7d94343447a41afa44d69ee8f4
-      - ElementName: Death
-        ObjectType: 4
-        guid: c1251c0b351d4f4e84a9a4f0163b44b3
-      Path: Events\Default Work Unit\Enemies\Germ Slime\Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -337,29 +337,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Fire
-      guid: 24dadd0be9285044a6b0c70c7fda699a
-      id: 2678880713
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: fb6c2611908a434dbe0cfb7a038a3da4
-      - ElementName: GermOBlaster
-        ObjectType: 4
-        guid: 3444b38cd5423e46bb81e916dbd5670e
-      - ElementName: Fire
-        ObjectType: 4
-        guid: 24dadd0be9285044a6b0c70c7fda699a
-      Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Fire
       guid: 70be67c47411ba4bb3f06c4509e24404
       id: 2678880713
       PathAndIcons:
@@ -379,6 +356,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 70be67c47411ba4bb3f06c4509e24404
       Path: Events\Default Work Unit\Weapons\Healmatic500\Fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fire
+      guid: 24dadd0be9285044a6b0c70c7fda699a
+      id: 2678880713
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: GermOBlaster
+        ObjectType: 4
+        guid: 3444b38cd5423e46bb81e916dbd5670e
+      - ElementName: Fire
+        ObjectType: 4
+        guid: 24dadd0be9285044a6b0c70c7fda699a
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -403,26 +403,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Germ Spike
-      guid: 4de301080640cd4380edcbf40bdee100
-      id: 1977013236
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Enemies
-        ObjectType: 4
-        guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Germ Spike
-        ObjectType: 4
-        guid: 4de301080640cd4380edcbf40bdee100
-      Path: Events\Default Work Unit\Enemies\Germ Spike
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Germ Spike
       guid: f16ba29d1a1fad4086e47059802d62c7
       id: 1977013236
       PathAndIcons:
@@ -442,6 +422,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: f16ba29d1a1fad4086e47059802d62c7
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Germ Spike
+      guid: 4de301080640cd4380edcbf40bdee100
+      id: 1977013236
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Germ Spike
+        ObjectType: 4
+        guid: 4de301080640cd4380edcbf40bdee100
+      Path: Events\Default Work Unit\Enemies\Germ Spike
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -581,7 +581,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Idle
-      guid: 52ed2eff80549a4f95ce6aae5614d871
+      guid: d11040aee7603545b2f1d96f237b8186
       id: 1874288895
       PathAndIcons:
       - ElementName: Events
@@ -593,13 +593,13 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Fat Blob
+      - ElementName: Blood Cell
         ObjectType: 4
-        guid: a1ecc39dc901a949b66eda3f6c7c609a
+        guid: fab6ba8551e29d4a982d236091b8fd8c
       - ElementName: Idle
         ObjectType: 4
-        guid: 52ed2eff80549a4f95ce6aae5614d871
-      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle
+        guid: d11040aee7603545b2f1d96f237b8186
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -630,7 +630,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Idle
-      guid: d11040aee7603545b2f1d96f237b8186
+      guid: 52ed2eff80549a4f95ce6aae5614d871
       id: 1874288895
       PathAndIcons:
       - ElementName: Events
@@ -642,13 +642,33 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Blood Cell
+      - ElementName: Fat Blob
         ObjectType: 4
-        guid: fab6ba8551e29d4a982d236091b8fd8c
+        guid: a1ecc39dc901a949b66eda3f6c7c609a
       - ElementName: Idle
         ObjectType: 4
-        guid: d11040aee7603545b2f1d96f237b8186
-      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle
+        guid: 52ed2eff80549a4f95ce6aae5614d871
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Start
+      guid: 5d02050a15458b44b24910e40d8542d2
+      id: 3725903807
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Ambiences
+        ObjectType: 4
+        guid: 2d5928a3f2ecb5489f04bce52ea7d017
+      - ElementName: Music_Start
+        ObjectType: 3
+        guid: 5d02050a15458b44b24910e40d8542d2
+      Path: Events\Default Work Unit\Ambiences\Music_Start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -673,29 +693,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Reload
-      guid: c65a21a314b07a49b69acaae61d14085
-      id: 456382354
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: fb6c2611908a434dbe0cfb7a038a3da4
-      - ElementName: GermOBlaster
-        ObjectType: 4
-        guid: 3444b38cd5423e46bb81e916dbd5670e
-      - ElementName: Reload
-        ObjectType: 4
-        guid: c65a21a314b07a49b69acaae61d14085
-      Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Reload
       guid: 098ae234c727bd4bb4dc8ae36d0ff679
       id: 456382354
       PathAndIcons:
@@ -715,6 +712,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 098ae234c727bd4bb4dc8ae36d0ff679
       Path: Events\Default Work Unit\Weapons\Healmatic500\Reload
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Reload
+      guid: c65a21a314b07a49b69acaae61d14085
+      id: 456382354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: GermOBlaster
+        ObjectType: 4
+        guid: 3444b38cd5423e46bb81e916dbd5670e
+      - ElementName: Reload
+        ObjectType: 4
+        guid: c65a21a314b07a49b69acaae61d14085
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1309,8 +1329,106 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
-    m_lastTime: -8584573722713843261
+    m_lastTime: -8584572743623865429
     List:
+    - name: Music_Room
+      guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+      id: 212799888
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+      - ElementName: Music_Room
+        ObjectType: 9
+        guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+      Path: States\Default Work Unit\Music_Room
+      values:
+      - name: Brain
+        guid: 509a75a63a022244ac30a2eebee878a3
+        id: 136808247
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: Music_Room
+          ObjectType: 9
+          guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+        - ElementName: Brain
+          ObjectType: 8
+          guid: 509a75a63a022244ac30a2eebee878a3
+      - name: Heart
+        guid: 3197b63ea689f744b4c3a5607ea4b5a7
+        id: 2665378999
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: Music_Room
+          ObjectType: 9
+          guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+        - ElementName: Heart
+          ObjectType: 8
+          guid: 3197b63ea689f744b4c3a5607ea4b5a7
+      - name: Home
+        guid: d9ad608a9b70d74e91e535dc8987f420
+        id: 3181406844
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: Music_Room
+          ObjectType: 9
+          guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+        - ElementName: Home
+          ObjectType: 8
+          guid: d9ad608a9b70d74e91e535dc8987f420
+      - name: None
+        guid: fbcb28a6200fcd498bbcb50b56547066
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: Music_Room
+          ObjectType: 9
+          guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+        - ElementName: None
+          ObjectType: 8
+          guid: fbcb28a6200fcd498bbcb50b56547066
+      - name: Stomach
+        guid: d95793999ba18b4690c88b4d199e58d8
+        id: 1434060888
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
+        - ElementName: Music_Room
+          ObjectType: 9
+          guid: bd85b1bd76c4ad4899cc5e2e18997aa4
+        - ElementName: Stomach
+          ObjectType: 8
+          guid: d95793999ba18b4690c88b4d199e58d8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Room_Amb
       guid: 4b1e42dd69476d43b4ea854ccec91a6a
       id: 3789107537
@@ -1422,7 +1540,7 @@ MonoBehaviour:
     m_lastTime: -8584593472417409241
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000001d00000020000000210000002a0000003a0000003b000000410000004400000086000000b0000000b1000000b2000000f7000000f8000000f9000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000c0000000d0000000e0000001d00000020000000210000002a0000003a0000003b00000041000000440000007a0000007b0000007c00000086000000b0000000b1000000b2000000f7000000f8000000f9000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

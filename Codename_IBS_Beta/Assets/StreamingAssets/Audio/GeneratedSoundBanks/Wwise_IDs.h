@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+        static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID ROOM_AMB = 3789107537U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_DEATH = 1012708473U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_HIT = 3902373752U;
@@ -39,6 +40,20 @@ namespace AK
 
     namespace STATES
     {
+        namespace MUSIC_ROOM
+        {
+            static const AkUniqueID GROUP = 212799888U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BRAIN = 136808247U;
+                static const AkUniqueID HEART = 2665378999U;
+                static const AkUniqueID HOME = 3181406844U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STOMACH = 1434060888U;
+            } // namespace STATE
+        } // namespace MUSIC_ROOM
+
         namespace ROOM_AMB
         {
             static const AkUniqueID GROUP = 3789107537U;

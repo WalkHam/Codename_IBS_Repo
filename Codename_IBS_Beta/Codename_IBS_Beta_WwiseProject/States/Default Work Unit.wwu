@@ -11,6 +11,44 @@
 						<State Name="Stomach" ID="{1C650F84-0F60-41F3-A767-24AC423C0E65}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Music_Room" ID="{BDB185BD-C476-48AD-99CC-5E2E18997AA4}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="4"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{A628CBFB-0F20-49CD-8BBC-B50B56547066}"/>
+						<State Name="Brain" ID="{A6759A50-023A-4422-AC30-A2EEBEE878A3}"/>
+						<State Name="Stomach" ID="{999357D9-A19B-468B-90C8-8B4D199E58D8}"/>
+						<State Name="Heart" ID="{3EB69731-89A6-44F7-B4C3-A5607EA4B5A7}"/>
+						<State Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Brain" ID="{A6759A50-023A-4422-AC30-A2EEBEE878A3}"/>
+							<EndState Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Heart" ID="{3EB69731-89A6-44F7-B4C3-A5607EA4B5A7}"/>
+							<EndState Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="None" ID="{A628CBFB-0F20-49CD-8BBC-B50B56547066}"/>
+							<EndState Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Stomach" ID="{999357D9-A19B-468B-90C8-8B4D199E58D8}"/>
+							<EndState Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

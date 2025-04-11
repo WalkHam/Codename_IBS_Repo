@@ -9,10 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4AD2CA2F-5DA7-7D9A-270C-CE7CA14B4194}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A4183317-B812-CD7A-A7FA-A9E34E813F30}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3657550167" Name="New_Parametric_EQ" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -21,10 +24,25 @@
 			<Busses>
 				<Bus Id="1313057045" Name="Amb Bus"/>
 				<Bus Id="1502772432" Name="SFX Bus"/>
-				<Bus Id="3127962312" Name="Music Bus"/>
+				<Bus Id="3127962312" Name="Music Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3657550167"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<StateGroups>
+				<StateGroup Id="212799888" Name="Music_Room">
+					<States>
+						<State Id="136808247" Name="Brain"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="2665378999" Name="Heart"/>
+						<State Id="3181406844" Name="Home"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="3789107537" Name="Room_Amb">
 					<States>
 						<State Id="748895195" Name="None"/>
@@ -35,10 +53,15 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D9A63315-5717-A7A1-2B6A-617F4E3D217B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{48BA287B-54A6-7308-7D13-5C5CC8AA960A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="70606778" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Main Loop.wav</ShortName>
+					<Path>Media/70606778.wem</Path>
+					<CachePath>SFX/Main Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="96736177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_pill_throw_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_throw_01_818F3B66.wem</CachePath>
@@ -62,6 +85,11 @@
 				<File Id="224893202" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_05.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="273973747" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Blood Vessel Loop.wav</ShortName>
+					<Path>Media/273973747.wem</Path>
+					<CachePath>SFX/Blood Vessel Loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="287086954" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</ShortName>
@@ -134,6 +162,11 @@
 					<ShortName>sfx_weapon_all_swap_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_all_swap_01_1403AD7D.wem</CachePath>
 				</File>
+				<File Id="763917729" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Brain Room Loop.wav</ShortName>
+					<Path>Media/763917729.wem</Path>
+					<CachePath>SFX/Brain Room Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="803988425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_hit_01.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_hit_01_818F3B66.wem</CachePath>
@@ -166,12 +199,25 @@
 						<MediaRef Id="747429870"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3725903807" Name="Music_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="70606778"/>
+						<MediaRef Id="273973747"/>
+						<MediaRef Id="763917729"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="212799888" Id="3181406844" Name="Home"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="3789107537" Name="Room_Amb" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="468109344"/>
 						<MediaRef Id="604475359"/>
 						<MediaRef Id="853583580"/>
 					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3789107537" Id="4284352190" Name="Large"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
 					<MediaRefs>
@@ -275,7 +321,26 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="212799888" Name="Music_Room">
+					<States>
+						<State Id="136808247" Name="Brain"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="2665378999" Name="Heart"/>
+						<State Id="3181406844" Name="Home"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3789107537" Name="Room_Amb">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1434060888" Name="Stomach"/>
+						<State Id="1846755610" Name="Small"/>
+						<State Id="4284352190" Name="Large"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6ED830C7-6F6D-082C-F016-ED8826D632C4}</FileHash>
+	<FileHash>{BAA24306-F3AA-B9A9-3406-9BB5C53E2613}</FileHash>
 </SoundBanksInfo>
