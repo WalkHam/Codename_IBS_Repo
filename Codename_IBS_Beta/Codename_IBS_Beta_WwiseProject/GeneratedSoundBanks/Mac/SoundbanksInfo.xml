@@ -53,7 +53,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{48BA287B-54A6-7308-7D13-5C5CC8AA960A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6BACCF99-B775-62A2-7109-3A51A5663F46}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -184,6 +184,10 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="936462250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_door&amp;key_key_collected_01.wav</ShortName>
+					<CachePath>SFX/sfx_door&amp;key_key_collected_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="953187999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_fatblob_idle_02.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_fatblob_idle_02_FBC78EF0.wem</CachePath>
@@ -218,6 +222,11 @@
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="3789107537" Id="4284352190" Name="Large"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="4161317462" Name="sfx_doorandkey_key_collect" DurationType="OneShot" DurationMin="8" DurationMax="8">
+					<MediaRefs>
+						<MediaRef Id="936462250"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
 					<MediaRefs>
@@ -257,6 +266,7 @@
 				</Event>
 				<Event Id="1948922918" Name="sfx_enemies_germspike_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
 					<MediaRefs>
+						<MediaRef Id="292638115"/>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
@@ -293,7 +303,7 @@
 						<MediaRef Id="424706265"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3358445023" Name="sfx_weapon_healmatic500_reload" DurationType="OneShot" DurationMin="1.1590416" DurationMax="1.1590416">
+				<Event Id="3358445023" Name="sfx_weapon_healmatic500_reload" DurationType="OneShot" DurationMin="1.2090416" DurationMax="1.2090416">
 					<MediaRefs>
 						<MediaRef Id="564281337"/>
 						<MediaRef Id="756462970"/>
@@ -315,9 +325,10 @@
 						<MediaRef Id="96736177"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="2.6051562" DurationMax="2.6051562">
+				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="8" DurationMax="8">
 					<MediaRefs>
 						<MediaRef Id="210565171"/>
+						<MediaRef Id="936462250"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -342,5 +353,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9354EB89-C877-EF98-1C1C-DD0F965B6703}</FileHash>
+	<FileHash>{887D2F16-4447-9278-D9D9-55007948FA3F}</FileHash>
 </SoundBanksInfo>

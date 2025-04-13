@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" ShortID="784169249">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -1874,6 +1881,32 @@
 							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="Main Loop" ID="{5BDE74D0-85D4-4461-936D-842B71210CD3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Key" ID="{148D0879-4FD1-4C34-89EA-1DBC6CEAAAA6}" ShortID="692538345">
+					<ChildrenList>
+						<Sound Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" ShortID="555097478">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_door&amp;key_key_collected_01" ID="{1B9690CD-EC02-46E8-A889-399D772B53A5}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_door&amp;key_key_collected_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="936462250"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_door&amp;key_key_collected_01" ID="{1B9690CD-EC02-46E8-A889-399D772B53A5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -12,6 +12,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{C393ACE2-6A87-41BE-98EF-A1C07A0B1DD0}" ShortID="864825133">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="Weapons" ID="{11266CFB-8A90-4D43-BE0C-FB7A038A3DA4}" ShortID="1000356522">
@@ -99,7 +106,7 @@
 												</Action>
 												<Action Name="" ID="{CA4970D0-7353-4D5B-8ED5-5832B345725F}" ShortID="176041874">
 													<PropertyList>
-														<Property Name="Delay" Type="Real64" Value="0.9"/>
+														<Property Name="Delay" Type="Real64" Value="0.95"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -227,6 +234,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{80EF6CF3-9437-4AB0-8361-DAB4D012C43E}" ShortID="93348859">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_fatblob_idle_02" ID="{EBBDC2C2-5D84-4DE2-8E6D-C44B0755CABD}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 									</ChildrenList>
@@ -261,6 +278,16 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{6A77A501-6CC0-44C7-BF05-B5902EFF3619}" ShortID="693627067">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_bloodcell_idle_03" ID="{170C5897-9B73-402C-AEC8-4D17CA9583E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 									</ChildrenList>
@@ -292,6 +319,26 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E9020DD8-1D29-40DB-8BF7-9988046F9E3F}" ShortID="633580150">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_germslime_idle_01" ID="{FE8F6B4E-D9FB-48B6-B8F6-4B5C3A4507B9}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{1C8293E9-4B0F-4FC7-9ADA-9B515C3D81E0}" ShortID="887518871">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_germslime_idle_02" ID="{0086E8C1-9B86-4988-826F-3F6A798EA9D0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -333,6 +380,16 @@
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{A304ACF6-8485-467F-8F3B-F9C41AE52504}" ShortID="391319163">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="sfx_enemy_germspike_idle_01" ID="{383D4C05-4D90-4984-92FD-265F95364C50}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -514,6 +571,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Key" ID="{03F64E01-B7D1-45D9-918A-2F457DD299EA}" ShortID="915297322">
+					<ChildrenList>
+						<Event Name="sfx_doorandkey_key_collect" ID="{A03C8C03-70D9-4847-8F30-0F61E2B5F389}">
+							<ChildrenList>
+								<Action Name="" ID="{D608DA6F-B365-4F5E-9E46-B7C169859C81}" ShortID="864545061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
         static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID ROOM_AMB = 3789107537U;
+        static const AkUniqueID SFX_DOORANDKEY_KEY_COLLECT = 4161317462U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_DEATH = 1012708473U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_HIT = 3902373752U;
         static const AkUniqueID SFX_ENEMIES_BLOODCELL_IDLE = 1098573287U;
