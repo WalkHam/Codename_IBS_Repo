@@ -20,9 +20,14 @@ namespace AK
         static const AkUniqueID SFX_ENEMIES_FATBLOB_DISSOLVE = 3801009704U;
         static const AkUniqueID SFX_ENEMIES_FATBLOB_IDLE = 3292684059U;
         static const AkUniqueID SFX_ENEMIES_GERMSLIME_DEATH = 102550024U;
+        static const AkUniqueID SFX_ENEMIES_GERMSLIME_HIT = 3369942825U;
         static const AkUniqueID SFX_ENEMIES_GERMSLIME_IDLE = 3055844788U;
         static const AkUniqueID SFX_ENEMIES_GERMSPIKE_DEATH = 1948922918U;
+        static const AkUniqueID SFX_ENEMIES_GERMSPIKE_HIT = 3347914759U;
         static const AkUniqueID SFX_ENEMIES_GERMSPIKE_IDLE = 2334927414U;
+        static const AkUniqueID SFX_PLAYER_FS = 960125980U;
+        static const AkUniqueID SFX_PLAYER_JUMP = 648313621U;
+        static const AkUniqueID SFX_PLAYER_LAND = 2972376730U;
         static const AkUniqueID SFX_WEAPON_ALL_SWAP = 3791724757U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_RELOAD = 228935287U;
@@ -33,6 +38,21 @@ namespace AK
         static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;
         static const AkUniqueID TEST_POP = 3024126497U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FS_MATERIALS
+        {
+            static const AkUniqueID GROUP = 2329250963U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID FLESH = 1153642577U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace SWITCH
+        } // namespace FS_MATERIALS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

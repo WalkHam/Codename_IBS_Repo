@@ -17,8 +17,11 @@ public class GameSystem : MonoBehaviour
     
     public GameObject[] StartPrefabs;
     public float TargetMissedPenalty = 1.0f;
-    public AudioSource BGMPlayer;
-    public AudioClip EndGameSound;
+    //public AudioSource BGMPlayer;
+    //public AudioClip EndGameSound;
+
+    [Header("Wwise event for game win")]
+    public AK.Wwise.Event PlayerWin;
     
     public float RunTime => m_Timer;
     public int TargetCount => m_TargetCount;
@@ -97,9 +100,12 @@ public class GameSystem : MonoBehaviour
 
     public void FinishRun()
     {
-        BGMPlayer.clip = EndGameSound;
+        //Wwise event trigger
+        PlayerWin.Post(gameObject);
+
+        /*BGMPlayer.clip = EndGameSound;
         BGMPlayer.loop = false;
-        BGMPlayer.Play();
+        BGMPlayer.Play();*/
         
         Controller.Instance.DisplayCursor(true);
         Controller.Instance.CanPause = false;

@@ -24,8 +24,16 @@
 				<Bus Id="3127962312" Name="Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2329250963" Name="fs_materials">
+					<Switches>
+						<Switch Id="1153642577" Name="flesh"/>
+						<Switch Id="2654748154" Name="water"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C39155-9182-D1EF-88E6-BBF9AF1D9D52}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2A5C1298-08B4-6B1D-B63F-CDC8742C2D67}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -33,9 +41,25 @@
 					<ShortName>sfx_weapon_pill_throw_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_throw_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="105374616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_06DC93A2.wem</CachePath>
+				</File>
+				<File Id="115578105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_B2A87ABF.wem</CachePath>
+				</File>
 				<File Id="132580410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="148785623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_0A62D132.wem</CachePath>
+				</File>
+				<File Id="154864570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_7B3D720E.wem</CachePath>
 				</File>
 				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
@@ -73,13 +97,17 @@
 					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_fire_01_5C0657E3.wem</CachePath>
 				</File>
+				<File Id="509234353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_EBEDE18C.wem</CachePath>
+				</File>
 				<File Id="564281337" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_02_818F3B66.wem</CachePath>
 				</File>
 				<File Id="564359925" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_fatblob_dissolve_01.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_B156F963.wem</CachePath>
+					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_1EF358E8.wem</CachePath>
 				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
@@ -126,6 +154,10 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="911656691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_29956E29.wem</CachePath>
+				</File>
 				<File Id="953187999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_fatblob_idle_02.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_fatblob_idle_02_FBC78EF0.wem</CachePath>
@@ -171,6 +203,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3369942825" Name="sfx_enemies_germslime_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3055844788" Name="sfx_enemies_germslime_idle" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="214146599"/>
@@ -181,11 +214,34 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2334927414" Name="sfx_enemies_germspike_idle" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="292638115"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="960125980" Name="sfx_player_fs" DurationType="OneShot" DurationMin="0.14555421" DurationMax="0.41638583">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2329250963" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="105374616"/>
+								<MediaRef Id="154864570"/>
+								<MediaRef Id="911656691"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2329250963" Id="1153642577" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="115578105"/>
+								<MediaRef Id="148785623"/>
+								<MediaRef Id="509234353"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="648313621" Name="sfx_player_jump" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2972376730" Name="sfx_player_land" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.7977777" DurationMax="0.7977777">
 					<MediaRefs>
 						<MediaRef Id="757333123"/>
@@ -241,7 +297,15 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2329250963" Name="fs_materials">
+					<Switches>
+						<Switch Id="1153642577" Name="flesh"/>
+						<Switch Id="2654748154" Name="water"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4A54C3A6-1E8B-048A-AE3B-A115BFD3AE94}</FileHash>
+	<FileHash>{07459509-A3D0-DF6B-0709-93EC30EDDE9D}</FileHash>
 </SoundBanksInfo>

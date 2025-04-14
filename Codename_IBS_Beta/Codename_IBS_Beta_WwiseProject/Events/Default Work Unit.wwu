@@ -387,6 +387,23 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Player" ID="{8E30FF95-68E2-4F60-9B8B-86D0527CAA16}" ShortID="1058555620">
+					<ChildrenList>
+						<Event Name="sfx_player_fs" ID="{87562549-5D60-42E0-8D77-CBF766472ABE}">
+							<ChildrenList>
+								<Action Name="" ID="{221B0D31-623D-4FB4-958B-30184A9AD482}" ShortID="950654630">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_fs" ID="{26F560DF-2B08-40FA-A909-B80871022F2B}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_player_jump" ID="{3B30016B-EF40-42BE-A44E-E9CA7CE91D90}"/>
+						<Event Name="sfx_player_land" ID="{26187355-D4AF-4200-82A4-166B85D69627}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
