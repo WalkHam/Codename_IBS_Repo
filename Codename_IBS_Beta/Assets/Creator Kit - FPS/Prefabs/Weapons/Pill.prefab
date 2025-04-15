@@ -932,6 +932,6 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 615767aaf3182674589ee5343fa8c1d4,
+    WwiseObjectReference: {fileID: 11400000, guid: 85eaee64546f39d4ea5b1b18e01a3260,
       type: 2}
   SoundSource: {fileID: 6325668739726325137}

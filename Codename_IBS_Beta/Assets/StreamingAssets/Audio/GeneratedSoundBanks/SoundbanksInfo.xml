@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A4183317-B812-CD7A-A7FA-A9E34E813F30}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2DDF05A3-17F9-5574-2945-B5678465CD63}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -33,6 +33,11 @@
 				</Bus>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="4209755525" Name="AmbVolume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="212799888" Name="Music_Room">
 					<States>
@@ -52,11 +57,27 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4050929301" Name="Materials">
+					<Switches>
+						<Switch Id="1153642577" Name="flesh"/>
+						<Switch Id="2654748154" Name="water"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6BACCF99-B775-62A2-7109-3A51A5663F46}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{823FEEE9-D528-6A73-935D-D32BC488609E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="7991682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_jump_flesh.wav</ShortName>
+					<CachePath>SFX/sfx_player_jump_flesh_DA18FD4D.wem</CachePath>
+				</File>
+				<File Id="25998486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_land_normal.wav</ShortName>
+					<CachePath>SFX/sfx_land_normal_C42264F5.wem</CachePath>
+				</File>
 				<File Id="70606778" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Main Loop.wav</ShortName>
 					<Path>Media/70606778.wem</Path>
@@ -70,13 +91,17 @@
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="165208442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_2DA9419A.wem</CachePath>
+				</File>
+				<File Id="171311423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_8FA52105.wem</CachePath>
+				</File>
 				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_idle_03_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
-					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="214146599" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_germslime_idle_02.wav</ShortName>
@@ -91,6 +116,10 @@
 					<Path>Media/273973747.wem</Path>
 					<CachePath>SFX/Blood Vessel Loop_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="283116729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_936D2E69.wem</CachePath>
+				</File>
 				<File Id="287086954" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_01.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_01_818F3B66.wem</CachePath>
@@ -102,6 +131,14 @@
 				<File Id="316645899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_04.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="321118989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_jump_cloth.wav</ShortName>
+					<CachePath>SFX/sfx_player_jump_cloth_D0B13665.wem</CachePath>
+				</File>
+				<File Id="326142413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_land_normal.wav</ShortName>
+					<CachePath>SFX/sfx_land_normal_2DE04C12.wem</CachePath>
 				</File>
 				<File Id="416187476" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_pill_reload_01.wav</ShortName>
@@ -115,6 +152,10 @@
 					<ShortName>amb_stomach_loop_Dripping Amb.wav</ShortName>
 					<Path>Media/468109344.wem</Path>
 					<CachePath>SFX/amb_stomach_loop_Dripping Amb_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="523310663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_6BCF8FBD.wem</CachePath>
 				</File>
 				<File Id="564281337" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
@@ -145,9 +186,17 @@
 					<ShortName>sfx_weapon_pill_explosion_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_explosion_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="686075472" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_jump_flesh.wav</ShortName>
+					<CachePath>SFX/sfx_player_jump_flesh_99344920.wem</CachePath>
+				</File>
 				<File Id="692757743" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_pill_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_reload_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="703227459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_jump.wav</ShortName>
+					<CachePath>SFX/sfx_jump_B3C65361.wem</CachePath>
 				</File>
 				<File Id="747429870" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>IBS_amb_hospital_loop_v2.wav</ShortName>
@@ -160,7 +209,7 @@
 				</File>
 				<File Id="757333123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_all_swap_01.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_all_swap_01_1403AD7D.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_all_swap_01_3A78EE74.wem</CachePath>
 				</File>
 				<File Id="763917729" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Brain Room Loop.wav</ShortName>
@@ -170,6 +219,14 @@
 				<File Id="803988425" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_hit_01.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_hit_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="832609673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_jump_flesh.wav</ShortName>
+					<CachePath>SFX/sfx_player_jump_flesh_3E0EE5E3.wem</CachePath>
+				</File>
+				<File Id="836494400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_land_normal.wav</ShortName>
+					<CachePath>SFX/sfx_land_normal_04E3F709.wem</CachePath>
 				</File>
 				<File Id="853583580" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>amb_room_large_loop.wav</ShortName>
@@ -184,6 +241,10 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="921723780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_jump_land_water.wav</ShortName>
+					<CachePath>SFX/sfx_jump_land_water_05FA4911.wem</CachePath>
+				</File>
 				<File Id="936462250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_door&amp;key_key_collected_01.wav</ShortName>
 					<CachePath>SFX/sfx_door&amp;key_key_collected_01_818F3B66.wem</CachePath>
@@ -191,6 +252,26 @@
 				<File Id="953187999" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_fatblob_idle_02.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_fatblob_idle_02_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="955245020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_jump_land_water.wav</ShortName>
+					<CachePath>SFX/sfx_jump_land_water_C3DFEDBA.wem</CachePath>
+				</File>
+				<File Id="967634214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_water.wav</ShortName>
+					<CachePath>SFX/sfx_foot_water_59FDF137.wem</CachePath>
+				</File>
+				<File Id="1006237911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_jump.wav</ShortName>
+					<CachePath>SFX/sfx_jump_6CD626C5.wem</CachePath>
+				</File>
+				<File Id="1027807427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_jump_flesh.wav</ShortName>
+					<CachePath>SFX/sfx_player_jump_flesh_4EDB7195.wem</CachePath>
+				</File>
+				<File Id="1062827818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_foot_normal.wav</ShortName>
+					<CachePath>SFX/sfx_foot_normal_9C966149.wem</CachePath>
 				</File>
 				<File Id="1064385070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_all_death_01.wav</ShortName>
@@ -276,7 +357,79 @@
 						<MediaRef Id="292638115"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.7977777" DurationMax="0.7977777">
+				<Event Id="960125980" Name="sfx_player_fs" DurationType="OneShot" DurationMin="0.08953522" DurationMax="0.39334473">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="165208442"/>
+								<MediaRef Id="171311423"/>
+								<MediaRef Id="967634214"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="1153642577" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="283116729"/>
+								<MediaRef Id="523310663"/>
+								<MediaRef Id="1062827818"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3000572683" Name="sfx_player_fs_material_flesh" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="4050929301" Id="1153642577" Name="flesh"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2418061404" Name="sfx_player_fs_material_water" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="4050929301" Id="2654748154" Name="water"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="648313621" Name="sfx_player_jump" DurationType="OneShot" DurationMin="0.33609623" DurationMax="0.38607314">
+					<MediaRefs>
+						<MediaRef Id="321118989"/>
+						<MediaRef Id="703227459"/>
+						<MediaRef Id="1006237911"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="955245020"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="1153642577" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="7991682"/>
+								<MediaRef Id="686075472"/>
+								<MediaRef Id="832609673"/>
+								<MediaRef Id="1027807427"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2972376730" Name="sfx_player_land" DurationType="OneShot" DurationMin="0.059990495" DurationMax="0.41282877">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="921723780"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="1153642577" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="25998486"/>
+								<MediaRef Id="326142413"/>
+								<MediaRef Id="836494400"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.6547495" DurationMax="0.6547495">
 					<MediaRefs>
 						<MediaRef Id="757333123"/>
 					</MediaRefs>
@@ -327,7 +480,6 @@
 				</Event>
 				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="8" DurationMax="8">
 					<MediaRefs>
-						<MediaRef Id="210565171"/>
 						<MediaRef Id="936462250"/>
 					</MediaRefs>
 				</Event>
@@ -351,7 +503,15 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="4050929301" Name="Materials">
+					<Switches>
+						<Switch Id="1153642577" Name="flesh"/>
+						<Switch Id="2654748154" Name="water"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{506D7539-C801-BA58-3948-AD09F0EEDDD9}</FileHash>
+	<FileHash>{F0AB626B-9D92-7C42-C736-E1A7533B5512}</FileHash>
 </SoundBanksInfo>

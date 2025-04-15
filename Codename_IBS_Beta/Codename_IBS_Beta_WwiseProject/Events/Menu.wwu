@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Menu" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

@@ -29,7 +29,10 @@ public class LevelLayout : MonoBehaviour
         
         foreach (var room in rooms)
         {
-            room.gameObject.hideFlags = HideFlags.HideInHierarchy;
+            if (room != null)
+            {
+                room.gameObject.hideFlags = HideFlags.HideInHierarchy;
+            }
         }
     }
 #endif
