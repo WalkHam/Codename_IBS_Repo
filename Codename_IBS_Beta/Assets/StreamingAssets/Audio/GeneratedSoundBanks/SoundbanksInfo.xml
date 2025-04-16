@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2DDF05A3-17F9-5574-2945-B5678465CD63}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D474DA30-186F-7C9D-0DDE-C5C38FA387A2}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -66,7 +66,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{823FEEE9-D528-6A73-935D-D32BC488609E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{82AA1C8E-D9B4-BA78-34A7-8C1E53A94BE2}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -209,7 +209,7 @@
 				</File>
 				<File Id="757333123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_all_swap_01.wav</ShortName>
-					<CachePath>SFX/sfx_weapon_all_swap_01_3A78EE74.wem</CachePath>
+					<CachePath>SFX/sfx_weapon_all_swap_01_1B11C7E4.wem</CachePath>
 				</File>
 				<File Id="763917729" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Brain Room Loop.wav</ShortName>
@@ -429,7 +429,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.6547495" DurationMax="0.6547495">
+				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.6138843" DurationMax="0.6138843">
 					<MediaRefs>
 						<MediaRef Id="757333123"/>
 					</MediaRefs>
@@ -467,7 +467,7 @@
 						<MediaRef Id="685681818"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1796022955" Name="sfx_weapon_pill_reload" DurationType="OneShot" DurationMin="0.9199375" DurationMax="0.9199375">
+				<Event Id="1796022955" Name="sfx_weapon_pill_reload" DurationType="OneShot" DurationMin="1.0199375" DurationMax="1.0199375">
 					<MediaRefs>
 						<MediaRef Id="416187476"/>
 						<MediaRef Id="692757743"/>
@@ -513,5 +513,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F0AB626B-9D92-7C42-C736-E1A7533B5512}</FileHash>
+	<FileHash>{96575A67-D985-4BF5-E32E-8377A35D1025}</FileHash>
 </SoundBanksInfo>

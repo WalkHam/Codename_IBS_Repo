@@ -39,6 +39,7 @@ public class Controller : MonoBehaviour
     public AK.Wwise.Event FootstepPlayer;
     public AK.Wwise.Event playerJump;
     public AK.Wwise.Event playerLand;
+    //public AK.Wwise.Event weaponSwitch;
     
     float m_VerticalSpeed = 0.0f;
     bool m_IsPaused = false;
@@ -199,12 +200,19 @@ public class Controller : MonoBehaviour
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
                 ChangeWeapon(m_CurrentWeapon - 1);
+
+                /* //Wwise event for weaponSwitch
+                   weaponSwitch.Post(gameObject);*/
+
             }
             else if (Input.GetAxis("Mouse ScrollWheel") > 0)
             {
                 ChangeWeapon(m_CurrentWeapon + 1);
+
+                /* //Wwise event for weaponSwitch
+                   weaponSwitch.Post(gameObject);*/
             }
-            
+
             //Key input to change weapon
 
             for (int i = 0; i < 10; ++i)
@@ -220,6 +228,9 @@ public class Controller : MonoBehaviour
                     if (num < m_Weapons.Count)
                     {
                         ChangeWeapon(num);
+
+                       /* //Wwise event for weaponSwitch
+                        weaponSwitch.Post(gameObject);*/
                     }
                 }
             }

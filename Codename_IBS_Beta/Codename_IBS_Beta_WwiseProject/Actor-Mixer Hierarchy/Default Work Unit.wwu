@@ -188,6 +188,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="sfx_weapon_pill_reload_02" ID="{86DB72C2-EE74-437B-9A26-B238E510A67F}" ShortID="448981291">
+									<PropertyList>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -205,11 +208,22 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{8B4DE58A-7A71-4B4D-979D-FF84589AB8F8}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="13.4206219312602"/>
+												<Property Name="PanY" Type="Real64" Value="31.5972222222222"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="sfx_weapon_pill_reload_02" ID="{4FE3A05F-A460-4159-9F6A-96A5D5496B57}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="sfx_weapon_pill_reload_01" ID="{02D30F10-2378-4D2D-83D4-840FB3D65221}" ShortID="740875885">
+									<PropertyList>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -227,6 +241,14 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{E8CF0882-AA89-423C-A3D8-2FB8B7C4FBC9}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="14.4026186579378"/>
+												<Property Name="PanY" Type="Real64" Value="34.7222222222222"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="sfx_weapon_pill_reload_01" ID="{84068A48-63F4-4804-884C-8935727C847B}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -481,6 +503,14 @@
 						<Folder Name="Weapon Swap" ID="{171C99C9-AFB5-4ECA-AE7F-27E32EF731A6}" ShortID="1050237144">
 							<ChildrenList>
 								<Sound Name="sfx_weapon_all_swap_01" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" ShortID="898738591">
+									<PropertyList>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -493,7 +523,7 @@
 										<AudioFileSource Name="sfx_weapon_all_swap_01" ID="{DD8DA857-9592-473F-BEBF-12EEF7562F6B}">
 											<PropertyList>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.90056424495728"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.94142944685752"/>
 												<Property Name="TrimEnd" Type="Real64" Value="3.55531376008064"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -503,6 +533,14 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{91B9B4B8-EB3D-4215-A0BA-77AEFB41B505}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="22.9132569558102"/>
+												<Property Name="PanY" Type="Real64" Value="51.7361111111111"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="sfx_weapon_all_swap_01" ID="{DD8DA857-9592-473F-BEBF-12EEF7562F6B}" Platform="Linked"/>
 									</ActiveSourceList>

@@ -65,12 +65,12 @@ public class DissolveAction : GameAction
     
     public override void Activated()
     {
-        //play wwise event
-        BlobDissolve.Post(gameObject);
+        
 
         enabled = true;
         m_ParticleSystem.Play();
-
+        //play wwise event
+        BlobDissolve.Post(gameObject);
         
     }
 }

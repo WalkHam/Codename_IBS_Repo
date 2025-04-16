@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584569179504138013
+    m_lastTime: -8584567725665230763
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584569393865854018
+    m_lastTime: -8584567727635319941
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -1111,8 +1111,8 @@ MonoBehaviour:
         guid: a0dc18047d046841b502566dda9e5fe3
       Path: Events\Default Work Unit\Weapons\Weapon Swap\sfx_weapon_all_swap
       maxAttenuation: 0
-      maxDuration: 0.6547495
-      minDuration: 0.6547495
+      maxDuration: 0.6138843
+      minDuration: 0.6138843
     - name: sfx_weapon_germoblaster_fire
       guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
       id: 1631753596
@@ -1261,8 +1261,8 @@ MonoBehaviour:
         guid: a55f92279c226c4fa0df460bbc32c900
       Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_reload
       maxAttenuation: 0
-      maxDuration: 0.9199375
-      minDuration: 0.9199375
+      maxDuration: 1.0199375
+      minDuration: 1.0199375
     - name: sfx_weapon_pill_throw
       guid: ccb1e42a82f0264080dcc310340ecab5
       id: 1104292844
@@ -1803,7 +1803,7 @@ MonoBehaviour:
     m_lastTime: -8584587591576062355
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000008000000090000000a0000000c0000000d0000000e000000190000001a0000001b0000001d00000020000000210000002a0000002e0000003a0000003b00000041000000440000007a0000007b0000007c00000086000000b0000000b1000000b2000000f7000000f8000000f9000000
+  ExpandedWaapiItemIds: 050000000600000008000000090000000a0000000b0000000c0000000d0000000e000000190000001a0000001b0000001d00000020000000210000002a0000002e000000300000003a0000003b0000004100000044000000520000007a0000007b0000007c00000086000000b0000000b1000000b2000000f7000000f8000000f9000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
