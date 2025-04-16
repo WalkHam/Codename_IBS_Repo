@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Brain
-  m_Shader: {fileID: -6465566751694194690, guid: 44349c0b3685d0944875a5a874f6ae33,
+  m_Shader: {fileID: -6465566751694194690, guid: 624c5dd1a1e390d448a09c46059d366d,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

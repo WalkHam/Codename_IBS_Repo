@@ -3,33 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
-					<ChildrenList>
-						<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{E0E81587-D0E6-4382-B1E4-5D65A7DCCB87}" ShortID="964598482">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Test_Pop" ID="{CA79058D-EC31-4DA8-9B47-0E24EBA21C1C}">
 					<ChildrenList>
 						<Action Name="" ID="{05AD9059-C5A7-4213-951B-2A8329951BEC}" ShortID="184277900">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+									<ObjectRef Name="Test_Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -75,7 +54,7 @@
 										</Action>
 										<Action Name="" ID="{F05DE52B-7281-48DB-A967-9873610BE71D}" ShortID="877593325">
 											<PropertyList>
-												<Property Name="Delay" Type="Real64" Value="0.2"/>
+												<Property Name="Delay" Type="Real64" Value="0.3"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -120,7 +99,7 @@
 												</Action>
 												<Action Name="" ID="{CA4970D0-7353-4D5B-8ED5-5832B345725F}" ShortID="176041874">
 													<PropertyList>
-														<Property Name="Delay" Type="Real64" Value="0.9"/>
+														<Property Name="Delay" Type="Real64" Value="0.95"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -241,10 +220,20 @@
 									<ChildrenList>
 										<Event Name="sfx_enemies_fatblob_dissolve" ID="{93C1A569-C6ED-4D75-BA02-768C0370E490}">
 											<ChildrenList>
-												<Action Name="" ID="{2EC0E44D-DB95-4365-AB59-EA25E1548482}" ShortID="550589998">
+												<Action Name="" ID="{9486868D-F094-4B05-96A5-91A6C00D0137}" ShortID="522920402">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="sfx_enemy_fatblob_dissolve_01" ID="{03C414FB-EB6A-48B2-A898-E93220E3BB1C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+															<ObjectRef Name="sfx_door&amp;key_door_dissolve_01" ID="{82116FFF-02A3-47FF-955C-F16C54F76FEB}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{80EF6CF3-9437-4AB0-8361-DAB4D012C43E}" ShortID="93348859">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_fatblob_idle_02" ID="{EBBDC2C2-5D84-4DE2-8E6D-C44B0755CABD}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -276,9 +265,22 @@
 										<Event Name="sfx_enemies_bloodcell_death" ID="{FF280226-89B7-4E50-B7AC-16F02CF6A2E8}">
 											<ChildrenList>
 												<Action Name="" ID="{41481C72-0D38-45CE-AE92-60DC945F4F61}" ShortID="419993584">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{6A77A501-6CC0-44C7-BF05-B5902EFF3619}" ShortID="693627067">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_bloodcell_idle_03" ID="{170C5897-9B73-402C-AEC8-4D17CA9583E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -310,9 +312,32 @@
 										<Event Name="sfx_enemies_germslime_death" ID="{472681A3-D7A2-43DF-9052-88EC7E91358A}">
 											<ChildrenList>
 												<Action Name="" ID="{69AD0F1F-B6DC-44AB-9693-C5FE046C6C4F}" ShortID="37833712">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E9020DD8-1D29-40DB-8BF7-9988046F9E3F}" ShortID="633580150">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_germslime_idle_01" ID="{FE8F6B4E-D9FB-48B6-B8F6-4B5C3A4507B9}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{1C8293E9-4B0F-4FC7-9ADA-9B515C3D81E0}" ShortID="887518871">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_germslime_idle_02" ID="{0086E8C1-9B86-4988-826F-3F6A798EA9D0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -351,9 +376,22 @@
 												<Event Name="sfx_enemies_germspike_death" ID="{0CD0B9BB-6921-4C5E-894A-003A4ABD62A5}">
 													<ChildrenList>
 														<Action Name="" ID="{C227DA8E-74A6-4E9C-9420-2122F8BE39FB}" ShortID="322450427">
+															<PropertyList>
+																<Property Name="Delay" Type="Real64" Value="0.05"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{A304ACF6-8485-467F-8F3B-F9C41AE52504}" ShortID="391319163">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="sfx_enemy_germspike_idle_01" ID="{383D4C05-4D90-4984-92FD-265F95364C50}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -387,6 +425,187 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambiences" ID="{A328592D-ECF2-48B5-9F04-BCE52EA7D017}" ShortID="105802097">
+					<ChildrenList>
+						<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
+							<ChildrenList>
+								<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E0E81587-D0E6-4382-B1E4-5D65A7DCCB87}" ShortID="964598482">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IBS_amb_hospital_loop_v2" ID="{0DE6C5AC-4A8D-48AB-A737-964DEA8F3B20}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Room_Amb" ID="{458BEDB1-4F4D-42F9-BA02-569A7C04C4EE}">
+							<ChildrenList>
+								<Action Name="" ID="{510AB05A-C2A5-4C0E-9004-1F05EA020FB1}" ShortID="795406554">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_large_loop" ID="{8289B1C4-D125-4793-9119-0D04A8641781}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D455C0E-B98D-4FB6-9F55-41F1C04F0AEA}" ShortID="750946896">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_small_loop" ID="{6DEAAF13-811B-4F47-A6F8-CB6A83997643}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13A6994E-6C57-4B66-B856-83FF707EDCE4}" ShortID="907459354">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_stomach_loop_Dripping Amb" ID="{ABCC7A46-CD93-42B5-87EE-5A1E46255851}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E07FF0F8-0808-42AE-9EA2-D1E42F981808}" ShortID="868284679">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Large" ID="{499C507A-BC19-4826-9B65-77E06320CB8F}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D74E08A6-4DE5-4D57-AB34-DDADA0EB7EE0}" ShortID="972785644">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_large_loop" ID="{8289B1C4-D125-4793-9119-0D04A8641781}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{773384E9-CE2D-4CFB-9896-A3D65A939979}" ShortID="771996270">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_room_small_loop" ID="{6DEAAF13-811B-4F47-A6F8-CB6A83997643}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1E9D0441-130C-4707-824A-83EFB89F4F14}" ShortID="347509169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_stomach_loop_Dripping Amb" ID="{ABCC7A46-CD93-42B5-87EE-5A1E46255851}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Start" ID="{0A05025D-4515-448B-B249-10E40D8542D2}">
+							<ChildrenList>
+								<Action Name="" ID="{07EF3621-4A72-4AFF-BBB4-8CF1ED1FA67C}" ShortID="168009141">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blood Vessel Loop" ID="{11C24740-793C-4002-8737-B8BE95D34C88}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{871876A5-1BBD-4C96-87DD-634C934E11BE}" ShortID="827451342">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Brain Room Loop" ID="{865670F8-A575-47CD-977E-6523622F823C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{228F7888-E1A0-465F-B7BD-46316901AE18}" ShortID="377402545">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1EE8667E-E5DA-4A5D-8590-FA0E1A6E964E}" ShortID="86800567">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3B1449B0-0803-46A7-B98D-A3872FCC0139}" ShortID="645418962">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blood Vessel Loop" ID="{11C24740-793C-4002-8737-B8BE95D34C88}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AE6CD060-E003-4A79-BE08-30E796451EA9}" ShortID="603840591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Brain Room Loop" ID="{865670F8-A575-47CD-977E-6523622F823C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B7C58A24-FE50-4FAF-9670-24D1306D7F55}" ShortID="782231984">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Key" ID="{03F64E01-B7D1-45D9-918A-2F457DD299EA}" ShortID="915297322">
+					<ChildrenList>
+						<Event Name="sfx_doorandkey_key_collect" ID="{A03C8C03-70D9-4847-8F30-0F61E2B5F389}">
+							<ChildrenList>
+								<Action Name="" ID="{D608DA6F-B365-4F5E-9E46-B7C169859C81}" ShortID="864545061">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Test_Hum" ID="{5136C7BB-3D53-459F-BCA7-E7F36C562047}">
+					<ChildrenList>
+						<Action Name="" ID="{FD09BD22-8B97-40AF-AFCF-EB8B53B42314}" ShortID="530124769">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test_Hum" ID="{34A63F3C-7F66-4A60-ABEE-76827E04B236}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

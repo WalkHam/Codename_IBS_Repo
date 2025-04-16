@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D139D35F-C132-423D-A72B-1AA2B4179E0E}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D139D35F-C132-423D-A72B-1AA2B4179E0E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D139D35F-C132-423D-A72B-1AA2B4179E0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Materials" ID="{7E4C6B73-57AC-4039-8A01-1266DEB862DF}">
+					<ChildrenList>
+						<Switch Name="flesh" ID="{C9278F46-67C1-4E40-A716-5F394155E4ED}"/>
+						<Switch Name="water" ID="{4947C325-FE68-4EE4-9E17-5D27F890B479}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

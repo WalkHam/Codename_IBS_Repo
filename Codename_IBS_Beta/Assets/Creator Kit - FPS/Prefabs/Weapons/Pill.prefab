@@ -102,8 +102,7 @@ MonoBehaviour:
   ReloadWeapon:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e231d0509c7084ffbaafb698b1ee76ca,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   PrefabRayTrail: {fileID: 0}
   DisabledOnEmpty: 1
   AmmoDisplay: {fileID: 0}
@@ -929,9 +928,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce9313454dbbba4e8e4b56bf47e395e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WwiseEvent:
+  WwiseEvent1:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 615767aaf3182674589ee5343fa8c1d4,
+    WwiseObjectReference: {fileID: 11400000, guid: 85eaee64546f39d4ea5b1b18e01a3260,
       type: 2}
+  WwiseEvent2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e231d0509c7084ffbaafb698b1ee76ca,
+      type: 2}
+  WwiseEvent3:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   SoundSource: {fileID: 6325668739726325137}

@@ -35,10 +35,11 @@ public class Controller : MonoBehaviour
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
 
-    [Header("Audio")]
-    public RandomPlayer FootstepPlayer;
-    public AudioClip JumpingAudioCLip;
-    public AudioClip LandingAudioClip;
+    [Header("Wwise Events")]
+    public AK.Wwise.Event FootstepPlayer;
+    public AK.Wwise.Event playerJump;
+    public AK.Wwise.Event playerLand;
+    //public AK.Wwise.Event weaponSwitch;
     
     float m_VerticalSpeed = 0.0f;
     bool m_IsPaused = false;
@@ -144,7 +145,10 @@ public class Controller : MonoBehaviour
                 m_VerticalSpeed = JumpSpeed;
                 m_Grounded = false;
                 loosedGrounding = true;
-                FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f);
+
+                //Wwise event for jumping
+                playerJump.Post(gameObject);
+
             }
             
             bool running = m_Weapons[m_CurrentWeapon].CurrentState == Weapon.WeaponState.Idle && Input.GetButton("Run");
@@ -196,12 +200,19 @@ public class Controller : MonoBehaviour
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
                 ChangeWeapon(m_CurrentWeapon - 1);
+
+                /* //Wwise event for weaponSwitch
+                   weaponSwitch.Post(gameObject);*/
+
             }
             else if (Input.GetAxis("Mouse ScrollWheel") > 0)
             {
                 ChangeWeapon(m_CurrentWeapon + 1);
+
+                /* //Wwise event for weaponSwitch
+                   weaponSwitch.Post(gameObject);*/
             }
-            
+
             //Key input to change weapon
 
             for (int i = 0; i < 10; ++i)
@@ -217,6 +228,9 @@ public class Controller : MonoBehaviour
                     if (num < m_Weapons.Count)
                     {
                         ChangeWeapon(num);
+
+                       /* //Wwise event for weaponSwitch
+                        weaponSwitch.Post(gameObject);*/
                     }
                 }
             }
@@ -233,7 +247,8 @@ public class Controller : MonoBehaviour
 
         if (!wasGrounded && m_Grounded)
         {
-            FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f);
+            //Wwise Event for playerLand
+            playerLand.Post(gameObject);
         }
     }
 
@@ -313,6 +328,8 @@ public class Controller : MonoBehaviour
 
     public void PlayFootstep()
     {
-        FootstepPlayer.PlayRandom();
+        //Wwise event for footsteps
+        FootstepPlayer.Post(gameObject);
+
     }
 }
