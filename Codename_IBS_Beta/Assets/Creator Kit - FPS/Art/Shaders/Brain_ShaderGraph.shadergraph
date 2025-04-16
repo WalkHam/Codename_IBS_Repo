@@ -2305,8 +2305,8 @@
     "m_ObjectId": "46a04a647fae41b8abe01af284456f29",
     "m_Title": "StandardMaps",
     "m_Position": {
-        "x": -1393.714111328125,
-        "y": -285.142822265625
+        "x": -1393.0,
+        "y": -284.5
     }
 }
 
@@ -3883,8 +3883,8 @@
     "m_ObjectId": "96752e39740d457e8bbfbff6d6dae60b",
     "m_Title": "Scrolling Veins Calc",
     "m_Position": {
-        "x": -4292.5712890625,
-        "y": 897.7142333984375
+        "x": -4292.0,
+        "y": 898.5
     }
 }
 
@@ -4669,8 +4669,8 @@
     "m_ObjectId": "b6f16438e3da48deabc7e395cf5e1acd",
     "m_Title": "Brain Emission",
     "m_Position": {
-        "x": -3552.5712890625,
-        "y": 42.857177734375
+        "x": -3552.0,
+        "y": 43.5
     }
 }
 
@@ -5188,8 +5188,8 @@
     "m_ObjectId": "c99959482aaf44b1acc1ef3b3aabf65c",
     "m_Title": "Brain Pulse Calc",
     "m_Position": {
-        "x": -3629.714111328125,
-        "y": -497.1428527832031
+        "x": -3629.0,
+        "y": -496.5
     }
 }
 

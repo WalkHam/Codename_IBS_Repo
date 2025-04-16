@@ -227,10 +227,10 @@
 									<ChildrenList>
 										<Event Name="sfx_enemies_fatblob_dissolve" ID="{93C1A569-C6ED-4D75-BA02-768C0370E490}">
 											<ChildrenList>
-												<Action Name="" ID="{2EC0E44D-DB95-4365-AB59-EA25E1548482}" ShortID="550589998">
+												<Action Name="" ID="{9486868D-F094-4B05-96A5-91A6C00D0137}" ShortID="522920402">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="sfx_enemy_fatblob_dissolve_01" ID="{03C414FB-EB6A-48B2-A898-E93220E3BB1C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+															<ObjectRef Name="sfx_door&amp;key_door_dissolve_01" ID="{82116FFF-02A3-47FF-955C-F16C54F76FEB}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -272,6 +272,9 @@
 										<Event Name="sfx_enemies_bloodcell_death" ID="{FF280226-89B7-4E50-B7AC-16F02CF6A2E8}">
 											<ChildrenList>
 												<Action Name="" ID="{41481C72-0D38-45CE-AE92-60DC945F4F61}" ShortID="419993584">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
@@ -316,6 +319,9 @@
 										<Event Name="sfx_enemies_germslime_death" ID="{472681A3-D7A2-43DF-9052-88EC7E91358A}">
 											<ChildrenList>
 												<Action Name="" ID="{69AD0F1F-B6DC-44AB-9693-C5FE046C6C4F}" ShortID="37833712">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="0.05"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
@@ -377,6 +383,9 @@
 												<Event Name="sfx_enemies_germspike_death" ID="{0CD0B9BB-6921-4C5E-894A-003A4ABD62A5}">
 													<ChildrenList>
 														<Action Name="" ID="{C227DA8E-74A6-4E9C-9420-2122F8BE39FB}" ShortID="322450427">
+															<PropertyList>
+																<Property Name="Delay" Type="Real64" Value="0.05"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>

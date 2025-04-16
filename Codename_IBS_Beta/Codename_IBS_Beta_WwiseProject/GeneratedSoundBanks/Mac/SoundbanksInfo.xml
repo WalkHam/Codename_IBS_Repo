@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6C9201AB-F73D-71F4-B0B0-6F76480CAEBF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1B54D7AD-5517-C294-E495-A68504050B4F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -66,7 +66,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{82AA1C8E-D9B4-BA78-34A7-8C1E53A94BE2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{06E9A444-08BE-CE00-EAE8-AE734B0849BC}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -161,10 +161,6 @@
 					<ShortName>sfx_weapon_healmatic500_reload_02.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_healmatic500_reload_02_818F3B66.wem</CachePath>
 				</File>
-				<File Id="564359925" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_enemy_fatblob_dissolve_01.wav</ShortName>
-					<CachePath>SFX/sfx_enemy_fatblob_dissolve_01_1EF358E8.wem</CachePath>
-				</File>
 				<File Id="578939607" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_03.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_03_1C69580D.wem</CachePath>
@@ -245,6 +241,10 @@
 					<ShortName>sfx_jump_land_water.wav</ShortName>
 					<CachePath>SFX/sfx_jump_land_water_05FA4911.wem</CachePath>
 				</File>
+				<File Id="932766554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_door&amp;key_door_dissolve_01.wav</ShortName>
+					<CachePath>SFX/sfx_door&amp;key_door_dissolve_01_46489851.wem</CachePath>
+				</File>
 				<File Id="936462250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_door&amp;key_key_collected_01.wav</ShortName>
 					<CachePath>SFX/sfx_door&amp;key_key_collected_01_818F3B66.wem</CachePath>
@@ -309,12 +309,12 @@
 						<MediaRef Id="936462250"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
+				<Event Id="1012708473" Name="sfx_enemies_bloodcell_death" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.57358336">
 					<MediaRefs>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" DurationType="OneShot" DurationMin="0.5438333" DurationMax="0.5438333">
+				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5438333" DurationMax="0.5438333">
 					<MediaRefs>
 						<MediaRef Id="803988425"/>
 					</MediaRefs>
@@ -324,35 +324,35 @@
 						<MediaRef Id="189460687"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3801009704" Name="sfx_enemies_fatblob_dissolve" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.967026" DurationMax="5.967026">
+				<Event Id="3801009704" Name="sfx_enemies_fatblob_dissolve" MaxAttenuation="15" DurationType="OneShot" DurationMin="5.805116" DurationMax="5.805116">
 					<MediaRefs>
-						<MediaRef Id="564359925"/>
+						<MediaRef Id="932766554"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3292684059" Name="sfx_enemies_fatblob_idle" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="3292684059" Name="sfx_enemies_fatblob_idle" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="953187999"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="102550024" Name="sfx_enemies_germslime_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
+				<Event Id="102550024" Name="sfx_enemies_germslime_death" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.57358336">
 					<MediaRefs>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3369942825" Name="sfx_enemies_germslime_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3055844788" Name="sfx_enemies_germslime_idle" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="3055844788" Name="sfx_enemies_germslime_idle" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="214146599"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1948922918" Name="sfx_enemies_germspike_death" DurationType="OneShot" DurationMin="0.52358335" DurationMax="0.52358335">
+				<Event Id="1948922918" Name="sfx_enemies_germspike_death" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.57358336">
 					<MediaRefs>
 						<MediaRef Id="292638115"/>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2334927414" Name="sfx_enemies_germspike_idle" MaxAttenuation="15" DurationType="Infinite">
+				<Event Id="2334927414" Name="sfx_enemies_germspike_idle" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="292638115"/>
 					</MediaRefs>
@@ -513,5 +513,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{277F7772-E625-CFC7-4E7F-4A6B2DBCBF23}</FileHash>
+	<FileHash>{4E434176-7576-8B4C-93C4-A10D30E783B7}</FileHash>
 </SoundBanksInfo>
