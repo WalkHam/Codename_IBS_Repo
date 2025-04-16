@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584567685258185304
+    m_lastTime: -8584567631585533728
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584567685256961494
+    m_lastTime: -8584567631574867302
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584567633015017528
+    m_lastTime: -8584567620187685839
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -793,8 +793,8 @@ MonoBehaviour:
         guid: 038c3ca0d97047488f300f61e2b5f389
       Path: Events\Default Work Unit\Key\sfx_doorandkey_key_collect
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 8
+      minDuration: 8
     - name: sfx_enemies_bloodcell_death
       guid: 260228ffb789504eb7ac16f02cf6a2e8
       id: 1012708473
@@ -818,9 +818,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 260228ffb789504eb7ac16f02cf6a2e8
       Path: Events\Default Work Unit\Enemies\Blood Cell\Death\sfx_enemies_bloodcell_death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 40
+      maxDuration: 0.57358336
+      minDuration: 0.57358336
     - name: sfx_enemies_bloodcell_hit
       guid: cc9beac2bfe29348b56f7a78d8421628
       id: 3902373752
@@ -844,9 +844,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc9beac2bfe29348b56f7a78d8421628
       Path: Events\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemies_bloodcell_hit
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 20
+      maxDuration: 0.5438333
+      minDuration: 0.5438333
     - name: sfx_enemies_bloodcell_idle
       guid: f1dab5091b11e24c962b4e367d61d782
       id: 1098573287
@@ -870,7 +870,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1dab5091b11e24c962b4e367d61d782
       Path: Events\Default Work Unit\Enemies\Blood Cell\Idle\sfx_enemies_bloodcell_idle
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: sfx_enemies_fatblob_dissolve
@@ -896,9 +896,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 69a5c193edc6754dba02768c0370e490
       Path: Events\Default Work Unit\Enemies\Fat Blob\Dissolve\sfx_enemies_fatblob_dissolve
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 15
+      maxDuration: 5.805116
+      minDuration: 5.805116
     - name: sfx_enemies_fatblob_idle
       guid: bc642c4299f3694e9260961204235e42
       id: 3292684059
@@ -922,7 +922,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bc642c4299f3694e9260961204235e42
       Path: Events\Default Work Unit\Enemies\Fat Blob\Idle\sfx_enemies_fatblob_idle
-      maxAttenuation: 0
+      maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
     - name: sfx_enemies_germslime_death
@@ -948,9 +948,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: a3812647a2d7df43905288ec7e91358a
       Path: Events\Default Work Unit\Enemies\Germ Slime\Death\sfx_enemies_germslime_death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 40
+      maxDuration: 0.57358336
+      minDuration: 0.57358336
     - name: sfx_enemies_germslime_hit
       guid: 89f3203bccef4144af1e6a7fb60c9615
       id: 3369942825
@@ -975,8 +975,8 @@ MonoBehaviour:
         guid: 89f3203bccef4144af1e6a7fb60c9615
       Path: Events\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemies_germslime_hit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_enemies_germslime_idle
       guid: 0fbd32d15a9aad49a750e9b71eec6a56
       id: 3055844788
@@ -1000,7 +1000,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0fbd32d15a9aad49a750e9b71eec6a56
       Path: Events\Default Work Unit\Enemies\Germ Slime\Idle\sfx_enemies_germslime_idle
-      maxAttenuation: 0
+      maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
     - name: sfx_enemies_germspike_death
@@ -1029,9 +1029,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: bbb9d00c21695e4c894a003a4abd62a5
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death\sfx_enemies_germspike_death
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 40
+      maxDuration: 0.57358336
+      minDuration: 0.57358336
     - name: sfx_enemies_germspike_hit
       guid: 49e51376735ca7438c59207f7ae67107
       id: 3347914759
@@ -1059,8 +1059,8 @@ MonoBehaviour:
         guid: 49e51376735ca7438c59207f7ae67107
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit\sfx_enemies_germspike_hit
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_enemies_germspike_idle
       guid: ebaf4828812cc4429df82870ca62ed0b
       id: 2334927414
@@ -1087,7 +1087,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ebaf4828812cc4429df82870ca62ed0b
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Idle\sfx_enemies_germspike_idle
-      maxAttenuation: 0
+      maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
     - name: sfx_weapon_all_swap
@@ -1111,8 +1111,8 @@ MonoBehaviour:
         guid: a0dc18047d046841b502566dda9e5fe3
       Path: Events\Default Work Unit\Weapons\Weapon Swap\sfx_weapon_all_swap
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.6138843
+      minDuration: 0.6138843
     - name: sfx_weapon_germoblaster_fire
       guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
       id: 1631753596
@@ -1137,8 +1137,8 @@ MonoBehaviour:
         guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
       Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire\sfx_weapon_germoblaster_fire
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.07489584
+      minDuration: 0.07235417
     - name: sfx_weapon_germoblaster_reload
       guid: 5b846ab96f2b3f498ea778d8b27df380
       id: 228935287
@@ -1163,8 +1163,8 @@ MonoBehaviour:
         guid: 5b846ab96f2b3f498ea778d8b27df380
       Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.660625
+      minDuration: 1.660625
     - name: sfx_weapon_healmatic500_fire
       guid: 948005223f67ea4eabcd5b2518911dc4
       id: 1355404468
@@ -1189,8 +1189,8 @@ MonoBehaviour:
         guid: 948005223f67ea4eabcd5b2518911dc4
       Path: Events\Default Work Unit\Weapons\Healmatic500\Fire\sfx_weapon_healmatic500_fire
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.0493492
+      minDuration: 1.0493492
     - name: sfx_weapon_healmatic500_reload
       guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
       id: 3358445023
@@ -1215,8 +1215,8 @@ MonoBehaviour:
         guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
       Path: Events\Default Work Unit\Weapons\Healmatic500\Reload\sfx_weapon_healmatic500_reload
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.2090416
+      minDuration: 1.2090416
     - name: sfx_weapon_pill_explode
       guid: 68e670bf7c051f46a7ca065fed72f5dd
       id: 2968060059
@@ -1238,8 +1238,8 @@ MonoBehaviour:
         guid: 68e670bf7c051f46a7ca065fed72f5dd
       Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_explode
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.9435416
+      minDuration: 1.9435416
     - name: sfx_weapon_pill_reload
       guid: a55f92279c226c4fa0df460bbc32c900
       id: 1796022955
@@ -1261,8 +1261,8 @@ MonoBehaviour:
         guid: a55f92279c226c4fa0df460bbc32c900
       Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_reload
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.0199375
+      minDuration: 1.0199375
     - name: sfx_weapon_pill_throw
       guid: ccb1e42a82f0264080dcc310340ecab5
       id: 1104292844
@@ -1284,8 +1284,8 @@ MonoBehaviour:
         guid: ccb1e42a82f0264080dcc310340ecab5
       Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_throw
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.5050144
+      minDuration: 0.28342977
     - name: Test_Hum
       guid: bbc73651533d9f45bca7e7f36c562047
       id: 3394514118
@@ -1300,7 +1300,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bbc73651533d9f45bca7e7f36c562047
       Path: Events\Default Work Unit\Test_Hum
-      maxAttenuation: 0
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
     - name: Test_Pop
@@ -1318,8 +1318,8 @@ MonoBehaviour:
         guid: 8d0579ca31eca84d9b470e24eba21c1c
       Path: Events\Default Work Unit\Test_Pop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.6051562
+      minDuration: 2.6051562
     - name: Weapon Swap
       guid: 7de4dd5142138c4f89695c21ae9fbd58
       id: 1370454546
@@ -1368,7 +1368,7 @@ MonoBehaviour:
     ParentPath: Events\Menu
     guid: 3069490e42a6f94589a90d7e35c852fe
     GuidInternal: 
-    m_lastTime: -8584567685259003329
+    m_lastTime: -8584567631590524315
     List: []
   - PhysicalPath: Events\Player.wwu
     PathAndIcons:
@@ -1381,7 +1381,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: 9e4cf767659acc45a7c87147e6351180
     GuidInternal: 
-    m_lastTime: -8584567685258964382
+    m_lastTime: -8584567631590453663
     List:
     - name: sfx_player_fs
       guid: b9ccbbb843f2944eb4e54edeb190e8f0
@@ -1398,8 +1398,8 @@ MonoBehaviour:
         guid: b9ccbbb843f2944eb4e54edeb190e8f0
       Path: Events\Player\sfx_player_fs
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.39334473
+      minDuration: 0.08953522
     - name: sfx_player_fs_material_flesh
       guid: 37fbd8f0f4ed9e4a936313440c4b5645
       id: 3000572683
@@ -1415,8 +1415,8 @@ MonoBehaviour:
         guid: 37fbd8f0f4ed9e4a936313440c4b5645
       Path: Events\Player\sfx_player_fs_material_flesh
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_player_fs_material_water
       guid: 29fd738153107d41a2de408234e57fc6
       id: 2418061404
@@ -1432,8 +1432,8 @@ MonoBehaviour:
         guid: 29fd738153107d41a2de408234e57fc6
       Path: Events\Player\sfx_player_fs_material_water
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_player_jump
       guid: f9f0f9483644f24a916d455c04da9a22
       id: 648313621
@@ -1449,8 +1449,8 @@ MonoBehaviour:
         guid: f9f0f9483644f24a916d455c04da9a22
       Path: Events\Player\sfx_player_jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.38607314
+      minDuration: 0.33609623
     - name: sfx_player_land
       guid: 555f517193497748b6d08aed2d334c34
       id: 2972376730
@@ -1466,8 +1466,8 @@ MonoBehaviour:
         guid: 555f517193497748b6d08aed2d334c34
       Path: Events\Player\sfx_player_land
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.41282877
+      minDuration: 0.059990495
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1480,7 +1480,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 45732d1542a3c04fb8444cdb3851cb22
     GuidInternal: 
-    m_lastTime: -8584567685258854167
+    m_lastTime: -8584567631590383259
     List:
     - name: AmbVolume
       guid: 164e74d36899384b9af3c94dcf90ef65
@@ -1559,7 +1559,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
-    m_lastTime: -8584569405757848473
+    m_lastTime: -8584567631574857286
     List:
     - name: Music_Room
       guid: bd85b1bd76c4ad4899cc5e2e18997aa4
@@ -1753,7 +1753,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5fd339d132c13d42a72b1aa2b4179e0e
     GuidInternal: 
-    m_lastTime: -8584567685256909241
+    m_lastTime: -8584567631574777770
     List:
     - name: Materials
       guid: 736b4c7eac5739408a011266deb862df
@@ -1820,7 +1820,7 @@ MonoBehaviour:
     m_lastTime: -8584587591576062355
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

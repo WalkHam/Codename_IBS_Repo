@@ -66,11 +66,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{06E9A444-08BE-CE00-EAE8-AE734B0849BC}">
-=======
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB021DC7-A306-1A5A-8BC7-615098EC7FED}">
->>>>>>> origin/Dev3.0
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D5B7055A-94F0-F1D7-25C0-57709B05A2D3}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -110,6 +106,10 @@
 				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_idle_03_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
+					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="214146599" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_germslime_idle_02.wav</ShortName>
@@ -251,7 +251,7 @@
 				</File>
 				<File Id="932766554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_door&amp;key_door_dissolve_01.wav</ShortName>
-					<CachePath>SFX/sfx_door&amp;key_door_dissolve_01_46489851.wem</CachePath>
+					<CachePath>SFX/sfx_door&amp;key_door_dissolve_01_3C471E29.wem</CachePath>
 				</File>
 				<File Id="936462250" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_door&amp;key_key_collected_01.wav</ShortName>
@@ -322,7 +322,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.5438333" DurationMax="0.5438333">
+				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="0" DurationMax="0.5828661">
 					<MediaRefs>
 						<MediaRef Id="803988425"/>
 					</MediaRefs>
@@ -486,14 +486,14 @@
 						<MediaRef Id="96736177"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="60" DurationType="Infinite">
+				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="188079322"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="8" DurationMax="8">
+				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="2.6051562" DurationMax="2.6051562">
 					<MediaRefs>
-						<MediaRef Id="936462250"/>
+						<MediaRef Id="210565171"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -526,9 +526,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-<<<<<<< HEAD
-	<FileHash>{4E434176-7576-8B4C-93C4-A10D30E783B7}</FileHash>
-=======
-	<FileHash>{46A34338-1418-E10E-A31B-8D2768852350}</FileHash>
->>>>>>> origin/Dev3.0
+	<FileHash>{0C44BF76-E5E7-3AC7-5FFD-41C33CA3ACE1}</FileHash>
 </SoundBanksInfo>

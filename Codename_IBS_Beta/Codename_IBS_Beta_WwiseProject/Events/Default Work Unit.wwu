@@ -293,6 +293,9 @@
 										<Event Name="sfx_enemies_bloodcell_hit" ID="{C2EA9BCC-E2BF-4893-B56F-7A78D8421628}">
 											<ChildrenList>
 												<Action Name="" ID="{3C1E8387-7804-4C33-A9C3-C01ED04D5378}" ShortID="574410030">
+													<PropertyList>
+														<Property Name="Probability" Type="Real64" Value="31"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_bloodcell_hit_01" ID="{B4D1488B-513E-448E-BA4E-4E31B4C2CF28}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
