@@ -41,6 +41,7 @@ namespace AK
         static const AkUniqueID SFX_WEAPON_PILL_EXPLODE = 2968060059U;
         static const AkUniqueID SFX_WEAPON_PILL_RELOAD = 1796022955U;
         static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;
+        static const AkUniqueID TEST_HUM = 3394514118U;
         static const AkUniqueID TEST_POP = 3024126497U;
     } // namespace EVENTS
 

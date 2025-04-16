@@ -593,6 +593,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Test_Hum" ID="{5136C7BB-3D53-459F-BCA7-E7F36C562047}">
+					<ChildrenList>
+						<Action Name="" ID="{FD09BD22-8B97-40AF-AFCF-EB8B53B42314}" ShortID="530124769">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test_Hum" ID="{34A63F3C-7F66-4A60-ABEE-76827E04B236}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

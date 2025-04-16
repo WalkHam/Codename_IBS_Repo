@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D474DA30-186F-7C9D-0DDE-C5C38FA387A2}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2DDF05A3-17F9-5574-2945-B5678465CD63}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -66,7 +66,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{82AA1C8E-D9B4-BA78-34A7-8C1E53A94BE2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB021DC7-A306-1A5A-8BC7-615098EC7FED}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -98,6 +98,10 @@
 				<File Id="171311423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_foot_water.wav</ShortName>
 					<CachePath>SFX/sfx_foot_water_8FA52105.wem</CachePath>
+				</File>
+				<File Id="188079322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hum test.wav</ShortName>
+					<CachePath>SFX/Hum test_C5193EDF.wem</CachePath>
 				</File>
 				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
@@ -478,6 +482,11 @@
 						<MediaRef Id="96736177"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="60" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="188079322"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="8" DurationMax="8">
 					<MediaRefs>
 						<MediaRef Id="936462250"/>
@@ -513,5 +522,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{96575A67-D985-4BF5-E32E-8377A35D1025}</FileHash>
+	<FileHash>{619A489C-BF60-A57A-35F6-D011F0B1B072}</FileHash>
 </SoundBanksInfo>

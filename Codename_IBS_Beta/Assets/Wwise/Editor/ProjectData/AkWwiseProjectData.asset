@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584567727635319941
+    m_lastTime: -8584567691750163301
     List:
     - name: Amb_Hospital_Loop
       guid: d1a3f9f9de620e418fb2acba33984e58
@@ -486,29 +486,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Hit
-      guid: e814a31a7936f04689157d43d7785b5d
-      id: 1116398592
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Enemies
-        ObjectType: 4
-        guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Germ Slime
-        ObjectType: 4
-        guid: 4b418d7d94343447a41afa44d69ee8f4
-      - ElementName: Hit
-        ObjectType: 4
-        guid: e814a31a7936f04689157d43d7785b5d
-      Path: Events\Default Work Unit\Enemies\Germ Slime\Hit
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Hit
       guid: 22558c30a3fd6a4085f43b2aecf63ee2
       id: 1116398592
       PathAndIcons:
@@ -531,6 +508,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 22558c30a3fd6a4085f43b2aecf63ee2
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hit
+      guid: e814a31a7936f04689157d43d7785b5d
+      id: 1116398592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Germ Slime
+        ObjectType: 4
+        guid: 4b418d7d94343447a41afa44d69ee8f4
+      - ElementName: Hit
+        ObjectType: 4
+        guid: e814a31a7936f04689157d43d7785b5d
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -581,29 +581,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Idle
-      guid: d11040aee7603545b2f1d96f237b8186
-      id: 1874288895
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Enemies
-        ObjectType: 4
-        guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Blood Cell
-        ObjectType: 4
-        guid: fab6ba8551e29d4a982d236091b8fd8c
-      - ElementName: Idle
-        ObjectType: 4
-        guid: d11040aee7603545b2f1d96f237b8186
-      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Idle
       guid: ce61295a39bb1643aecb5a2ceacf8995
       id: 1874288895
       PathAndIcons:
@@ -626,6 +603,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: ce61295a39bb1643aecb5a2ceacf8995
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Idle
+      guid: d11040aee7603545b2f1d96f237b8186
+      id: 1874288895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 0358b1b3c8f424469d1189412c51dd27
+      - ElementName: Blood Cell
+        ObjectType: 4
+        guid: fab6ba8551e29d4a982d236091b8fd8c
+      - ElementName: Idle
+        ObjectType: 4
+        guid: d11040aee7603545b2f1d96f237b8186
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -710,29 +710,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Reload
-      guid: 098ae234c727bd4bb4dc8ae36d0ff679
-      id: 456382354
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 808f5e8fc580c44b891c6abf8edc7be1
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: fb6c2611908a434dbe0cfb7a038a3da4
-      - ElementName: Healmatic500
-        ObjectType: 4
-        guid: 8ab0d65270b5274c86d26acc11cbaa03
-      - ElementName: Reload
-        ObjectType: 4
-        guid: 098ae234c727bd4bb4dc8ae36d0ff679
-      Path: Events\Default Work Unit\Weapons\Healmatic500\Reload
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Reload
       guid: c65a21a314b07a49b69acaae61d14085
       id: 456382354
       PathAndIcons:
@@ -752,6 +729,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: c65a21a314b07a49b69acaae61d14085
       Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Reload
+      guid: 098ae234c727bd4bb4dc8ae36d0ff679
+      id: 456382354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: Healmatic500
+        ObjectType: 4
+        guid: 8ab0d65270b5274c86d26acc11cbaa03
+      - ElementName: Reload
+        ObjectType: 4
+        guid: 098ae234c727bd4bb4dc8ae36d0ff679
+      Path: Events\Default Work Unit\Weapons\Healmatic500\Reload
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1286,6 +1286,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5050144
       minDuration: 0.28342977
+    - name: Test_Hum
+      guid: bbc73651533d9f45bca7e7f36c562047
+      id: 3394514118
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Test_Hum
+        ObjectType: 3
+        guid: bbc73651533d9f45bca7e7f36c562047
+      Path: Events\Default Work Unit\Test_Hum
+      maxAttenuation: 60
+      maxDuration: -1
+      minDuration: -1
     - name: Test_Pop
       guid: 8d0579ca31eca84d9b470e24eba21c1c
       id: 3024126497
