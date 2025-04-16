@@ -8,14 +8,7 @@
 						<Action Name="" ID="{05AD9059-C5A7-4213-951B-2A8329951BEC}" ShortID="184277900">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C393ACE2-6A87-41BE-98EF-A1C07A0B1DD0}" ShortID="864825133">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+									<ObjectRef Name="Test_Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
