@@ -185,6 +185,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="GermOBlaster_weapon_swap" ID="{1441838C-29D2-47BF-AA88-D1E6ED5C30E5}">
+									<ChildrenList>
+										<Action Name="" ID="{91033309-E2F0-44EE-8866-57738A6D69F7}" ShortID="656285297">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Equip Sound" ID="{279A5C5B-310B-4A25-A926-BBA98031BF52}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Weapon Swap" ID="{51DDE47D-1342-4F8C-8969-5C21AE9FBD58}" ShortID="842669528">
