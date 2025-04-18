@@ -1,5 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	212799888	Music_Room			\Default Work Unit\Music_Room	
+	3092587493	Pause			\Default Work Unit\Pause	
 	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
 
 State	ID	Name	State Group			Notes
@@ -8,6 +9,9 @@ State	ID	Name	State Group			Notes
 	1434060888	Stomach	Music_Room			
 	2665378999	Heart	Music_Room			
 	3181406844	Home	Music_Room			
+	319258907	Paused	Pause			
+	748895195	None	Pause			
+	1365518790	Unpaused	Pause			
 	748895195	None	Room_Amb			
 	1434060888	Stomach	Room_Amb			
 	1846755610	Small	Room_Amb			

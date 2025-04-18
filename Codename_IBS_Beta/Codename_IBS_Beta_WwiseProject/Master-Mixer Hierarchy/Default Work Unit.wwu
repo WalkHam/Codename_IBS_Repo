@@ -18,6 +18,27 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{BE23E2A5-D349-43A5-BD5D-81EC5274D8D9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}"/>
+										<CustomState Name="" ID="{10DC6B1B-CAAD-450E-BF91-9EE271881A11}" ShortID="225132314"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}"/>
+										<CustomState Name="" ID="{3378B815-0082-48E3-9482-32ACF95ABF91}" ShortID="443268011">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-20"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -28,6 +49,18 @@
 														<ObjectRef Name="New_Parametric_EQ" ID="{79036A2A-6745-4977-8540-7D21882C947C}" WorkUnitID="{EC65DDEB-63EE-4ACA-8E39-E97CBFF15473}"/>
 													</Reference>
 												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}"/>
+															<CustomState Name="" ID="{0658766A-AA83-4BEE-8746-F13F1BD88ED7}" ShortID="22787071"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}"/>
+															<CustomState Name="" ID="{4EBC6675-8673-4FAF-B1C4-E17B0222B9F9}" ShortID="506639433"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
 											</EffectSlot>
 										</Local>
 									</Reference>
@@ -79,6 +112,27 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{BE23E2A5-D349-43A5-BD5D-81EC5274D8D9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}"/>
+										<CustomState Name="" ID="{3B83A59A-0C22-4883-A24A-91834855D54F}" ShortID="465666283"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}"/>
+										<CustomState Name="" ID="{DA4750BD-E5A1-4882-8FF6-DB69C8196A4E}" ShortID="915433509">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-20"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -120,6 +174,27 @@
 							</ObjectLists>
 						</Bus>
 						<Bus Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{BE23E2A5-D349-43A5-BD5D-81EC5274D8D9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}"/>
+										<CustomState Name="" ID="{40012B45-8809-464E-B25C-37E1292A7A68}" ShortID="856194700"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}"/>
+										<CustomState Name="" ID="{65AC7A59-666F-4769-B276-E7BA29DEEE22}" ShortID="656834683">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-20"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>

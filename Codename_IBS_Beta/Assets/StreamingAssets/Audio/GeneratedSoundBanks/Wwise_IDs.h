@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ACID_LOOP = 1339187379U;
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
         static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID ROOM_AMB = 3789107537U;
@@ -43,6 +44,10 @@ namespace AK
         static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;
         static const AkUniqueID TEST_HUM = 3394514118U;
         static const AkUniqueID TEST_POP = 3024126497U;
+        static const AkUniqueID UI_HOVER = 2118900976U;
+        static const AkUniqueID UI_PAUSE = 2792155208U;
+        static const AkUniqueID UI_SELECT = 2774129122U;
+        static const AkUniqueID UI_UNPAUSE = 183167143U;
     } // namespace EVENTS
 
     namespace STATES
@@ -60,6 +65,18 @@ namespace AK
                 static const AkUniqueID STOMACH = 1434060888U;
             } // namespace STATE
         } // namespace MUSIC_ROOM
+
+        namespace PAUSE
+        {
+            static const AkUniqueID GROUP = 3092587493U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAUSED = 319258907U;
+                static const AkUniqueID UNPAUSED = 1365518790U;
+            } // namespace STATE
+        } // namespace PAUSE
 
         namespace ROOM_AMB
         {

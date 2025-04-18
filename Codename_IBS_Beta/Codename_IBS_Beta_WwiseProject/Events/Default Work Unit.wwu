@@ -432,6 +432,16 @@
 					<ChildrenList>
 						<Event Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}">
 							<ChildrenList>
+								<Action Name="" ID="{DF5E5B8A-C3C1-479A-8195-6BE2E18848FF}" ShortID="448235841">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{EF80688C-E065-4D6C-8ADB-1DD8DE2ADCA7}" ShortID="123328768">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
@@ -576,6 +586,27 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Heart Room Loop" ID="{591EEC7F-A184-4E65-8483-29F1B7AF1A1F}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Acid_Loop" ID="{25182CD3-C17B-4C42-BCE6-69F35CB43E42}">
+							<ChildrenList>
+								<Action Name="" ID="{EC4C979A-CD17-40E2-A9AC-5F1DAFBEC5AD}" ShortID="253120202">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_acid_loop" ID="{C83329A4-82AE-4BC1-9809-70B5DCE3E5A8}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DEE87FA3-D60E-4FC0-9CFA-274AB4319C1B}" ShortID="590948555">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_acid_loop" ID="{C83329A4-82AE-4BC1-9809-70B5DCE3E5A8}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -2390,6 +2390,51 @@
 								<ActiveSource Name="amb_stomach_loop_Dripping Amb" ID="{7E52C6CE-82F4-4ED5-B15B-3477C9CFC4C7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="sfx_acid_loop" ID="{C83329A4-82AE-4BC1-9809-70B5DCE3E5A8}" ShortID="738953176">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="BrainSFX Attenuation" ID="{DD1756D8-789A-41D5-98E4-33E7EAEF5DB1}" WorkUnitID="{D970CDAD-57DB-484E-8C9C-7BB354F5BCEF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_acid_loop" ID="{5D99C2C8-D6BD-4A39-B9FB-18EC2EC3F10A}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="3.55791041666667"/>
+										<Property Name="LoopEnd" Type="Real64" Value="5.22074583333333"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.05680833333333"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>sfx_acid_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="13354058"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_acid_loop" ID="{5D99C2C8-D6BD-4A39-B9FB-18EC2EC3F10A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music Loops" ID="{8B331971-0DC5-4771-AD58-2D65D6E27568}" ShortID="294558200">
@@ -2663,6 +2708,92 @@
 						<ActiveSource Name="Hum test" ID="{7444B527-9EBF-46B4-8D89-F848D6A2BE99}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="UI" ID="{6B475FD3-7862-475C-A84B-99E71C3A9473}" ShortID="606236174">
+					<ChildrenList>
+						<Sound Name="UI_Hover" ID="{646D9D67-F7CA-4EA3-A55D-15CCFA426FEA}" ShortID="1055774432">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Hover" ID="{E44F2D87-3060-45E9-B349-91ABA2F0DD65}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13925"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.0585482954545454"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0458892045454545"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="921373543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Hover" ID="{E44F2D87-3060-45E9-B349-91ABA2F0DD65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Pause" ID="{5EAC03E5-DF2A-4B80-AB81-93A27C868FAA}" ShortID="1069631732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Pause_Unpause" ID="{D3542159-C187-43B6-8B02-D7795229F0CE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.320277128779249"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.30472083333333"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Pause_Unpause.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424309394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Pause_Unpause" ID="{D3542159-C187-43B6-8B02-D7795229F0CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Select" ID="{B76369FD-2EC2-4DB6-B311-3ADBA869E806}" ShortID="961701407">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Pause_Unpause" ID="{B93228FD-61E3-4655-847B-456835BB4832}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.28975511363636"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.63189024621212"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_Pause_Unpause.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="953776819"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Pause_Unpause" ID="{B93228FD-61E3-4655-847B-456835BB4832}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
