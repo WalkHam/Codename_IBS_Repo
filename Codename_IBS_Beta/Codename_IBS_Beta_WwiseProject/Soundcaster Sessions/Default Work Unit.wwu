@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8D2CC1DE-735E-49D5-B3F2-489A1F279A16}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{8D2CC1DE-735E-49D5-B3F2-489A1F279A16}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8D2CC1DE-735E-49D5-B3F2-489A1F279A16}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MenuTests" ID="{FE029D2F-ED80-4005-886A-863BF8116668}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="amb_room_large_loop" ID="{8289B1C4-D125-4793-9119-0D04A8641781}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_enemy_bloodcell_idle_03" ID="{170C5897-9B73-402C-AEC8-4D17CA9583E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Test_Hum" ID="{34A63F3C-7F66-4A60-ABEE-76827E04B236}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{7E66140D-9A0C-4BBC-B400-6902C7EB33C8}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="flesh" ID="{C9278F46-67C1-4E40-A716-5F394155E4ED}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

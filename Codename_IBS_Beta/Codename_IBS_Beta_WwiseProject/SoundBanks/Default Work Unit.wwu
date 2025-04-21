@@ -5,15 +5,21 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{A79A659A-CB9C-4375-A63D-F51B4A43649D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI_Hover" ID="{99B529E1-FFEE-4008-B03F-CBB9829DF82F}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_pill_throw" ID="{2AE4B1CC-F082-4026-80DC-C310340ECAB5}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Unpause" ID="{B22DC87B-7845-4049-9FED-734FB84C6F69}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_player_fs_material_water" ID="{8173FD29-1053-417D-A2DE-408234E57FC6}" WorkUnitID="{67F74C9E-9A65-45CC-A7C8-7147E6351180}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_enemies_germspike_hit" ID="{7613E549-5C73-43A7-8C59-207F7AE67107}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_enemies_germslime_death" ID="{472681A3-D7A2-43DF-9052-88EC7E91358A}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Select" ID="{1BF37FEC-3AE7-4503-91C8-7298E4AE033F}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_pill_explode" ID="{BF70E668-057C-461F-A7CA-065FED72F5DD}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_doorandkey_key_collect" ID="{A03C8C03-70D9-4847-8F30-0F61E2B5F389}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_player_land" ID="{71515F55-4993-4877-B6D0-8AED2D334C34}" WorkUnitID="{67F74C9E-9A65-45CC-A7C8-7147E6351180}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_enemies_bloodcell_hit" ID="{C2EA9BCC-E2BF-4893-B56F-7A78D8421628}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Pause" ID="{5D350078-5526-491A-BB34-B1A77F7643BC}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_germoblaster_reload" ID="{B96A845B-2B6F-493F-8EA7-78D8B27DF380}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_enemy_germspike_idle_01" ID="{383D4C05-4D90-4984-92FD-265F95364C50}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_player_jump" ID="{48F9F0F9-4436-4AF2-916D-455C04DA9A22}" WorkUnitID="{67F74C9E-9A65-45CC-A7C8-7147E6351180}" Origin="Manual" Filter="7"/>

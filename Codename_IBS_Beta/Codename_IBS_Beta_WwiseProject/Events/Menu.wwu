@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Menu" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Menu" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="UI_Pause" ID="{5D350078-5526-491A-BB34-B1A77F7643BC}">
+					<ChildrenList>
+						<Action Name="" ID="{F06D83E3-9C16-4709-AA43-4DC3B6B7AADC}" ShortID="952837373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Pause" ID="{5EAC03E5-DF2A-4B80-AB81-93A27C868FAA}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{984C2014-24CB-4C37-A461-326A0C1B734F}" ShortID="861798839">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Unpause" ID="{B22DC87B-7845-4049-9FED-734FB84C6F69}">
+					<ChildrenList>
+						<Action Name="" ID="{291306BE-628D-4A8F-ACFB-B3A520F940A0}" ShortID="706234849">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Hover" ID="{99B529E1-FFEE-4008-B03F-CBB9829DF82F}">
+					<ChildrenList>
+						<Action Name="" ID="{A2A31EA8-F005-456D-8393-8747CB3ED34B}" ShortID="843626527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Hover" ID="{646D9D67-F7CA-4EA3-A55D-15CCFA426FEA}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Select" ID="{5B778D0F-0452-48F4-9303-259B04DEBCDA}">
+					<ChildrenList>
+						<Action Name="" ID="{1662007A-2B2C-41BB-BFE1-A6CFC046CD72}" ShortID="842733197">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Select" ID="{B76369FD-2EC2-4DB6-B311-3ADBA869E806}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
