@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2A5169A2-EF98-0029-CF5B-8420AA68E005}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{07C3E977-E729-7D5F-B09E-21BA727B8D57}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -73,7 +73,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E834747B-F035-CE84-FBD1-0CCA15120B63}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D9F930CE-37D4-C574-9770-FB18B76AEE57}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -166,7 +166,7 @@
 				</File>
 				<File Id="424309394" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Pause_Unpause.wav</ShortName>
-					<CachePath>SFX/UI_Pause_Unpause_D3E21F55.wem</CachePath>
+					<CachePath>SFX/UI_Pause_Unpause_867E13D8.wem</CachePath>
 				</File>
 				<File Id="424706265" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_healmatic500_fire_01.wav</ShortName>
@@ -263,7 +263,7 @@
 				</File>
 				<File Id="921373543" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover.wav</ShortName>
-					<CachePath>SFX/UI_Hover_2C5D3621.wem</CachePath>
+					<CachePath>SFX/UI_Hover_05058562.wem</CachePath>
 				</File>
 				<File Id="921723780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_jump_land_water.wav</ShortName>
@@ -283,7 +283,7 @@
 				</File>
 				<File Id="953776819" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Pause_Unpause.wav</ShortName>
-					<CachePath>SFX/UI_Pause_Unpause_0A61813D.wem</CachePath>
+					<CachePath>SFX/UI_Pause_Unpause_4118BC0D.wem</CachePath>
 				</File>
 				<File Id="955245020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_jump_land_water.wav</ShortName>
@@ -528,12 +528,12 @@
 						<MediaRef Id="210565171"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2118900976" Name="UI_Hover" DurationType="OneShot" DurationMin="0.4762983" DurationMax="0.4762983">
+				<Event Id="2118900976" Name="UI_Hover" DurationType="OneShot" DurationMin="0.21455726" DurationMax="0.23262875">
 					<MediaRefs>
 						<MediaRef Id="921373543"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2792155208" Name="UI_Pause" DurationType="OneShot" DurationMin="1.9844437" DurationMax="1.9844437">
+				<Event Id="2792155208" Name="UI_Pause" DurationType="OneShot" DurationMin="0.34062204" DurationMax="0.3608765">
 					<MediaRefs>
 						<MediaRef Id="424309394"/>
 					</MediaRefs>
@@ -541,7 +541,7 @@
 						<ActionSetStateEntry GroupId="3092587493" Id="319258907" Name="Paused"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="2774129122" Name="UI_Select" DurationType="OneShot" DurationMin="2.3421352" DurationMax="2.3421352">
+				<Event Id="2774129122" Name="UI_Select" DurationType="OneShot" DurationMin="0.31825203" DurationMax="0.33717632">
 					<MediaRefs>
 						<MediaRef Id="953776819"/>
 					</MediaRefs>
@@ -588,5 +588,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E0FCD21E-036D-5818-3349-1A5EC53B0E1F}</FileHash>
+	<FileHash>{9A84607E-5F88-935B-1EE8-B137A296CFAB}</FileHash>
 </SoundBanksInfo>

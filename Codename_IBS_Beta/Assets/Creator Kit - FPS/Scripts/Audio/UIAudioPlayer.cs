@@ -1,29 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class UIAudioPlayer : MonoBehaviour
 {
     public static UIAudioPlayer Instance { get; private set; }
 
-    public AudioClip PositiveSound;
-    public AudioClip NegativeSound;
-    
-    AudioSource m_Source;
+    public AK.Wwise.Event menuSelect;
+    public AK.Wwise.Event negativeTest;
+    public AK.Wwise.Event menuHover;
+
 
     void Awake()
     {
-        m_Source = GetComponent<AudioSource>();
+        
         Instance = this;
     }
 
     public static void PlayPositive()
     {
-        Instance.m_Source.PlayOneShot(Instance.PositiveSound);
+        Instance.menuSelect.Post(Instance.gameObject);
     }
 
     public static void PlayNegative()
     {
-        Instance.m_Source.PlayOneShot(Instance.NegativeSound);
+        Instance.negativeTest.Post(Instance.gameObject);
+    }
+
+    public static void PlayHover()
+    {
+        Instance?.menuHover.Post(Instance.gameObject);
     }
 }

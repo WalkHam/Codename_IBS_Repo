@@ -3278,6 +3278,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
         type: 3}
+      propertyPath: uiPause.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a9e306e8d884774cacca811b0386912,
+        type: 2}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
+      propertyPath: playerPause.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a9e306e8d884774cacca811b0386912,
+        type: 2}
+    - target: {fileID: 1782824343737523952, guid: 6ca000ead671ebe449deb210e0a19be8,
+        type: 3}
       propertyPath: weaponSwitch.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 44cf2cf41a2bd114fa8e520a11cb427e,
@@ -4001,7 +4013,7 @@ PrefabInstance:
         type: 3}
       propertyPath: keyPickup.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+      objectReference: {fileID: 11400000, guid: 9603bae8b429d46268895846ed05869b,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4456,7 +4468,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079333634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d81ddeea1cb15d41b71152685bc9489, type: 3}
   m_Name: 
@@ -5474,7 +5486,7 @@ PrefabInstance:
         type: 3}
       propertyPath: keyPickup.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+      objectReference: {fileID: 11400000, guid: 9603bae8b429d46268895846ed05869b,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

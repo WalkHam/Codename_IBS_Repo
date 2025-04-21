@@ -4,13 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Test_Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" ShortID="784169249">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -2688,7 +2681,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+							<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2711,6 +2704,31 @@
 				<Folder Name="UI" ID="{6B475FD3-7862-475C-A84B-99E71C3A9473}" ShortID="606236174">
 					<ChildrenList>
 						<Sound Name="UI_Hover" ID="{646D9D67-F7CA-4EA3-A55D-15CCFA426FEA}" ShortID="1055774432">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>60</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{50BFC1B5-69FD-45D2-9229-99CA2F17B432}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="70"/>
+													<Property Name="Min" Type="Real64" Value="-70"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -2726,6 +2744,7 @@
 										<Property Name="LoopBegin" Type="Real64" Value="0.0585482954545454"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.0458892045454545"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.269299553571428"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_Hover.wav</AudioFile>
@@ -2739,6 +2758,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Pause" ID="{5EAC03E5-DF2A-4B80-AB81-93A27C868FAA}" ShortID="1069631732">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F196A1B3-04E5-456A-B81B-1FE837643188}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="70"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -2750,9 +2784,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="UI_Pause_Unpause" ID="{D3542159-C187-43B6-8B02-D7795229F0CE}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0352763392857143"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0776079464285714"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.320277128779249"/>
-										<Property Name="TrimEnd" Type="Real64" Value="2.30472083333333"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.674953958333321"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_Pause_Unpause.wav</AudioFile>
@@ -2766,6 +2802,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Select" ID="{B76369FD-2EC2-4DB6-B311-3ADBA869E806}" ShortID="961701407">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1EBC05F8-6B40-424C-A558-AD6013FBE5BB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="70"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -2777,9 +2828,11 @@
 							<ChildrenList>
 								<AudioFileSource Name="UI_Pause_Unpause" ID="{B93228FD-61E3-4655-847B-456835BB4832}">
 									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0282210714285713"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0705526785714286"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="2.28975511363636"/>
-										<Property Name="TrimEnd" Type="Real64" Value="4.63189024621212"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.62113890692641"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_Pause_Unpause.wav</AudioFile>

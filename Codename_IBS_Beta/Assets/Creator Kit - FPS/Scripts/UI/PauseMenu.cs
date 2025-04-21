@@ -9,6 +9,9 @@ public class PauseMenu : MonoBehaviour
 {
     public static PauseMenu Instance { get; private set; }
 
+    public AK.Wwise.Event uiUnpause;
+
+
     void Awake()
     {
         Instance = this;
@@ -34,10 +37,14 @@ public class PauseMenu : MonoBehaviour
 
     public void ReturnToGame()
     {
+        //Wwise event for unpausing
+        Instance.uiUnpause.Post(Instance.gameObject);
         UIAudioPlayer.PlayPositive();
+
         GameSystem.Instance.StartTimer();
         gameObject.SetActive(false);
         Controller.Instance.DisplayCursor(false);
+        Controller.Instance.CanPause = true;
     }
 
     public void ExitGame()

@@ -1696,6 +1696,7 @@ GameObject:
   - component: {fileID: 4072112387700551444}
   - component: {fileID: 7991520427560420391}
   - component: {fileID: 5495116328941188860}
+  - component: {fileID: 1265746380090820801}
   m_Layer: 5
   m_Name: LevelSelect
   m_TagString: Untagged
@@ -1817,6 +1818,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1265746380090820801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2354022734466475638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f84345edf4e4945b78a5e8f48f58ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2535005010009452086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2338,6 @@ GameObject:
   - component: {fileID: 2625390798198164663}
   - component: {fileID: 2625390798198164660}
   - component: {fileID: 2625390798198164661}
-  - component: {fileID: 2603275343186446579}
   - component: {fileID: 1204009433395685269}
   m_Layer: 5
   m_Name: GameUI
@@ -2425,103 +2437,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!82 &2603275343186446579
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2625390798198164682}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 243422288981298744, guid: d145ef7ec5c612648aba1716a7f53ac9,
-    type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &1204009433395685269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2534,8 +2449,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6373005cb514db40b648a8104fc7bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PositiveSound: {fileID: 8300000, guid: 61507aebad0cf874aa8c0d42fcaa4e24, type: 3}
-  NegativeSound: {fileID: 8300000, guid: dae5819be412de34a926b07afa6b8597, type: 3}
+  menuSelect:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6d512d04de7811c459e5e65b31ac35ab,
+      type: 2}
+  negativeTest:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9fc7429a1f904fc4d866ee6c1c1a4119,
+      type: 2}
+  menuHover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4c19fda630d66194e8eb89e97b927438,
+      type: 2}
 --- !u!1 &2625390798215785937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,6 +4103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71b9f2314804785488d16fd9b43df1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiUnpause:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 906e979af68974649bbd62962e4e2966,
+      type: 2}
 --- !u!1 &5403160192155011736
 GameObject:
   m_ObjectHideFlags: 0
@@ -4616,6 +4549,7 @@ GameObject:
   - component: {fileID: 6330049738764295115}
   - component: {fileID: 5537832544819524482}
   - component: {fileID: 5335893652416653896}
+  - component: {fileID: 6853682974198017279}
   m_Layer: 5
   m_Name: ExitGame
   m_TagString: Untagged
@@ -4737,6 +4671,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6853682974198017279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403485203540077783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f84345edf4e4945b78a5e8f48f58ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6544641807180718608
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5011,7 @@ GameObject:
   - component: {fileID: 3932383299445005463}
   - component: {fileID: 7773607137669566687}
   - component: {fileID: 4828792903306449116}
+  - component: {fileID: 4310138347819017952}
   m_Layer: 5
   m_Name: ReturnToGame
   m_TagString: Untagged
@@ -5186,6 +5133,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4310138347819017952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863730921264658993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f84345edf4e4945b78a5e8f48f58ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6897188903763027266
 GameObject:
   m_ObjectHideFlags: 0
