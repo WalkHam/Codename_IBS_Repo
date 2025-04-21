@@ -44,7 +44,7 @@
 				</Event>
 				<Event Name="sfx_player_fs" ID="{B8BBCCB9-F243-4E94-B4E5-4EDEB190E8F0}">
 					<ChildrenList>
-						<Action Name="" ID="{0E823A90-1800-4885-B35E-2A6D24646BD9}" ShortID="133957095">
+						<Action Name="" ID="{4DBF9C5D-2FA8-4498-BB26-F293C43B67A9}" ShortID="690923660">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sfx_player_fs" ID="{FC19398C-AAD4-4D14-BEE8-EDD26F5B37EF}" WorkUnitID="{94C03392-129E-47F5-A4B2-83BE34FE2783}"/>

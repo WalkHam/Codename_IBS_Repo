@@ -531,6 +531,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{2FDF82FA-F409-4064-844A-BCA700888895}" ShortID="186866212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flesh" ID="{EF9A2953-B21D-47F2-A90E-EAB4A7C3F153}" WorkUnitID="{3D4F2D9A-3B0D-47AB-A6D9-75DD5FF6E1BD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{E07FF0F8-0808-42AE-9EA2-D1E42F981808}" ShortID="868284679">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>

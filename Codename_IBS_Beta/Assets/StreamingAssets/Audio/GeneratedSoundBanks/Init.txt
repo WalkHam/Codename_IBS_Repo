@@ -1,9 +1,13 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	20433824	FS_Material			\Default Work Unit\FS_Material	
 	212799888	Music_Room			\Default Work Unit\Music_Room	
 	3092587493	Pause			\Default Work Unit\Pause	
 	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
 
 State	ID	Name	State Group			Notes
+	748895195	None	FS_Material			
+	1153642577	Flesh	FS_Material			
+	2654748154	Water	FS_Material			
 	136808247	Brain	Music_Room			
 	748895195	None	Music_Room			
 	1434060888	Stomach	Music_Room			

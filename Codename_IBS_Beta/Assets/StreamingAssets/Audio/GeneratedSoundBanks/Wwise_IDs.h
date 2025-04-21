@@ -52,6 +52,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace FS_MATERIAL
+        {
+            static const AkUniqueID GROUP = 20433824U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FLESH = 1153642577U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace STATE
+        } // namespace FS_MATERIAL
+
         namespace MUSIC_ROOM
         {
             static const AkUniqueID GROUP = 212799888U;

@@ -40,6 +40,7 @@ public class Controller : MonoBehaviour
     public AK.Wwise.Event playerJump;
     public AK.Wwise.Event playerLand;
     //public AK.Wwise.Event weaponSwitch;
+    public AK.Wwise.Event uiPause;
     
     float m_VerticalSpeed = 0.0f;
     bool m_IsPaused = false;
@@ -107,6 +108,10 @@ public class Controller : MonoBehaviour
         if (CanPause && Input.GetButtonDown("Menu"))
         {
             PauseMenu.Instance.Display();
+
+            //Wwise event for pausing
+            uiPause.Post(gameObject);
+            Instance.CanPause = false;
         }
         
         FullscreenMap.Instance.gameObject.SetActive(Input.GetButton("Map"));
