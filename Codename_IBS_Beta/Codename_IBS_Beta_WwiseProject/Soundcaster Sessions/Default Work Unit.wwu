@@ -20,7 +20,9 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{7E66140D-9A0C-4BBC-B400-6902C7EB33C8}"/>
+						<CurrentStateRef Name="Large" ID="{499C507A-BC19-4826-9B65-77E06320CB8F}"/>
+						<CurrentStateRef Name="Paused" ID="{8BFA2237-1D7C-4D91-977A-AA77C282CAD7}"/>
+						<CurrentStateRef Name="Home" ID="{8A60ADD9-709B-4ED7-91E5-35DC8987F420}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="flesh" ID="{C9278F46-67C1-4E40-A716-5F394155E4ED}"/>

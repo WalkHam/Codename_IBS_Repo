@@ -12,6 +12,7 @@
 						<ObjectRef Name="sfx_player_fs_material_water" ID="{8173FD29-1053-417D-A2DE-408234E57FC6}" WorkUnitID="{67F74C9E-9A65-45CC-A7C8-7147E6351180}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_enemies_germspike_hit" ID="{7613E549-5C73-43A7-8C59-207F7AE67107}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_enemies_germslime_death" ID="{472681A3-D7A2-43DF-9052-88EC7E91358A}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TakeOut" ID="{D483E21C-5917-44D0-99D3-EBC5FFFA5646}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Select" ID="{1BF37FEC-3AE7-4503-91C8-7298E4AE033F}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu" ID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_pill_explode" ID="{BF70E668-057C-461F-A7CA-065FED72F5DD}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>

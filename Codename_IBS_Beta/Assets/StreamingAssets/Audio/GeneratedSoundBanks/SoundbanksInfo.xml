@@ -81,10 +81,14 @@
 			</SwitchGroups>
 		</SoundBank>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2A00405D-D259-0961-37CD-A42EB2E9CE75}">
 =======
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CA3070EC-DB49-D167-BC50-73B5B23A2B24}">
 >>>>>>> origin/Dev3.0
+=======
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7814886A-9C46-A7EF-DECE-D93CA18FF89D}">
+>>>>>>> ZackDev3.0
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -114,9 +118,15 @@
 					<ShortName>sfx_weapon_pill_throw_01.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_pill_throw_01_818F3B66.wem</CachePath>
 				</File>
+<<<<<<< HEAD
 				<File Id="117817863" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Hit\sfx_enemy_germspike_hit_03.wav</ShortName>
 					<CachePath>SFX/Hit/sfx_enemy_germspike_hit_03_818F3B66.wem</CachePath>
+=======
+				<File Id="116713811" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun Whip Up.wav</ShortName>
+					<CachePath>SFX/Gun Whip Up_818F3B66.wem</CachePath>
+>>>>>>> ZackDev3.0
 				</File>
 				<File Id="132580410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
@@ -574,6 +584,11 @@
 						<MediaRef Id="96736177"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3201467664" Name="TakeOut" DurationType="OneShot" DurationMin="1.0909297" DurationMax="1.0909297">
+					<MediaRefs>
+						<MediaRef Id="116713811"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="188079322"/>
@@ -653,8 +668,12 @@
 		</SoundBank>
 	</SoundBanks>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{D2523C6F-262C-92A8-D26C-6E4DB75BC204}</FileHash>
 =======
 	<FileHash>{81E5D5D3-AA74-BE90-89F3-40471D8093C9}</FileHash>
 >>>>>>> origin/Dev3.0
+=======
+	<FileHash>{246937C6-1EE2-40AB-FE8C-6AC58107A2F6}</FileHash>
+>>>>>>> ZackDev3.0
 </SoundBanksInfo>

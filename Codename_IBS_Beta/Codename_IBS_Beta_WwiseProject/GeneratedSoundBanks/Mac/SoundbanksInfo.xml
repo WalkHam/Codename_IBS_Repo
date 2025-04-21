@@ -81,10 +81,14 @@
 			</SwitchGroups>
 		</SoundBank>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2A00405D-D259-0961-37CD-A42EB2E9CE75}">
 =======
 		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CA3070EC-DB49-D167-BC50-73B5B23A2B24}">
 >>>>>>> origin/Dev3.0
+=======
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1A4BC8F0-8789-22F1-CDDB-52696DC475ED}">
+>>>>>>> ZackDev3.0
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -653,8 +657,12 @@
 		</SoundBank>
 	</SoundBanks>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{DF3304E8-4EE2-BAA5-4B3E-CC31E7334FFB}</FileHash>
 =======
 	<FileHash>{75F7F703-933B-84CC-0D01-997A3C2F11BF}</FileHash>
 >>>>>>> origin/Dev3.0
+=======
+	<FileHash>{B55D06F8-DF67-320F-8620-D38385870797}</FileHash>
+>>>>>>> ZackDev3.0
 </SoundBanksInfo>

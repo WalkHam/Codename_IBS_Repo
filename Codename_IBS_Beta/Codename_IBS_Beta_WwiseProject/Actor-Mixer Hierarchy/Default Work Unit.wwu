@@ -104,6 +104,28 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Sound Name="Gun Whip Up" ID="{D4F49437-5FC6-4736-A98F-1D2943152282}" ShortID="955772119">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gun Whip Up" ID="{92B1F09C-F5A0-4F45-AB45-2098FEBAEDE7}">
+											<Language>SFX</Language>
+											<AudioFile>Gun Whip Up.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="116713811"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gun Whip Up" ID="{92B1F09C-F5A0-4F45-AB45-2098FEBAEDE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Pill Grenade" ID="{E6F13E6B-7BE2-4F24-B0FC-3F9D57FB3B52}" ShortID="1063624655">

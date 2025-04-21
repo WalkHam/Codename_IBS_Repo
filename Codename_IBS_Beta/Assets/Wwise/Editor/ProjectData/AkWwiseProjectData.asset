@@ -122,10 +122,14 @@ MonoBehaviour:
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_lastTime: -8584564052922879052
 =======
     m_lastTime: -8584566042539030714
 >>>>>>> origin/Dev3.0
+=======
+    m_lastTime: -8584563392258724167
+>>>>>>> ZackDev3.0
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -154,10 +158,14 @@ MonoBehaviour:
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_lastTime: -8584564052922908344
 =======
     m_lastTime: -8584563394734966067
 >>>>>>> origin/Dev3.0
+=======
+    m_lastTime: -8584563392259817173
+>>>>>>> ZackDev3.0
     List:
     - name: Acid_Loop
       guid: d32c18257bc1424cbce669f35cb43e42
@@ -237,7 +245,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Death
-      guid: c1251c0b351d4f4e84a9a4f0163b44b3
+      guid: 5d791fadcbde314181e8a462c08fd2ed
       id: 779278001
       PathAndIcons:
       - ElementName: Events
@@ -249,13 +257,18 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Germ Slime
+      - ElementName: Blood Cell
         ObjectType: 4
-        guid: 4b418d7d94343447a41afa44d69ee8f4
+        guid: fab6ba8551e29d4a982d236091b8fd8c
       - ElementName: Death
         ObjectType: 4
+<<<<<<< HEAD
         guid: c1251c0b351d4f4e84a9a4f0163b44b3
       Path: Events/Default Work Unit/Enemies/Germ Slime/Death
+=======
+        guid: 5d791fadcbde314181e8a462c08fd2ed
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Death
+>>>>>>> ZackDev3.0
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -286,7 +299,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Death
-      guid: 5d791fadcbde314181e8a462c08fd2ed
+      guid: c1251c0b351d4f4e84a9a4f0163b44b3
       id: 779278001
       PathAndIcons:
       - ElementName: Events
@@ -298,13 +311,18 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Blood Cell
+      - ElementName: Germ Slime
         ObjectType: 4
-        guid: fab6ba8551e29d4a982d236091b8fd8c
+        guid: 4b418d7d94343447a41afa44d69ee8f4
       - ElementName: Death
         ObjectType: 4
+<<<<<<< HEAD
         guid: 5d791fadcbde314181e8a462c08fd2ed
       Path: Events/Default Work Unit/Enemies/Blood Cell/Death
+=======
+        guid: c1251c0b351d4f4e84a9a4f0163b44b3
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Death
+>>>>>>> ZackDev3.0
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -369,6 +387,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Fire
+<<<<<<< HEAD
       guid: 24dadd0be9285044a6b0c70c7fda699a
       id: 2678880713
       PathAndIcons:
@@ -392,6 +411,8 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Fire
+=======
+>>>>>>> ZackDev3.0
       guid: 70be67c47411ba4bb3f06c4509e24404
       id: 2678880713
       PathAndIcons:
@@ -411,6 +432,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 70be67c47411ba4bb3f06c4509e24404
       Path: Events/Default Work Unit/Weapons/Healmatic500/Fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fire
+      guid: 24dadd0be9285044a6b0c70c7fda699a
+      id: 2678880713
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: GermOBlaster
+        ObjectType: 4
+        guid: 3444b38cd5423e46bb81e916dbd5670e
+      - ElementName: Fire
+        ObjectType: 4
+        guid: 24dadd0be9285044a6b0c70c7fda699a
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -518,7 +562,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Hit
-      guid: e814a31a7936f04689157d43d7785b5d
+      guid: 33825e3a9e8a6d42aa63ab5a8ce39ae5
       id: 1116398592
       PathAndIcons:
       - ElementName: Events
@@ -530,13 +574,18 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Germ Slime
+      - ElementName: Blood Cell
         ObjectType: 4
-        guid: 4b418d7d94343447a41afa44d69ee8f4
+        guid: fab6ba8551e29d4a982d236091b8fd8c
       - ElementName: Hit
         ObjectType: 4
+<<<<<<< HEAD
         guid: e814a31a7936f04689157d43d7785b5d
       Path: Events/Default Work Unit/Enemies/Germ Slime/Hit
+=======
+        guid: 33825e3a9e8a6d42aa63ab5a8ce39ae5
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Hit
+>>>>>>> ZackDev3.0
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -567,7 +616,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Hit
-      guid: 33825e3a9e8a6d42aa63ab5a8ce39ae5
+      guid: e814a31a7936f04689157d43d7785b5d
       id: 1116398592
       PathAndIcons:
       - ElementName: Events
@@ -579,13 +628,18 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      - ElementName: Blood Cell
+      - ElementName: Germ Slime
         ObjectType: 4
-        guid: fab6ba8551e29d4a982d236091b8fd8c
+        guid: 4b418d7d94343447a41afa44d69ee8f4
       - ElementName: Hit
         ObjectType: 4
+<<<<<<< HEAD
         guid: 33825e3a9e8a6d42aa63ab5a8ce39ae5
       Path: Events/Default Work Unit/Enemies/Blood Cell/Hit
+=======
+        guid: e814a31a7936f04689157d43d7785b5d
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Hit
+>>>>>>> ZackDev3.0
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1323,6 +1377,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.5050144
       minDuration: 0.28342977
+    - name: TakeOut
+      guid: 1ce283d41759d04499d3ebc5fffa5646
+      id: 3201467664
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 808f5e8fc580c44b891c6abf8edc7be1
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: fb6c2611908a434dbe0cfb7a038a3da4
+      - ElementName: Healmatic500
+        ObjectType: 4
+        guid: 8ab0d65270b5274c86d26acc11cbaa03
+      - ElementName: TakeOut
+        ObjectType: 3
+        guid: 1ce283d41759d04499d3ebc5fffa5646
+      Path: Events\Default Work Unit\Weapons\Healmatic500\TakeOut
+      maxAttenuation: 0
+      maxDuration: 1.0909297
+      minDuration: 1.0909297
     - name: Test_Hum
       guid: bbc73651533d9f45bca7e7f36c562047
       id: 3394514118
@@ -2070,10 +2147,14 @@ MonoBehaviour:
     List: []
   ExpandedFileSystemItemIds: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000e000000330000004200000057000000420100004301000044010000
 =======
   ExpandedWaapiItemIds: 01000000050000000600000008000000090000000c0000000d0000000e000000190000001a0000001b000000420100004301000044010000
 >>>>>>> origin/Dev3.0
+=======
+  ExpandedWaapiItemIds: 010000000200000005000000060000000700000008000000090000000a0000000c0000000d0000000e000000100000001100000017000000350000003600000037000000380000003a0000003b0000003c0000003d000000420100004301000044010000e0010000b9020000
+>>>>>>> ZackDev3.0
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

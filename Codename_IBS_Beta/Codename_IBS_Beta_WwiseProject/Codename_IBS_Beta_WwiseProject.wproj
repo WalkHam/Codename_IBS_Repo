@@ -32,7 +32,7 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\Codename_IBS_Beta\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Mac">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</Value>
 					</ValueList>
 				</Property>
@@ -9511,7 +9511,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -10743,7 +10743,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Impacter" PluginType="2" CompanyID="0" PluginID="184">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="184">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>

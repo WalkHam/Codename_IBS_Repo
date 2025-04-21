@@ -1,0 +1,37 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	212799888	Music_Room			\Default Work Unit\Music_Room	
+	3092587493	Pause			\Default Work Unit\Pause	
+	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
+
+State	ID	Name	State Group			Notes
+	136808247	Brain	Music_Room			
+	748895195	None	Music_Room			
+	1434060888	Stomach	Music_Room			
+	2665378999	Heart	Music_Room			
+	3181406844	Home	Music_Room			
+	319258907	Paused	Pause			
+	748895195	None	Pause			
+	1365518790	Unpaused	Pause			
+	748895195	None	Room_Amb			
+	1434060888	Stomach	Room_Amb			
+	1846755610	Small	Room_Amb			
+	4284352190	Large	Room_Amb			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\Volume\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\Volume\MusicVolume	
+	4209755525	AmbVolume			\Default Work Unit\Volume\AmbVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1313057045	Amb Bus			\Default Work Unit\Master Audio Bus\Amb Bus	
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
+	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3657550167	New_Parametric_EQ	Wwise Parametric EQ			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
