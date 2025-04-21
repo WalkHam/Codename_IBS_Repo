@@ -12,6 +12,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{F48FBD8E-4BE9-4D44-B653-F821D9A5C331}" ShortID="404250331">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_door&amp;key_key_collected_01" ID="{D164B245-E21C-4A1B-B144-143C50062005}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="Weapons" ID="{11266CFB-8A90-4D43-BE0C-FB7A038A3DA4}" ShortID="1000356522">
@@ -99,7 +106,7 @@
 												</Action>
 												<Action Name="" ID="{CA4970D0-7353-4D5B-8ED5-5832B345725F}" ShortID="176041874">
 													<PropertyList>
-														<Property Name="Delay" Type="Real64" Value="0.95"/>
+														<Property Name="Delay" Type="Real64" Value="0.85"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
@@ -274,6 +281,13 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{80FDBBB1-DC51-4B95-9BC0-839E0909370A}" ShortID="961259802">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_bloodcell_hit_01" ID="{B4D1488B-513E-448E-BA4E-4E31B4C2CF28}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{6A77A501-6CC0-44C7-BF05-B5902EFF3619}" ShortID="693627067">
 													<PropertyList>
 														<Property Name="ActionType" Type="int16" Value="2"/>
@@ -321,6 +335,13 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="sfx_enemy_all_death_01" ID="{C1B01B55-8D92-44A2-AFDE-915C92C6863E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{97F0FCED-BF05-4BCA-86A1-219C04D37640}" ShortID="960939774">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="sfx_enemy_germslime_death_01" ID="{903702AC-B7D7-4CEF-86A9-2E906C68E04C}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -388,6 +409,13 @@
 																</Reference>
 															</ReferenceList>
 														</Action>
+														<Action Name="" ID="{9DA56C12-622E-463D-B974-E9EDC664AA5C}" ShortID="151642686">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="sfx_enemy_germspike_death_01" ID="{62BD62BF-7A00-468D-87BA-2C196E623885}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
 														<Action Name="" ID="{A304ACF6-8485-467F-8F3B-F9C41AE52504}" ShortID="391319163">
 															<PropertyList>
 																<Property Name="ActionType" Type="int16" Value="2"/>
@@ -404,7 +432,17 @@
 										</Folder>
 										<Folder Name="Hit" ID="{308C5522-FDA3-406A-85F4-3B2AECF63EE2}" ShortID="550181999">
 											<ChildrenList>
-												<Event Name="sfx_enemies_germspike_hit" ID="{7613E549-5C73-43A7-8C59-207F7AE67107}"/>
+												<Event Name="sfx_enemies_germspike_hit" ID="{7613E549-5C73-43A7-8C59-207F7AE67107}">
+													<ChildrenList>
+														<Action Name="" ID="{97DD9D3A-B943-44F0-925B-85956BF09467}" ShortID="758259265">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Hit" ID="{6C2644A2-36FA-4EB3-BA88-26340765F2E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Idle" ID="{5A2961CE-BB39-4316-AECB-5A2CEACF8995}" ShortID="812830447">

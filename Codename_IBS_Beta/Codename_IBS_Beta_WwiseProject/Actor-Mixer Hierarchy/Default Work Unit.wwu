@@ -1133,7 +1133,7 @@
 													<Custom CreatedFrom="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}">
 														<Attenuation Name="Enemy Attenuation (Custom)" ID="{331B3025-B0F0-4910-BA30-415428FE2A2D}" ShortID="1028894098">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -1150,7 +1150,7 @@
 																					<SegmentShape>Log1</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1178,13 +1178,13 @@
 																					<SegmentShape>Exp2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>11.0243925</XPos>
+																					<XPos>3.6747975</XPos>
 																					<YPos>13</YPos>
 																					<Flags>0</Flags>
 																					<SegmentShape>Log2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>40</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1279,7 +1279,7 @@
 													<Custom CreatedFrom="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}">
 														<Attenuation Name="Enemy Attenuation (Custom)" ID="{17FEBE7A-A0F4-4ADD-B9A5-E1BD3036A39B}" ShortID="505780054">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -1296,7 +1296,7 @@
 																					<SegmentShape>Log1</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>40</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1324,13 +1324,13 @@
 																					<SegmentShape>Exp2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>11.0243925</XPos>
+																					<XPos>14.69919</XPos>
 																					<YPos>13</YPos>
 																					<Flags>0</Flags>
 																					<SegmentShape>Log2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>40</XPos>
 																					<YPos>40</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1427,13 +1427,18 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<Custom CreatedFrom="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}">
 														<Attenuation Name="Enemy Attenuation (Custom)" ID="{E110FC39-84A3-445C-B15B-0EBA98A6CE06}" ShortID="567040153">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -1450,7 +1455,7 @@
 																					<SegmentShape>Log1</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>40</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1478,13 +1483,13 @@
 																					<SegmentShape>Exp2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>11.0243925</XPos>
+																					<XPos>14.69919</XPos>
 																					<YPos>13</YPos>
 																					<Flags>0</Flags>
 																					<SegmentShape>Log2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>40</XPos>
 																					<YPos>40</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1725,7 +1730,7 @@
 													<Custom CreatedFrom="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}">
 														<Attenuation Name="Enemy Attenuation (Custom)" ID="{A683086D-3C37-46A1-BE21-57143C4CA825}" ShortID="328462100">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -1742,7 +1747,7 @@
 																					<SegmentShape>Log1</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1770,13 +1775,13 @@
 																					<SegmentShape>Exp2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>11.0243925</XPos>
+																					<XPos>3.6747975</XPos>
 																					<YPos>13</YPos>
 																					<Flags>0</Flags>
 																					<SegmentShape>Log2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>40</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -1851,6 +1856,382 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="sfx_enemy_germspike_idle_01" ID="{923E81DD-CE9C-4DE7-989B-43EA803758EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Hit" ID="{E0E87252-06AC-40BB-BA75-642B242766A8}" ShortID="1029363034">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Hit" ID="{6C2644A2-36FA-4EB3-BA88-26340765F2E0}" ShortID="446936673">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>380</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{0910851C-2F0E-42AD-B86B-7D840FED9FA5}" ShortID="444470892">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{A91CD40A-54F9-47D1-853F-C40A98E20CBF}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>40</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_enemy_germspike_hit_01" ID="{DB603AFC-D8D7-449B-A51C-28E15E3D2737}" ShortID="43522958">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_01" ID="{FC1AA3F6-1132-4E60-BB49-E45D43F07162}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767360171"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_01" ID="{FC1AA3F6-1132-4E60-BB49-E45D43F07162}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_germspike_hit_02" ID="{7F6B159C-F89B-48BC-AA54-C63F64D573E3}" ShortID="763935678">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_02" ID="{472ED965-C72F-4CE2-AAE6-DCADBFA90D56}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="801638011"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_02" ID="{472ED965-C72F-4CE2-AAE6-DCADBFA90D56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_germspike_hit_03" ID="{B792550A-303A-4482-8429-C4BED11F92FA}" ShortID="1011034480">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_03" ID="{2BB5959E-F7C0-4A9A-BBEA-C517F360760A}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="117817863"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_03" ID="{2BB5959E-F7C0-4A9A-BBEA-C517F360760A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_germspike_hit_04" ID="{3DB56AE3-9049-49F5-86D5-7661C1F5639A}" ShortID="718751265">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_04" ID="{0ACF3758-46FD-4794-884E-7FE6E61C5424}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="52232605"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_04" ID="{0ACF3758-46FD-4794-884E-7FE6E61C5424}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_germspike_hit_05" ID="{8B8A32F7-E94F-48DC-93C5-454B48636E13}" ShortID="974138933">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_05" ID="{93BAFA92-D368-4403-9870-72B570048C54}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="183424529"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_05" ID="{93BAFA92-D368-4403-9870-72B570048C54}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_enemy_germspike_hit_06" ID="{53CFC4FF-31BA-4A9A-B9BC-2B2FB3737274}" ShortID="482825455">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_enemy_germspike_hit_06" ID="{86A4EF0C-B4E0-4F51-B5A4-8451224B7292}">
+															<Language>SFX</Language>
+															<AudioFile>Hit\sfx_enemy_germspike_hit_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1004031063"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_enemy_germspike_hit_06" ID="{86A4EF0C-B4E0-4F51-B5A4-8451224B7292}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Death" ID="{AB77AE55-D2ED-405D-ABDF-7F430509414C}" ShortID="730913048">
+									<ChildrenList>
+										<Sound Name="sfx_enemy_germspike_death_01" ID="{62BD62BF-7A00-468D-87BA-2C196E623885}" ShortID="189854601">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>910</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8ECC9415-AA2A-4100-8527-4CB3B3599ECA}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="581"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{E008E673-9C0E-4C5D-A5E4-3B24CC5DBD5D}" ShortID="878607691">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{455B50D4-687C-4D77-B279-9D96A4DFDB40}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>40</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_enemy_germspike_death_01" ID="{E38635C5-DE66-4653-B3DD-15E15B6550E6}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_enemy_germspike_death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="946668468"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_enemy_germspike_death_01" ID="{E38635C5-DE66-4653-B3DD-15E15B6550E6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2009,7 +2390,7 @@
 													<Custom CreatedFrom="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}">
 														<Attenuation Name="Enemy Attenuation (Custom)" ID="{1505CF1A-1470-4D74-BF09-231CDB13B0C8}" ShortID="846273657">
 															<PropertyList>
-																<Property Name="RadiusMax" Type="Real64" Value="30"/>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
 															</PropertyList>
 															<CurveUsageInfoList>
 																<VolumeDryUsage>
@@ -2026,7 +2407,7 @@
 																					<SegmentShape>Log1</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>-200</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -2054,13 +2435,13 @@
 																					<SegmentShape>Exp2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>11.0243925</XPos>
+																					<XPos>3.6747975</XPos>
 																					<YPos>13</YPos>
 																					<Flags>0</Flags>
 																					<SegmentShape>Log2</SegmentShape>
 																				</Point>
 																				<Point>
-																					<XPos>30</XPos>
+																					<XPos>10</XPos>
 																					<YPos>40</YPos>
 																					<Flags>37</Flags>
 																				</Point>
@@ -2135,6 +2516,134 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="sfx_enemy_germslime_idle_02" ID="{CB94A251-E4C7-440B-B02D-CE47DE1EC8B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Death" ID="{199DEEBA-653F-4A32-A2C2-6A5DC9274DEE}" ShortID="252388510">
+									<ChildrenList>
+										<Sound Name="sfx_enemy_germslime_death_01" ID="{903702AC-B7D7-4CEF-86A9-2E906C68E04C}" ShortID="460807403">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D2ACF78C-DABD-43E8-B2C7-F57C3DF51728}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="300"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{2A169382-37B7-427C-9766-D172010F656D}" ShortID="585078542">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="40"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{FAC56507-4ECF-49B5-9319-51D047A4BF00}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>40</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_enemy_germslime_death_01" ID="{1475969C-891F-48D5-97B4-83CB69B26AED}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_enemy_germslime_death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="133933745"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_enemy_germslime_death_01" ID="{1475969C-891F-48D5-97B4-83CB69B26AED}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

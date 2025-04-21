@@ -254,7 +254,8 @@ MonoBehaviour:
   EnemyHit:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b7ff48ee2f14745e59fd2d47198a2f3f,
+      type: 2}
   EnemyIdle:
     idInternal: 0
     valueGuidInternal: 
