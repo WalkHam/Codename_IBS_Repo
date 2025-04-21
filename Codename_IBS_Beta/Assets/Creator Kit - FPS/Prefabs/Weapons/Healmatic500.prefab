@@ -106,7 +106,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3234742015143470754}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50135e78f0bdd4ba7bdddc1513963ea1, type: 3}
   m_Name: 
@@ -649,13 +649,12 @@ MonoBehaviour:
   WwiseEvent2:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 44cf2cf41a2bd114fa8e520a11cb427e,
+    WwiseObjectReference: {fileID: 11400000, guid: 4f01640c6081140f89858bd1d9af0508,
       type: 2}
   WwiseEvent3:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4f01640c6081140f89858bd1d9af0508,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   SoundSource: {fileID: 3234742015143470754}
 --- !u!4 &3696439805872983615 stripped
 Transform:

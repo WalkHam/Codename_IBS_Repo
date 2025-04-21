@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1c6696757420b74db109cb710b8a6735
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: 1c6696757420b74db109cb710b8a6735
     GuidInternal: 
-    m_lastTime: -8584573741454766695
+    m_lastTime: -8584587591576056072
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f39de0523dc72f4686375cb348f55b42
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584563459236323539
+    m_lastTime: -8584566017646983203
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -56,7 +56,7 @@ MonoBehaviour:
       - ElementName: Amb Bus
         ObjectType: 2
         guid: f85a6836a5f95e4dbe58025a3854dbf7
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Amb Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -70,7 +70,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
     - name: Music Bus
       guid: 57ac13935252f44794c88cbbe96649b1
       id: 3127962312
@@ -87,7 +87,7 @@ MonoBehaviour:
       - ElementName: Music Bus
         ObjectType: 2
         guid: 57ac13935252f44794c88cbbe96649b1
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Bus
     - name: SFX Bus
       guid: ea6ce0e12ba4aa4292f8bd83387b928f
       id: 1502772432
@@ -104,9 +104,9 @@ MonoBehaviour:
       - ElementName: SFX Bus
         ObjectType: 2
         guid: ea6ce0e12ba4aa4292f8bd83387b928f
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -114,10 +114,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f63a113d2904b14c84bf993e7c493880
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584563428187750557
+    m_lastTime: -8584563392258724167
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -132,9 +132,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 9a659aa79ccb7543a63df51b4a43649d
-      Path: SoundBanks/Default Work Unit/Main
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -142,10 +142,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 808f5e8fc580c44b891c6abf8edc7be1
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584563428187774517
+    m_lastTime: -8584563392259817173
     List:
     - name: Acid_Loop
       guid: d32c18257bc1424cbce669f35cb43e42
@@ -163,7 +163,7 @@ MonoBehaviour:
       - ElementName: Acid_Loop
         ObjectType: 3
         guid: d32c18257bc1424cbce669f35cb43e42
-      Path: Events/Default Work Unit/Ambiences/Acid_Loop
+      Path: Events\Default Work Unit\Ambiences\Acid_Loop
       maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
@@ -183,7 +183,7 @@ MonoBehaviour:
       - ElementName: Amb_Hospital_Loop
         ObjectType: 3
         guid: d1a3f9f9de620e418fb2acba33984e58
-      Path: Events/Default Work Unit/Ambiences/Amb_Hospital_Loop
+      Path: Events\Default Work Unit\Ambiences\Amb_Hospital_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -200,7 +200,7 @@ MonoBehaviour:
       - ElementName: Ambiences
         ObjectType: 4
         guid: 2d5928a3f2ecb5489f04bce52ea7d017
-      Path: Events/Default Work Unit/Ambiences
+      Path: Events\Default Work Unit\Ambiences
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -220,7 +220,7 @@ MonoBehaviour:
       - ElementName: Blood Cell
         ObjectType: 4
         guid: fab6ba8551e29d4a982d236091b8fd8c
-      Path: Events/Default Work Unit/Enemies/Blood Cell
+      Path: Events\Default Work Unit\Enemies\Blood Cell
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -243,7 +243,7 @@ MonoBehaviour:
       - ElementName: Death
         ObjectType: 4
         guid: 5d791fadcbde314181e8a462c08fd2ed
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Death
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -269,7 +269,7 @@ MonoBehaviour:
       - ElementName: Death
         ObjectType: 4
         guid: e411166fdadc05418f6e194bf845982d
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Death
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -292,7 +292,7 @@ MonoBehaviour:
       - ElementName: Death
         ObjectType: 4
         guid: c1251c0b351d4f4e84a9a4f0163b44b3
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Death
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -315,7 +315,7 @@ MonoBehaviour:
       - ElementName: Dissolve
         ObjectType: 4
         guid: d3f8366b6af68745b920957d2071442a
-      Path: Events/Default Work Unit/Enemies/Fat Blob/Dissolve
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Dissolve
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -332,7 +332,7 @@ MonoBehaviour:
       - ElementName: Enemies
         ObjectType: 4
         guid: 0358b1b3c8f424469d1189412c51dd27
-      Path: Events/Default Work Unit/Enemies
+      Path: Events\Default Work Unit\Enemies
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -352,7 +352,7 @@ MonoBehaviour:
       - ElementName: Fat Blob
         ObjectType: 4
         guid: a1ecc39dc901a949b66eda3f6c7c609a
-      Path: Events/Default Work Unit/Enemies/Fat Blob
+      Path: Events\Default Work Unit\Enemies\Fat Blob
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -375,7 +375,7 @@ MonoBehaviour:
       - ElementName: Fire
         ObjectType: 4
         guid: 70be67c47411ba4bb3f06c4509e24404
-      Path: Events/Default Work Unit/Weapons/Healmatic500/Fire
+      Path: Events\Default Work Unit\Weapons\Healmatic500\Fire
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -398,7 +398,7 @@ MonoBehaviour:
       - ElementName: Fire
         ObjectType: 4
         guid: 24dadd0be9285044a6b0c70c7fda699a
-      Path: Events/Default Work Unit/Weapons/GermOBlaster/Fire
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -418,7 +418,7 @@ MonoBehaviour:
       - ElementName: Germ Slime
         ObjectType: 4
         guid: 4b418d7d94343447a41afa44d69ee8f4
-      Path: Events/Default Work Unit/Enemies/Germ Slime
+      Path: Events\Default Work Unit\Enemies\Germ Slime
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -441,7 +441,7 @@ MonoBehaviour:
       - ElementName: Germ Spike
         ObjectType: 4
         guid: f16ba29d1a1fad4086e47059802d62c7
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -461,7 +461,7 @@ MonoBehaviour:
       - ElementName: Germ Spike
         ObjectType: 4
         guid: 4de301080640cd4380edcbf40bdee100
-      Path: Events/Default Work Unit/Enemies/Germ Spike
+      Path: Events\Default Work Unit\Enemies\Germ Spike
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -481,7 +481,7 @@ MonoBehaviour:
       - ElementName: GermOBlaster
         ObjectType: 4
         guid: 3444b38cd5423e46bb81e916dbd5670e
-      Path: Events/Default Work Unit/Weapons/GermOBlaster
+      Path: Events\Default Work Unit\Weapons\GermOBlaster
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -501,7 +501,7 @@ MonoBehaviour:
       - ElementName: Healmatic500
         ObjectType: 4
         guid: 8ab0d65270b5274c86d26acc11cbaa03
-      Path: Events/Default Work Unit/Weapons/Healmatic500
+      Path: Events\Default Work Unit\Weapons\Healmatic500
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -524,7 +524,7 @@ MonoBehaviour:
       - ElementName: Hit
         ObjectType: 4
         guid: 33825e3a9e8a6d42aa63ab5a8ce39ae5
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Hit
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -550,7 +550,7 @@ MonoBehaviour:
       - ElementName: Hit
         ObjectType: 4
         guid: 22558c30a3fd6a4085f43b2aecf63ee2
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Hit
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -573,7 +573,7 @@ MonoBehaviour:
       - ElementName: Hit
         ObjectType: 4
         guid: e814a31a7936f04689157d43d7785b5d
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Hit
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -596,7 +596,7 @@ MonoBehaviour:
       - ElementName: Idle
         ObjectType: 4
         guid: ecc87fe60cc5bf40bb503cef762f099f
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Idle
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -622,7 +622,7 @@ MonoBehaviour:
       - ElementName: Idle
         ObjectType: 4
         guid: ce61295a39bb1643aecb5a2ceacf8995
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Idle
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -645,7 +645,7 @@ MonoBehaviour:
       - ElementName: Idle
         ObjectType: 4
         guid: 52ed2eff80549a4f95ce6aae5614d871
-      Path: Events/Default Work Unit/Enemies/Fat Blob/Idle
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -668,7 +668,7 @@ MonoBehaviour:
       - ElementName: Idle
         ObjectType: 4
         guid: d11040aee7603545b2f1d96f237b8186
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Idle
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -685,7 +685,7 @@ MonoBehaviour:
       - ElementName: Key
         ObjectType: 4
         guid: 014ef603d1b7d945918a2f457dd299ea
-      Path: Events/Default Work Unit/Key
+      Path: Events\Default Work Unit\Key
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -705,7 +705,7 @@ MonoBehaviour:
       - ElementName: Music_Start
         ObjectType: 3
         guid: 5d02050a15458b44b24910e40d8542d2
-      Path: Events/Default Work Unit/Ambiences/Music_Start
+      Path: Events\Default Work Unit\Ambiences\Music_Start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -725,7 +725,7 @@ MonoBehaviour:
       - ElementName: PIll Grenade
         ObjectType: 4
         guid: e0ebbcf12ce0044eb0b02a39aa39b519
-      Path: Events/Default Work Unit/Weapons/PIll Grenade
+      Path: Events\Default Work Unit\Weapons\PIll Grenade
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -748,7 +748,7 @@ MonoBehaviour:
       - ElementName: Reload
         ObjectType: 4
         guid: 098ae234c727bd4bb4dc8ae36d0ff679
-      Path: Events/Default Work Unit/Weapons/Healmatic500/Reload
+      Path: Events\Default Work Unit\Weapons\Healmatic500\Reload
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -771,7 +771,7 @@ MonoBehaviour:
       - ElementName: Reload
         ObjectType: 4
         guid: c65a21a314b07a49b69acaae61d14085
-      Path: Events/Default Work Unit/Weapons/GermOBlaster/Reload
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -791,7 +791,7 @@ MonoBehaviour:
       - ElementName: Room_Amb
         ObjectType: 3
         guid: b1ed8b454d4ff942ba02569a7c04c4ee
-      Path: Events/Default Work Unit/Ambiences/Room_Amb
+      Path: Events\Default Work Unit\Ambiences\Room_Amb
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -811,7 +811,7 @@ MonoBehaviour:
       - ElementName: sfx_doorandkey_key_collect
         ObjectType: 3
         guid: 038c3ca0d97047488f300f61e2b5f389
-      Path: Events/Default Work Unit/Key/sfx_doorandkey_key_collect
+      Path: Events\Default Work Unit\Key\sfx_doorandkey_key_collect
       maxAttenuation: 0
       maxDuration: 8
       minDuration: 8
@@ -837,7 +837,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_bloodcell_death
         ObjectType: 3
         guid: 260228ffb789504eb7ac16f02cf6a2e8
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Death/sfx_enemies_bloodcell_death
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Death\sfx_enemies_bloodcell_death
       maxAttenuation: 30
       maxDuration: 0.57358336
       minDuration: 0.57358336
@@ -863,7 +863,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_bloodcell_hit
         ObjectType: 3
         guid: cc9beac2bfe29348b56f7a78d8421628
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Hit/sfx_enemies_bloodcell_hit
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemies_bloodcell_hit
       maxAttenuation: 30
       maxDuration: 0.5828661
       minDuration: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_bloodcell_idle
         ObjectType: 3
         guid: f1dab5091b11e24c962b4e367d61d782
-      Path: Events/Default Work Unit/Enemies/Blood Cell/Idle/sfx_enemies_bloodcell_idle
+      Path: Events\Default Work Unit\Enemies\Blood Cell\Idle\sfx_enemies_bloodcell_idle
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
@@ -915,7 +915,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_fatblob_dissolve
         ObjectType: 3
         guid: 69a5c193edc6754dba02768c0370e490
-      Path: Events/Default Work Unit/Enemies/Fat Blob/Dissolve/sfx_enemies_fatblob_dissolve
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Dissolve\sfx_enemies_fatblob_dissolve
       maxAttenuation: 30
       maxDuration: 5.805116
       minDuration: 5.805116
@@ -941,7 +941,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_fatblob_idle
         ObjectType: 3
         guid: bc642c4299f3694e9260961204235e42
-      Path: Events/Default Work Unit/Enemies/Fat Blob/Idle/sfx_enemies_fatblob_idle
+      Path: Events\Default Work Unit\Enemies\Fat Blob\Idle\sfx_enemies_fatblob_idle
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
@@ -967,7 +967,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germslime_death
         ObjectType: 3
         guid: a3812647a2d7df43905288ec7e91358a
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Death/sfx_enemies_germslime_death
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Death\sfx_enemies_germslime_death
       maxAttenuation: 30
       maxDuration: 0.57358336
       minDuration: 0.57358336
@@ -993,7 +993,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germslime_hit
         ObjectType: 3
         guid: 89f3203bccef4144af1e6a7fb60c9615
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Hit/sfx_enemies_germslime_hit
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemies_germslime_hit
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1019,7 +1019,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germslime_idle
         ObjectType: 3
         guid: 0fbd32d15a9aad49a750e9b71eec6a56
-      Path: Events/Default Work Unit/Enemies/Germ Slime/Idle/sfx_enemies_germslime_idle
+      Path: Events\Default Work Unit\Enemies\Germ Slime\Idle\sfx_enemies_germslime_idle
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
@@ -1048,7 +1048,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germspike_death
         ObjectType: 3
         guid: bbb9d00c21695e4c894a003a4abd62a5
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Death/sfx_enemies_germspike_death
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death\sfx_enemies_germspike_death
       maxAttenuation: 30
       maxDuration: 0.57358336
       minDuration: 0.57358336
@@ -1077,7 +1077,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germspike_hit
         ObjectType: 3
         guid: 49e51376735ca7438c59207f7ae67107
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Hit/sfx_enemies_germspike_hit
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit\sfx_enemies_germspike_hit
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
       - ElementName: sfx_enemies_germspike_idle
         ObjectType: 3
         guid: ebaf4828812cc4429df82870ca62ed0b
-      Path: Events/Default Work Unit/Enemies/Germ Spike/Germ Spike/Idle/sfx_enemies_germspike_idle
+      Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Idle\sfx_enemies_germspike_idle
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
@@ -1129,7 +1129,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_all_swap
         ObjectType: 3
         guid: a0dc18047d046841b502566dda9e5fe3
-      Path: Events/Default Work Unit/Weapons/Weapon Swap/sfx_weapon_all_swap
+      Path: Events\Default Work Unit\Weapons\Weapon Swap\sfx_weapon_all_swap
       maxAttenuation: 0
       maxDuration: 0.6138843
       minDuration: 0.6138843
@@ -1155,7 +1155,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_germoblaster_fire
         ObjectType: 3
         guid: dcf6e69fdcc17a4f98b70f28eedf2e2b
-      Path: Events/Default Work Unit/Weapons/GermOBlaster/Fire/sfx_weapon_germoblaster_fire
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Fire\sfx_weapon_germoblaster_fire
       maxAttenuation: 0
       maxDuration: 0.07489584
       minDuration: 0.07235417
@@ -1181,7 +1181,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_germoblaster_reload
         ObjectType: 3
         guid: 5b846ab96f2b3f498ea778d8b27df380
-      Path: Events/Default Work Unit/Weapons/GermOBlaster/Reload/sfx_weapon_germoblaster_reload
+      Path: Events\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload
       maxAttenuation: 0
       maxDuration: 1.660625
       minDuration: 1.660625
@@ -1207,7 +1207,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_healmatic500_fire
         ObjectType: 3
         guid: 948005223f67ea4eabcd5b2518911dc4
-      Path: Events/Default Work Unit/Weapons/Healmatic500/Fire/sfx_weapon_healmatic500_fire
+      Path: Events\Default Work Unit\Weapons\Healmatic500\Fire\sfx_weapon_healmatic500_fire
       maxAttenuation: 0
       maxDuration: 1.0493492
       minDuration: 1.0493492
@@ -1233,7 +1233,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_healmatic500_reload
         ObjectType: 3
         guid: 81f70eaa04a3ee4b830ad3ce1d9fbfc0
-      Path: Events/Default Work Unit/Weapons/Healmatic500/Reload/sfx_weapon_healmatic500_reload
+      Path: Events\Default Work Unit\Weapons\Healmatic500\Reload\sfx_weapon_healmatic500_reload
       maxAttenuation: 0
       maxDuration: 1.2090416
       minDuration: 1.2090416
@@ -1256,7 +1256,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_explode
         ObjectType: 3
         guid: 68e670bf7c051f46a7ca065fed72f5dd
-      Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_explode
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_explode
       maxAttenuation: 0
       maxDuration: 1.232907
       minDuration: 1.1240691
@@ -1279,7 +1279,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_reload
         ObjectType: 3
         guid: a55f92279c226c4fa0df460bbc32c900
-      Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_reload
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_reload
       maxAttenuation: 0
       maxDuration: 1.0199375
       minDuration: 1.0199375
@@ -1302,7 +1302,7 @@ MonoBehaviour:
       - ElementName: sfx_weapon_pill_throw
         ObjectType: 3
         guid: ccb1e42a82f0264080dcc310340ecab5
-      Path: Events/Default Work Unit/Weapons/PIll Grenade/sfx_weapon_pill_throw
+      Path: Events\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_throw
       maxAttenuation: 0
       maxDuration: 0.5050144
       minDuration: 0.28342977
@@ -1325,7 +1325,7 @@ MonoBehaviour:
       - ElementName: TakeOut
         ObjectType: 3
         guid: 1ce283d41759d04499d3ebc5fffa5646
-      Path: Events/Default Work Unit/Weapons/Healmatic500/TakeOut
+      Path: Events\Default Work Unit\Weapons\Healmatic500\TakeOut
       maxAttenuation: 0
       maxDuration: 1.0909297
       minDuration: 1.0909297
@@ -1342,7 +1342,7 @@ MonoBehaviour:
       - ElementName: Test_Hum
         ObjectType: 3
         guid: bbc73651533d9f45bca7e7f36c562047
-      Path: Events/Default Work Unit/Test_Hum
+      Path: Events\Default Work Unit\Test_Hum
       maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
@@ -1359,7 +1359,7 @@ MonoBehaviour:
       - ElementName: Test_Pop
         ObjectType: 3
         guid: 8d0579ca31eca84d9b470e24eba21c1c
-      Path: Events/Default Work Unit/Test_Pop
+      Path: Events\Default Work Unit\Test_Pop
       maxAttenuation: 0
       maxDuration: 2.6051562
       minDuration: 2.6051562
@@ -1379,7 +1379,7 @@ MonoBehaviour:
       - ElementName: Weapon Swap
         ObjectType: 4
         guid: 7de4dd5142138c4f89695c21ae9fbd58
-      Path: Events/Default Work Unit/Weapons/Weapon Swap
+      Path: Events\Default Work Unit\Weapons\Weapon Swap
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1396,11 +1396,11 @@ MonoBehaviour:
       - ElementName: Weapons
         ObjectType: 4
         guid: fb6c2611908a434dbe0cfb7a038a3da4
-      Path: Events/Default Work Unit/Weapons
+      Path: Events\Default Work Unit\Weapons
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Menu.wwu
+  - PhysicalPath: Events\Menu.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -1408,10 +1408,10 @@ MonoBehaviour:
     - ElementName: Menu
       ObjectType: 12
       guid: 3069490e42a6f94589a90d7e35c852fe
-    ParentPath: Events/Menu
+    ParentPath: Events\Menu
     guid: 3069490e42a6f94589a90d7e35c852fe
     GuidInternal: 
-    m_lastTime: -8584563459236783144
+    m_lastTime: -8584566042540958863
     List:
     - name: UI_Hover
       guid: e129b599eeff0840b03fcbb9829df82f
@@ -1426,7 +1426,7 @@ MonoBehaviour:
       - ElementName: UI_Hover
         ObjectType: 3
         guid: e129b599eeff0840b03fcbb9829df82f
-      Path: Events/Menu/UI_Hover
+      Path: Events\Menu\UI_Hover
       maxAttenuation: 0
       maxDuration: 0.23262875
       minDuration: 0.21455726
@@ -1443,7 +1443,7 @@ MonoBehaviour:
       - ElementName: UI_Pause
         ObjectType: 3
         guid: 7800355d26551a49bb34b1a77f7643bc
-      Path: Events/Menu/UI_Pause
+      Path: Events\Menu\UI_Pause
       maxAttenuation: 0
       maxDuration: 0.3608765
       minDuration: 0.34062204
@@ -1460,7 +1460,7 @@ MonoBehaviour:
       - ElementName: UI_Select
         ObjectType: 3
         guid: 0f8d775b5204f4489303259b04debcda
-      Path: Events/Menu/UI_Select
+      Path: Events\Menu\UI_Select
       maxAttenuation: 0
       maxDuration: 0.33717632
       minDuration: 0.31825203
@@ -1477,11 +1477,11 @@ MonoBehaviour:
       - ElementName: UI_Unpause
         ObjectType: 3
         guid: 7bc82db2457849409fed734fb84c6f69
-      Path: Events/Menu/UI_Unpause
+      Path: Events\Menu\UI_Unpause
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-  - PhysicalPath: Events/Player.wwu
+  - PhysicalPath: Events\Player.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -1489,10 +1489,10 @@ MonoBehaviour:
     - ElementName: Player
       ObjectType: 12
       guid: 9e4cf767659acc45a7c87147e6351180
-    ParentPath: Events/Player
+    ParentPath: Events\Player
     guid: 9e4cf767659acc45a7c87147e6351180
     GuidInternal: 
-    m_lastTime: -8584567668587509727
+    m_lastTime: -8584567631590453663
     List:
     - name: sfx_player_fs
       guid: b9ccbbb843f2944eb4e54edeb190e8f0
@@ -1507,7 +1507,7 @@ MonoBehaviour:
       - ElementName: sfx_player_fs
         ObjectType: 3
         guid: b9ccbbb843f2944eb4e54edeb190e8f0
-      Path: Events/Player/sfx_player_fs
+      Path: Events\Player\sfx_player_fs
       maxAttenuation: 0
       maxDuration: 0.39334473
       minDuration: 0.08953522
@@ -1524,7 +1524,7 @@ MonoBehaviour:
       - ElementName: sfx_player_fs_material_flesh
         ObjectType: 3
         guid: 37fbd8f0f4ed9e4a936313440c4b5645
-      Path: Events/Player/sfx_player_fs_material_flesh
+      Path: Events\Player\sfx_player_fs_material_flesh
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
       - ElementName: sfx_player_fs_material_water
         ObjectType: 3
         guid: 29fd738153107d41a2de408234e57fc6
-      Path: Events/Player/sfx_player_fs_material_water
+      Path: Events\Player\sfx_player_fs_material_water
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
       - ElementName: sfx_player_jump
         ObjectType: 3
         guid: f9f0f9483644f24a916d455c04da9a22
-      Path: Events/Player/sfx_player_jump
+      Path: Events\Player\sfx_player_jump
       maxAttenuation: 0
       maxDuration: 0.38607314
       minDuration: 0.33609623
@@ -1575,12 +1575,12 @@ MonoBehaviour:
       - ElementName: sfx_player_land
         ObjectType: 3
         guid: 555f517193497748b6d08aed2d334c34
-      Path: Events/Player/sfx_player_land
+      Path: Events\Player\sfx_player_land
       maxAttenuation: 0
       maxDuration: 0.41282877
       minDuration: 0.059990495
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1588,10 +1588,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 45732d1542a3c04fb8444cdb3851cb22
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 45732d1542a3c04fb8444cdb3851cb22
     GuidInternal: 
-    m_lastTime: -8584567668587506456
+    m_lastTime: -8584567631590383259
     List:
     - name: AmbVolume
       guid: 164e74d36899384b9af3c94dcf90ef65
@@ -1609,7 +1609,7 @@ MonoBehaviour:
       - ElementName: AmbVolume
         ObjectType: 13
         guid: 164e74d36899384b9af3c94dcf90ef65
-      Path: Game Parameters/Default Work Unit/Volume/AmbVolume
+      Path: Game Parameters\Default Work Unit\Volume\AmbVolume
     - name: MusicVolume
       guid: ceae6c7bd59ebb44ac405b6cce8d8163
       id: 2346531308
@@ -1626,7 +1626,7 @@ MonoBehaviour:
       - ElementName: MusicVolume
         ObjectType: 13
         guid: ceae6c7bd59ebb44ac405b6cce8d8163
-      Path: Game Parameters/Default Work Unit/Volume/MusicVolume
+      Path: Game Parameters\Default Work Unit\Volume\MusicVolume
     - name: SFXVolume
       guid: 104e17350302b048a3e6a59825a08f60
       id: 988953028
@@ -1643,7 +1643,7 @@ MonoBehaviour:
       - ElementName: SFXVolume
         ObjectType: 13
         guid: 104e17350302b048a3e6a59825a08f60
-      Path: Game Parameters/Default Work Unit/Volume/SFXVolume
+      Path: Game Parameters\Default Work Unit\Volume\SFXVolume
     - name: Volume
       guid: d823a4bcc41f5f4fa6fdc8cdfd010e53
       id: 2415836739
@@ -1657,9 +1657,9 @@ MonoBehaviour:
       - ElementName: Volume
         ObjectType: 4
         guid: d823a4bcc41f5f4fa6fdc8cdfd010e53
-      Path: Game Parameters/Default Work Unit/Volume
+      Path: Game Parameters\Default Work Unit\Volume
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1667,10 +1667,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
-    m_lastTime: -8584563459236115717
+    m_lastTime: -8584566019318950694
     List:
     - name: Music_Room
       guid: bd85b1bd76c4ad4899cc5e2e18997aa4
@@ -1685,7 +1685,7 @@ MonoBehaviour:
       - ElementName: Music_Room
         ObjectType: 9
         guid: bd85b1bd76c4ad4899cc5e2e18997aa4
-      Path: States/Default Work Unit/Music_Room
+      Path: States\Default Work Unit\Music_Room
       values:
       - name: Brain
         guid: 509a75a63a022244ac30a2eebee878a3
@@ -1783,7 +1783,7 @@ MonoBehaviour:
       - ElementName: Pause
         ObjectType: 9
         guid: a5e223be49d3a543bd5d81ec5274d8d9
-      Path: States/Default Work Unit/Pause
+      Path: States\Default Work Unit\Pause
       values:
       - name: None
         guid: 0d14667e0c9abc4bb4006902c7eb33c8
@@ -1849,7 +1849,7 @@ MonoBehaviour:
       - ElementName: Room_Amb
         ObjectType: 9
         guid: 4b1e42dd69476d43b4ea854ccec91a6a
-      Path: States/Default Work Unit/Room_Amb
+      Path: States\Default Work Unit\Room_Amb
       values:
       - name: Large
         guid: 7a509c4919bc26489b6577e06320cb8f
@@ -1919,7 +1919,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -1927,10 +1927,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 5fd339d132c13d42a72b1aa2b4179e0e
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: 5fd339d132c13d42a72b1aa2b4179e0e
     GuidInternal: 
-    m_lastTime: -8584567668586582596
+    m_lastTime: -8584567631574777770
     List:
     - name: Materials
       guid: 736b4c7eac5739408a011266deb862df
@@ -1945,7 +1945,7 @@ MonoBehaviour:
       - ElementName: Materials
         ObjectType: 11
         guid: 736b4c7eac5739408a011266deb862df
-      Path: Switches/Default Work Unit/Materials
+      Path: Switches\Default Work Unit\Materials
       values:
       - name: flesh
         guid: 468f27c9c167404ea7165f394155e4ed
@@ -1983,7 +1983,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -1991,13 +1991,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 69907736d8ee8f41a3a314b0fb9a5b05
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: 69907736d8ee8f41a3a314b0fb9a5b05
     GuidInternal: 
-    m_lastTime: -8584573741454767943
+    m_lastTime: -8584587591576062355
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000005000000060000000c0000000d0000000e00000010000000110000001700000036000000420100004301000044010000e0010000b9020000
+  ExpandedWaapiItemIds: 010000000200000005000000060000000700000008000000090000000a0000000c0000000d0000000e000000100000001100000017000000350000003600000037000000380000003a0000003b0000003c0000003d000000420100004301000044010000e0010000b9020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
