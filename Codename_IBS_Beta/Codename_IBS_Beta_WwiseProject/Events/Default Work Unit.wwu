@@ -111,6 +111,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="TakeOut" ID="{D483E21C-5917-44D0-99D3-EBC5FFFA5646}">
+									<ChildrenList>
+										<Action Name="" ID="{65899D5F-EE14-484D-A09B-94AC4C1B5319}" ShortID="343713342">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Gun Whip Up" ID="{D4F49437-5FC6-4736-A98F-1D2943152282}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="GermOBlaster" ID="{8CB34434-42D5-463E-BB81-E916DBD5670E}" ShortID="977473251">
