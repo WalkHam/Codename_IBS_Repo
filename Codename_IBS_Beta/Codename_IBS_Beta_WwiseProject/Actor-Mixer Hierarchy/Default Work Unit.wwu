@@ -131,6 +131,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Enemy Attenuation" ID="{490F02A9-7E74-46F4-9A93-84B8ED1D89AD}" WorkUnitID="{D970CDAD-57DB-484E-8C9C-7BB354F5BCEF}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
 										</Reference>
@@ -2707,17 +2710,19 @@
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>60</Value>
+										<Value>33</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{50BFC1B5-69FD-45D2-9229-99CA2F17B432}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="70"/>
-													<Property Name="Min" Type="Real64" Value="-70"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -2725,7 +2730,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

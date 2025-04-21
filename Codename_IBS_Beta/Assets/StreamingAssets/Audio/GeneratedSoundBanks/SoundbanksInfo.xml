@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A62CDC00-4389-9F5A-8A98-133C84E16ABE}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9415C8FC-845D-0705-0713-51FF540B36ED}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -39,6 +39,13 @@
 				<GameParameter Id="4209755525" Name="AmbVolume"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="20433824" Name="FS_Material">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1153642577" Name="Flesh"/>
+						<State Id="2654748154" Name="Water"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="212799888" Name="Music_Room">
 					<States>
 						<State Id="136808247" Name="Brain"/>
@@ -73,7 +80,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D9F930CE-37D4-C574-9770-FB18B76AEE57}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CA3070EC-DB49-D167-BC50-73B5B23A2B24}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -341,6 +348,7 @@
 						<MediaRef Id="853583580"/>
 					</MediaRefs>
 					<ActionSetState>
+						<ActionSetStateEntry GroupId="20433824" Id="1153642577" Name="Flesh"/>
 						<ActionSetStateEntry GroupId="3789107537" Id="4284352190" Name="Large"/>
 					</ActionSetState>
 				</Event>
@@ -502,7 +510,7 @@
 						<MediaRef Id="756462970"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2968060059" Name="sfx_weapon_pill_explode" DurationType="OneShot" DurationMin="1.1240691" DurationMax="1.232907">
+				<Event Id="2968060059" Name="sfx_weapon_pill_explode" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.1240691" DurationMax="1.232907">
 					<MediaRefs>
 						<MediaRef Id="685681818"/>
 					</MediaRefs>
@@ -528,7 +536,7 @@
 						<MediaRef Id="210565171"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2118900976" Name="UI_Hover" DurationType="OneShot" DurationMin="0.21455726" DurationMax="0.23262875">
+				<Event Id="2118900976" Name="UI_Hover" DurationType="OneShot" DurationMin="0.18786497" DurationMax="0.21087128">
 					<MediaRefs>
 						<MediaRef Id="921373543"/>
 					</MediaRefs>
@@ -553,6 +561,13 @@
 				</Event>
 			</Events>
 			<StateGroups>
+				<StateGroup Id="20433824" Name="FS_Material">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1153642577" Name="Flesh"/>
+						<State Id="2654748154" Name="Water"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="212799888" Name="Music_Room">
 					<States>
 						<State Id="136808247" Name="Brain"/>
@@ -588,5 +603,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E62F9B0E-0131-7550-9E22-E634D99DF53B}</FileHash>
+	<FileHash>{81E5D5D3-AA74-BE90-89F3-40471D8093C9}</FileHash>
 </SoundBanksInfo>
