@@ -80,7 +80,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E40E5C33-537C-6A69-166D-28B44C33BFBD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1738FADE-0C5A-90F5-248A-1B40B4499FE9}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -114,6 +114,11 @@
 					<ShortName>Hit\sfx_enemy_germspike_hit_03.wav</ShortName>
 					<CachePath>SFX/Hit/sfx_enemy_germspike_hit_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="119552482" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>259468-Energy_-wave_loop-03.wav</ShortName>
+					<Path>Media/119552482.wem</Path>
+					<CachePath>SFX/259468-Energy_-wave_loop-03_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="132580410" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_weapon_germoblaster_reload_05.wav</ShortName>
 					<CachePath>SFX/sfx_weapon_germoblaster_reload_05_818F3B66.wem</CachePath>
@@ -134,17 +139,9 @@
 					<ShortName>Hit\sfx_enemy_germspike_hit_05.wav</ShortName>
 					<CachePath>SFX/Hit/sfx_enemy_germspike_hit_05_818F3B66.wem</CachePath>
 				</File>
-				<File Id="188079322" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hum test.wav</ShortName>
-					<CachePath>SFX/Hum test_C5193EDF.wem</CachePath>
-				</File>
 				<File Id="189460687" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_bloodcell_idle_03.wav</ShortName>
 					<CachePath>SFX/sfx_enemy_bloodcell_idle_03_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="210565171" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio.wav</ShortName>
-					<CachePath>SFX/1214698.audio-TOONMisc-Ping_Pop_2-RogueWaves-AnimeStudio_818F3B66.wem</CachePath>
 				</File>
 				<File Id="214146599" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_germslime_idle_02.wav</ShortName>
@@ -300,6 +297,10 @@
 					<ShortName>GermOBlaster Fire\sfx_weapon_germoblaster_fire_02.wav</ShortName>
 					<CachePath>SFX/GermOBlaster Fire/sfx_weapon_germoblaster_fire_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="880253382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gun Whip Up.wav</ShortName>
+					<CachePath>SFX/Gun Whip Up_165C4598.wem</CachePath>
+				</File>
 				<File Id="921373543" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover.wav</ShortName>
 					<CachePath>SFX/UI_Hover_05058562.wem</CachePath>
@@ -370,6 +371,11 @@
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="3092587493" Id="1365518790" Name="Unpaused"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="2029174461" Name="BrainSFX_loop" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="119552482"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3725903807" Name="Music_Start" DurationType="Infinite">
 					<MediaRefs>
@@ -446,7 +452,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.23532331" DurationMax="0.33980364">
+				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0" DurationMax="0.33980364">
 					<MediaRefs>
 						<MediaRef Id="52232605"/>
 						<MediaRef Id="117817863"/>
@@ -533,11 +539,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3791724757" Name="sfx_weapon_all_swap" DurationType="OneShot" DurationMin="0.6138843" DurationMax="0.6138843">
-					<MediaRefs>
-						<MediaRef Id="757333123"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1631753596" Name="sfx_weapon_germoblaster_fire" DurationType="OneShot" DurationMin="0.07235417" DurationMax="0.07489584">
 					<MediaRefs>
 						<MediaRef Id="224893202"/>
@@ -555,6 +556,11 @@
 						<MediaRef Id="854236484"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1290966785" Name="sfx_weapon_GermOBlaster_swap" DurationType="OneShot" DurationMin="0.6138843" DurationMax="0.6138843">
+					<MediaRefs>
+						<MediaRef Id="757333123"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1355404468" Name="sfx_weapon_healmatic500_fire" DurationType="OneShot" DurationMin="1.0493492" DurationMax="1.0493492">
 					<MediaRefs>
 						<MediaRef Id="424706265"/>
@@ -564,6 +570,11 @@
 					<MediaRefs>
 						<MediaRef Id="564281337"/>
 						<MediaRef Id="756462970"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3116788425" Name="sfx_weapon_Healmatic500_swap" DurationType="OneShot" DurationMin="0.71689665" DurationMax="0.71689665">
+					<MediaRefs>
+						<MediaRef Id="880253382"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2968060059" Name="sfx_weapon_pill_explode" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.1240691" DurationMax="1.232907">
@@ -582,14 +593,9 @@
 						<MediaRef Id="96736177"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="25" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="188079322"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3394514118" Name="Test_Hum" MaxAttenuation="25" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3024126497" Name="Test_Pop" DurationType="OneShot" DurationMin="8" DurationMax="8">
 					<MediaRefs>
-						<MediaRef Id="210565171"/>
 						<MediaRef Id="936462250"/>
 					</MediaRefs>
 				</Event>
@@ -660,5 +666,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{819054DB-63AE-7207-6478-8AAE47901143}</FileHash>
+	<FileHash>{41524D9E-7190-51C2-32C9-9E3C2CFF8339}</FileHash>
 </SoundBanksInfo>

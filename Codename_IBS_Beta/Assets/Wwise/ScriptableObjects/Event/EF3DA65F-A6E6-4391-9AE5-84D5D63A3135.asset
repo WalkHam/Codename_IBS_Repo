@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5750893cd60e7f54fb581e102f253c8b, type: 3}
-  m_Name: 0418DCA0-047D-4168-B502-566DDA9E5FE3
+  m_Name: EF3DA65F-A6E6-4391-9AE5-84D5D63A3135
   m_EditorClassIdentifier: 
-  objectName: sfx_weapon_GermOBlaster_swap
-  id: 1290966785
-  guid: 0418DCA0-047D-4168-B502-566DDA9E5FE3
+  objectName: BrainSFX_loop
+  id: 2029174461
+  guid: EF3DA65F-A6E6-4391-9AE5-84D5D63A3135

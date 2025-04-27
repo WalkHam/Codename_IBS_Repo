@@ -4494,7 +4494,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079333634}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d81ddeea1cb15d41b71152685bc9489, type: 3}
   m_Name: 
@@ -4502,7 +4502,7 @@ MonoBehaviour:
   brainAmb:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ed227b5b48ab394499d8a4cc1f755bd4,
+    WwiseObjectReference: {fileID: 11400000, guid: 2e5aca8de4db8304fb170c4f56f83567,
       type: 2}
 --- !u!23 &1079333636
 MeshRenderer:

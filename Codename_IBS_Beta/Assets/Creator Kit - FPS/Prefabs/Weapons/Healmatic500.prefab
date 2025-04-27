@@ -607,7 +607,7 @@ MonoBehaviour:
   WwiseEvent2:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 44cf2cf41a2bd114fa8e520a11cb427e,
+    WwiseObjectReference: {fileID: 11400000, guid: daac88dc7bbba4348aed0fab17515e4f,
       type: 2}
   WwiseEvent3:
     idInternal: 0

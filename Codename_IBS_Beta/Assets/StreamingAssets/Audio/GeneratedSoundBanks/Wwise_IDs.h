@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID ACID_LOOP = 1339187379U;
         static const AkUniqueID AMB_HOSPITAL_LOOP = 3217822573U;
+        static const AkUniqueID BRAINSFX_LOOP = 2029174461U;
         static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID ROOM_AMB = 3789107537U;
         static const AkUniqueID SFX_DOORANDKEY_KEY_COLLECT = 4161317462U;
@@ -34,11 +35,12 @@ namespace AK
         static const AkUniqueID SFX_PLAYER_FS_MATERIAL_WATER = 2418061404U;
         static const AkUniqueID SFX_PLAYER_JUMP = 648313621U;
         static const AkUniqueID SFX_PLAYER_LAND = 2972376730U;
-        static const AkUniqueID SFX_WEAPON_ALL_SWAP = 3791724757U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_FIRE = 1631753596U;
         static const AkUniqueID SFX_WEAPON_GERMOBLASTER_RELOAD = 228935287U;
+        static const AkUniqueID SFX_WEAPON_GERMOBLASTER_SWAP = 1290966785U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_FIRE = 1355404468U;
         static const AkUniqueID SFX_WEAPON_HEALMATIC500_RELOAD = 3358445023U;
+        static const AkUniqueID SFX_WEAPON_HEALMATIC500_SWAP = 3116788425U;
         static const AkUniqueID SFX_WEAPON_PILL_EXPLODE = 2968060059U;
         static const AkUniqueID SFX_WEAPON_PILL_RELOAD = 1796022955U;
         static const AkUniqueID SFX_WEAPON_PILL_THROW = 1104292844U;

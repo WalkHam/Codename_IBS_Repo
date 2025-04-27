@@ -20,7 +20,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{7E66140D-9A0C-4BBC-B400-6902C7EB33C8}"/>
+						<CurrentStateRef Name="Unpaused" ID="{413F3E1F-9594-479E-A593-CE1F5B681E5C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="flesh" ID="{C9278F46-67C1-4E40-A716-5F394155E4ED}"/>

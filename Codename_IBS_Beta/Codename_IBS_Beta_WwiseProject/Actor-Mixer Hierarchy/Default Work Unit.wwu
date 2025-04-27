@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Test_Pop" ID="{67E11AE4-50AC-4389-BD44-A9B67BA47091}" ShortID="784169249">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -104,6 +111,35 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
+								<Sound Name="sfx_weapon_Healmatic500_swap" ID="{0625FE28-7524-46F8-8D4A-54331F78B42E}" ShortID="455374395">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gun Whip Up" ID="{19533021-D81F-470D-A7B0-36E0A8E0A02A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0187016520894072"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.118443796566246"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.105976028506641"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.82287269193392"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gun Whip Up.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880253382"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gun Whip Up" ID="{19533021-D81F-470D-A7B0-36E0A8E0A02A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Pill Grenade" ID="{E6F13E6B-7BE2-4F24-B0FC-3F9D57FB3B52}" ShortID="1063624655">
@@ -485,11 +521,7 @@
 										</Sound>
 									</ChildrenList>
 								</Folder>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Weapon Swap" ID="{171C99C9-AFB5-4ECA-AE7F-27E32EF731A6}" ShortID="1050237144">
-							<ChildrenList>
-								<Sound Name="sfx_weapon_all_swap_01" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" ShortID="898738591">
+								<Sound Name="sfx_weapon_GermOBlaster_swap" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" ShortID="898738591">
 									<PropertyList>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
@@ -1990,9 +2022,20 @@
 										<RandomSequenceContainer Name="Hit" ID="{6C2644A2-36FA-4EB3-BA88-26340765F2E0}" ShortID="446936673">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
 														<Value>380</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3173,7 +3216,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3205,6 +3248,45 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="sfx_acid_loop" ID="{5D99C2C8-D6BD-4A39-B9FB-18EC2EC3F10A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_brain_energy_loop" ID="{430E9058-39B7-453B-9FE9-CAD3CD379646}" ShortID="98180910">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="BrainSFX Attenuation" ID="{DD1756D8-789A-41D5-98E4-33E7EAEF5DB1}" WorkUnitID="{D970CDAD-57DB-484E-8C9C-7BB354F5BCEF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Amb Bus" ID="{36685AF8-F9A5-4D5E-BE58-025A3854DBF7}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="259468-Energy_-wave_loop-03" ID="{CF6255D7-A03F-4DA8-995C-7AFA95DFFA96}">
+									<Language>SFX</Language>
+									<AudioFile>259468-Energy_-wave_loop-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="119552482"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="259468-Energy_-wave_loop-03" ID="{CF6255D7-A03F-4DA8-995C-7AFA95DFFA96}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -3450,6 +3532,11 @@
 				<Sound Name="Test_Hum" ID="{34A63F3C-7F66-4A60-ABEE-76827E04B236}" ShortID="46941712">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

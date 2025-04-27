@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5750893cd60e7f54fb581e102f253c8b, type: 3}
-  m_Name: 0418DCA0-047D-4168-B502-566DDA9E5FE3
+  m_Name: 52657071-4175-462B-AFDD-75E91C2E3132
   m_EditorClassIdentifier: 
-  objectName: sfx_weapon_GermOBlaster_swap
-  id: 1290966785
-  guid: 0418DCA0-047D-4168-B502-566DDA9E5FE3
+  objectName: sfx_weapon_Healmatic500_swap
+  id: 3116788425
+  guid: 52657071-4175-462B-AFDD-75E91C2E3132

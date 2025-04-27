@@ -118,6 +118,17 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Event Name="sfx_weapon_Healmatic500_swap" ID="{52657071-4175-462B-AFDD-75E91C2E3132}">
+									<ChildrenList>
+										<Action Name="" ID="{5533702F-3733-49DF-8307-0DA7DEDCA698}" ShortID="1057860334">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="sfx_weapon_Healmatic500_swap" ID="{0625FE28-7524-46F8-8D4A-54331F78B42E}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="GermOBlaster" ID="{8CB34434-42D5-463E-BB81-E916DBD5670E}" ShortID="977473251">
@@ -185,16 +196,12 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Weapon Swap" ID="{51DDE47D-1342-4F8C-8969-5C21AE9FBD58}" ShortID="842669528">
-							<ChildrenList>
-								<Event Name="sfx_weapon_all_swap" ID="{0418DCA0-047D-4168-B502-566DDA9E5FE3}">
+								<Event Name="sfx_weapon_GermOBlaster_swap" ID="{0418DCA0-047D-4168-B502-566DDA9E5FE3}">
 									<ChildrenList>
 										<Action Name="" ID="{2A7D8FF1-D2E2-4510-BFF1-D82F8EB62A9F}" ShortID="148912515">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="sfx_weapon_all_swap_01" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+													<ObjectRef Name="sfx_weapon_GermOBlaster_swap" ID="{7401FBF0-EE15-4512-8553-772F30029D7B}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -442,6 +449,9 @@
 												<Event Name="sfx_enemies_germspike_hit" ID="{7613E549-5C73-43A7-8C59-207F7AE67107}">
 													<ChildrenList>
 														<Action Name="" ID="{97DD9D3A-B943-44F0-925B-85956BF09467}" ShortID="758259265">
+															<PropertyList>
+																<Property Name="Probability" Type="Real64" Value="63"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="Hit" ID="{6C2644A2-36FA-4EB3-BA88-26340765F2E0}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
@@ -662,6 +672,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="sfx_acid_loop" ID="{C83329A4-82AE-4BC1-9809-70B5DCE3E5A8}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BrainSFX_loop" ID="{EF3DA65F-A6E6-4391-9AE5-84D5D63A3135}">
+							<ChildrenList>
+								<Action Name="" ID="{2D8353B5-132F-4C03-9CC9-D0C49247556A}" ShortID="569283649">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="amb_brain_energy_loop" ID="{430E9058-39B7-453B-9FE9-CAD3CD379646}" WorkUnitID="{1FBADE9C-FE57-4FFB-92CD-97167E87CC92}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
