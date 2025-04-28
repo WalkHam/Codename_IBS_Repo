@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9415C8FC-845D-0705-0713-51FF540B36ED}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0E90AC44-4729-D467-F04D-06FC585813E7}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -80,7 +80,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1738FADE-0C5A-90F5-248A-1B40B4499FE9}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7EBB0483-7A78-ECFD-49A7-B3D593A10B5B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -299,7 +299,7 @@
 				</File>
 				<File Id="880253382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gun Whip Up.wav</ShortName>
-					<CachePath>SFX/Gun Whip Up_165C4598.wem</CachePath>
+					<CachePath>SFX/Gun Whip Up_98B4C234.wem</CachePath>
 				</File>
 				<File Id="921373543" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Hover.wav</ShortName>
@@ -409,7 +409,7 @@
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.3512392" DurationMax="0.41769618">
+				<Event Id="3902373752" Name="sfx_enemies_bloodcell_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.3512392" DurationMax="0.41769618">
 					<MediaRefs>
 						<MediaRef Id="335244092"/>
 					</MediaRefs>
@@ -429,13 +429,13 @@
 						<MediaRef Id="953187999"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="102550024" Name="sfx_enemies_germslime_death" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.7009011">
+				<Event Id="102550024" Name="sfx_enemies_germslime_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.7009011">
 					<MediaRefs>
 						<MediaRef Id="133933745"/>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3369942825" Name="sfx_enemies_germslime_hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.3512392" DurationMax="0.41769618">
+				<Event Id="3369942825" Name="sfx_enemies_germslime_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.3512392" DurationMax="0.41769618">
 					<MediaRefs>
 						<MediaRef Id="285039873"/>
 					</MediaRefs>
@@ -445,14 +445,14 @@
 						<MediaRef Id="214146599"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1948922918" Name="sfx_enemies_germspike_death" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.57358336">
+				<Event Id="1948922918" Name="sfx_enemies_germspike_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.57358336" DurationMax="0.57358336">
 					<MediaRefs>
 						<MediaRef Id="292638115"/>
 						<MediaRef Id="946668468"/>
 						<MediaRef Id="1064385070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="40" DurationType="OneShot" DurationMin="0" DurationMax="0.33980364">
+				<Event Id="3347914759" Name="sfx_enemies_germspike_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0" DurationMax="0.33980364">
 					<MediaRefs>
 						<MediaRef Id="52232605"/>
 						<MediaRef Id="117817863"/>
@@ -666,5 +666,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C4E7707-F664-B64E-91E1-22576F833FE3}</FileHash>
+	<FileHash>{FDB15C65-A05F-6FCF-7588-E9CB37F63F8E}</FileHash>
 </SoundBanksInfo>

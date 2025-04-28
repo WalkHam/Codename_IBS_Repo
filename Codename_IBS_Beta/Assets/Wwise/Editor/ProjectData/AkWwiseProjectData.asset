@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584558234630922575
+    m_lastTime: -8584557524202412671
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584558240403530051
+    m_lastTime: -8584557524204373117
     List:
     - name: Acid_Loop
       guid: d32c18257bc1424cbce669f35cb43e42
@@ -884,7 +884,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cc9beac2bfe29348b56f7a78d8421628
       Path: Events\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemies_bloodcell_hit
-      maxAttenuation: 40
+      maxAttenuation: 30
       maxDuration: 0.41769618
       minDuration: 0.3512392
     - name: sfx_enemies_bloodcell_idle
@@ -988,7 +988,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a3812647a2d7df43905288ec7e91358a
       Path: Events\Default Work Unit\Enemies\Germ Slime\Death\sfx_enemies_germslime_death
-      maxAttenuation: 40
+      maxAttenuation: 30
       maxDuration: 0.7009011
       minDuration: 0.57358336
     - name: sfx_enemies_germslime_hit
@@ -1014,7 +1014,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 89f3203bccef4144af1e6a7fb60c9615
       Path: Events\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemies_germslime_hit
-      maxAttenuation: 40
+      maxAttenuation: 30
       maxDuration: 0.41769618
       minDuration: 0.3512392
     - name: sfx_enemies_germslime_idle
@@ -1069,7 +1069,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bbb9d00c21695e4c894a003a4abd62a5
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death\sfx_enemies_germspike_death
-      maxAttenuation: 40
+      maxAttenuation: 30
       maxDuration: 0.57358336
       minDuration: 0.57358336
     - name: sfx_enemies_germspike_hit
@@ -1098,7 +1098,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 49e51376735ca7438c59207f7ae67107
       Path: Events\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit\sfx_enemies_germspike_hit
-      maxAttenuation: 40
+      maxAttenuation: 30
       maxDuration: 0.33980364
       minDuration: 0
     - name: sfx_enemies_germspike_idle
@@ -1670,7 +1670,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
-    m_lastTime: -8584558250915527553
+    m_lastTime: -8584557519415314312
     List:
     - name: FS_Material
       guid: 623e1caea2fc754bb675d9f8de6a5a98
