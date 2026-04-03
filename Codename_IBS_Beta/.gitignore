@@ -61,3 +61,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Wwise (audio) files
+.backup*
+.cache*
+*.akd
+*.prof
+*.validationcache
+*.wem
+*.wsettings
+IncrementalSoundBankData.xml
+AkWwiseProjectData.asset
+

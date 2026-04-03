@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 1c6696757420b74db109cb710b8a6735
     GuidInternal: 
-    m_lastTime: -8584587591576056072
+    m_lastTime: -8584580828514775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f39de0523dc72f4686375cb348f55b42
     GuidInternal: 
-    m_lastTime: -8584558250917163186
+    m_lastTime: -8584421605709723619
     List:
     - name: Amb Bus
       guid: f85a6836a5f95e4dbe58025a3854dbf7
@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f63a113d2904b14c84bf993e7c493880
     GuidInternal: 
-    m_lastTime: -8584557524202412671
+    m_lastTime: -8584263632880382961
     List:
     - name: Main
       guid: 9a659aa79ccb7543a63df51b4a43649d
@@ -145,7 +145,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 808f5e8fc580c44b891c6abf8edc7be1
     GuidInternal: 
-    m_lastTime: -8584557524204373117
+    m_lastTime: -8584263703147762769
     List:
     - name: Acid_Loop
       guid: d32c18257bc1424cbce669f35cb43e42
@@ -833,8 +833,8 @@ MonoBehaviour:
         guid: 038c3ca0d97047488f300f61e2b5f389
       Path: Events\Default Work Unit\Key\sfx_doorandkey_key_collect
       maxAttenuation: 0
-      maxDuration: 8
-      minDuration: 8
+      maxDuration: 5.8933334
+      minDuration: 5.8933334
     - name: sfx_enemies_bloodcell_death
       guid: 260228ffb789504eb7ac16f02cf6a2e8
       id: 1012708473
@@ -1381,8 +1381,8 @@ MonoBehaviour:
         guid: 8d0579ca31eca84d9b470e24eba21c1c
       Path: Events\Default Work Unit\Test_Pop
       maxAttenuation: 0
-      maxDuration: 8
-      minDuration: 8
+      maxDuration: 5.8933334
+      minDuration: 5.8933334
     - name: Weapons
       guid: fb6c2611908a434dbe0cfb7a038a3da4
       id: 1467963052
@@ -1411,7 +1411,7 @@ MonoBehaviour:
     ParentPath: Events\Menu
     guid: 3069490e42a6f94589a90d7e35c852fe
     GuidInternal: 
-    m_lastTime: -8584563348935931475
+    m_lastTime: -8584421605730408763
     List:
     - name: UI_Hover
       guid: e129b599eeff0840b03fcbb9829df82f
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     ParentPath: Events\Player
     guid: 9e4cf767659acc45a7c87147e6351180
     GuidInternal: 
-    m_lastTime: -8584558250918020817
+    m_lastTime: -8584421605730393739
     List:
     - name: sfx_player_fs
       guid: b9ccbbb843f2944eb4e54edeb190e8f0
@@ -1577,7 +1577,7 @@ MonoBehaviour:
         guid: 555f517193497748b6d08aed2d334c34
       Path: Events\Player\sfx_player_land
       maxAttenuation: 0
-      maxDuration: 0.41282877
+      maxDuration: 0.44399506
       minDuration: 0.059990495
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -1591,7 +1591,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 45732d1542a3c04fb8444cdb3851cb22
     GuidInternal: 
-    m_lastTime: -8584567631590383259
+    m_lastTime: -8584421605730393739
     List:
     - name: AmbVolume
       guid: 164e74d36899384b9af3c94dcf90ef65
@@ -1670,74 +1670,8 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
     GuidInternal: 
-    m_lastTime: -8584557519415314312
+    m_lastTime: -8584263721883629130
     List:
-    - name: FS_Material
-      guid: 623e1caea2fc754bb675d9f8de6a5a98
-      id: 20433824
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
-      - ElementName: FS_Material
-        ObjectType: 9
-        guid: 623e1caea2fc754bb675d9f8de6a5a98
-      Path: States\Default Work Unit\FS_Material
-      values:
-      - name: Flesh
-        guid: 53299aef1db2f247a90eeab4a7c3f153
-        id: 1153642577
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
-        - ElementName: FS_Material
-          ObjectType: 9
-          guid: 623e1caea2fc754bb675d9f8de6a5a98
-        - ElementName: Flesh
-          ObjectType: 8
-          guid: 53299aef1db2f247a90eeab4a7c3f153
-      - name: None
-        guid: 0d5f4e25401d8e45bbb05ec25612c340
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
-        - ElementName: FS_Material
-          ObjectType: 9
-          guid: 623e1caea2fc754bb675d9f8de6a5a98
-        - ElementName: None
-          ObjectType: 8
-          guid: 0d5f4e25401d8e45bbb05ec25612c340
-      - name: Water
-        guid: 1c9f21134d02e9448a0646b71a88c4b8
-        id: 2654748154
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 9a2d4f3d0d3bab47a6d975dd5ff6e1bd
-        - ElementName: FS_Material
-          ObjectType: 9
-          guid: 623e1caea2fc754bb675d9f8de6a5a98
-        - ElementName: Water
-          ObjectType: 8
-          guid: 1c9f21134d02e9448a0646b71a88c4b8
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
     - name: Music_Room
       guid: bd85b1bd76c4ad4899cc5e2e18997aa4
       id: 212799888
@@ -1996,7 +1930,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 5fd339d132c13d42a72b1aa2b4179e0e
     GuidInternal: 
-    m_lastTime: -8584567631574777770
+    m_lastTime: -8584421605647218693
     List:
     - name: Materials
       guid: 736b4c7eac5739408a011266deb862df
@@ -2060,10 +1994,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 69907736d8ee8f41a3a314b0fb9a5b05
     GuidInternal: 
-    m_lastTime: -8584587591576062355
+    m_lastTime: -8584580828514775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000e00000051000000c5030000c8030000
+  ExpandedWaapiItemIds: 210000002200000023000000240000005c0000005d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

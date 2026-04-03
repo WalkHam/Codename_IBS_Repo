@@ -5,7 +5,6 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{A79A659A-CB9C-4375-A63D-F51B4A43649D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="UI_Hover" ID="{99B529E1-FFEE-4008-B03F-CBB9829DF82F}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_weapon_pill_throw" ID="{2AE4B1CC-F082-4026-80DC-C310340ECAB5}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Unpause" ID="{B22DC87B-7845-4049-9FED-734FB84C6F69}" WorkUnitID="{0E496930-A642-45F9-89A9-0D7E35C852FE}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Amb_Hospital_Loop" ID="{F9F9A3D1-62DE-410E-8FB2-ACBA33984E58}" WorkUnitID="{8F5E8F80-80C5-4BC4-891C-6ABF8EDC7BE1}" Origin="Manual" Filter="7"/>

@@ -1,0 +1,131 @@
+Event	ID	Name			Wwise Object Path	Notes
+	102550024	sfx_enemies_germslime_death			\Default Work Unit\Enemies\Germ Slime\Death\sfx_enemies_germslime_death	
+	183167143	UI_Unpause			\Menu\UI_Unpause	
+	228935287	sfx_weapon_germoblaster_reload			\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload	
+	648313621	sfx_player_jump			\Player\sfx_player_jump	
+	960125980	sfx_player_fs			\Player\sfx_player_fs	
+	1012708473	sfx_enemies_bloodcell_death			\Default Work Unit\Enemies\Blood Cell\Death\sfx_enemies_bloodcell_death	
+	1098573287	sfx_enemies_bloodcell_idle			\Default Work Unit\Enemies\Blood Cell\Idle\sfx_enemies_bloodcell_idle	
+	1104292844	sfx_weapon_pill_throw			\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_throw	
+	1290966785	sfx_weapon_GermOBlaster_swap			\Default Work Unit\Weapons\GermOBlaster\sfx_weapon_GermOBlaster_swap	
+	1339187379	Acid_Loop			\Default Work Unit\Ambiences\Acid_Loop	
+	1355404468	sfx_weapon_healmatic500_fire			\Default Work Unit\Weapons\Healmatic500\Fire\sfx_weapon_healmatic500_fire	
+	1631753596	sfx_weapon_germoblaster_fire			\Default Work Unit\Weapons\GermOBlaster\Fire\sfx_weapon_germoblaster_fire	
+	1796022955	sfx_weapon_pill_reload			\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_reload	
+	1948922918	sfx_enemies_germspike_death			\Default Work Unit\Enemies\Germ Spike\Germ Spike\Death\sfx_enemies_germspike_death	
+	2029174461	BrainSFX_loop			\Default Work Unit\Ambiences\BrainSFX_loop	
+	2118900976	UI_Hover			\Menu\UI_Hover	
+	2334927414	sfx_enemies_germspike_idle			\Default Work Unit\Enemies\Germ Spike\Germ Spike\Idle\sfx_enemies_germspike_idle	
+	2418061404	sfx_player_fs_material_water			\Player\sfx_player_fs_material_water	
+	2774129122	UI_Select			\Menu\UI_Select	
+	2792155208	UI_Pause			\Menu\UI_Pause	
+	2968060059	sfx_weapon_pill_explode			\Default Work Unit\Weapons\PIll Grenade\sfx_weapon_pill_explode	
+	2972376730	sfx_player_land			\Player\sfx_player_land	
+	3000572683	sfx_player_fs_material_flesh			\Player\sfx_player_fs_material_flesh	
+	3024126497	Test_Pop			\Default Work Unit\Test_Pop	
+	3055844788	sfx_enemies_germslime_idle			\Default Work Unit\Enemies\Germ Slime\Idle\sfx_enemies_germslime_idle	
+	3116788425	sfx_weapon_Healmatic500_swap			\Default Work Unit\Weapons\Healmatic500\sfx_weapon_Healmatic500_swap	
+	3217822573	Amb_Hospital_Loop			\Default Work Unit\Ambiences\Amb_Hospital_Loop	
+	3292684059	sfx_enemies_fatblob_idle			\Default Work Unit\Enemies\Fat Blob\Idle\sfx_enemies_fatblob_idle	
+	3347914759	sfx_enemies_germspike_hit			\Default Work Unit\Enemies\Germ Spike\Germ Spike\Hit\sfx_enemies_germspike_hit	
+	3358445023	sfx_weapon_healmatic500_reload			\Default Work Unit\Weapons\Healmatic500\Reload\sfx_weapon_healmatic500_reload	
+	3369942825	sfx_enemies_germslime_hit			\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemies_germslime_hit	
+	3394514118	Test_Hum			\Default Work Unit\Test_Hum	
+	3725903807	Music_Start			\Default Work Unit\Ambiences\Music_Start	
+	3789107537	Room_Amb			\Default Work Unit\Ambiences\Room_Amb	
+	3801009704	sfx_enemies_fatblob_dissolve			\Default Work Unit\Enemies\Fat Blob\Dissolve\sfx_enemies_fatblob_dissolve	
+	3902373752	sfx_enemies_bloodcell_hit			\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemies_bloodcell_hit	
+	4161317462	sfx_doorandkey_key_collect			\Default Work Unit\Key\sfx_doorandkey_key_collect	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4050929301	Materials			\Default Work Unit\Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	1153642577	flesh	Materials			
+	2654748154	water	Materials			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	212799888	Music_Room			\Default Work Unit\Music_Room	
+	3789107537	Room_Amb			\Default Work Unit\Room_Amb	
+
+State	ID	Name	State Group			Notes
+	136808247	Brain	Music_Room			
+	748895195	None	Music_Room			
+	1434060888	Stomach	Music_Room			
+	2665378999	Heart	Music_Room			
+	3181406844	Home	Music_Room			
+	748895195	None	Room_Amb			
+	1434060888	Stomach	Room_Amb			
+	1846755610	Small	Room_Amb			
+	4284352190	Large	Room_Amb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7991682	sfx_player_jump_flesh_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_player_jump_flesh_216F379D.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump\sfx_player_jump_flesh\sfx_player_jump_flesh_02		5372
+	25998486	sfx_player_land_flesh_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_land_normal_E7664225.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_land\sfx_player_land_flesh\sfx_player_land_flesh_01		1637
+	52232605	sfx_enemy_germspike_hit_04	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_04_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_04		7233
+	96736177	sfx_weapon_pill_throw_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_pill_throw_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pill Grenade\sfx_weapon_pill_throw_01		3730
+	117817863	sfx_enemy_germspike_hit_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_03_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_03		8352
+	132580410	sfx_weapon_germoblaster_reload_05	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_germoblaster_reload_05_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload_05		11804
+	133933745	sfx_enemy_germslime_death_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_germslime_death_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Slime\Death\sfx_enemy_germslime_death_01		19543
+	165208442	sfx_player_fs_water_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_water_6887D92A.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_water\sfx_player_fs_water_02		4749
+	171311423	sfx_player_fs_water_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_water_E15F9A35.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_water\sfx_player_fs_water_03		5292
+	183424529	sfx_enemy_germspike_hit_05	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_05_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_05		9214
+	189460687	sfx_enemy_bloodcell_idle_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_bloodcell_idle_03_D8A0D580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Blood Cell\Idle\sfx_enemy_bloodcell_idle_03		34783
+	214146599	sfx_enemy_germslime_idle_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_germslime_idle_02_D8A0D580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Slime\Idle\sfx_enemy_germslime_idle_02		108338
+	224893202	sfx_weapon_germoblaster_fire_05	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\GermOBlaster Fire\sfx_weapon_germoblaster_fire_05_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\GermOBlaster Fire\sfx_weapon_germoblaster_fire_05		2326
+	283116729	sfx_player_fs_flesh_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_normal_E8E10E79.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_flesh\sfx_player_fs_flesh_01		2543
+	285039873	sfx_enemy_germslime_hit_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_germslime_hit_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Slime\Hit\sfx_enemy_germslime_hit_01		7858
+	287086954	sfx_weapon_germoblaster_fire_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\GermOBlaster Fire\sfx_weapon_germoblaster_fire_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\GermOBlaster Fire\sfx_weapon_germoblaster_fire_01		2464
+	292638115	sfx_enemy_germspike_idle_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_germspike_idle_01_D8A0D580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Idle\sfx_enemy_germspike_idle_01		46582
+	316645899	sfx_weapon_germoblaster_reload_04	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_germoblaster_reload_04_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload_04		18499
+	321118989	sfx_player_jump_cloth	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_player_jump_cloth_99070275.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump_cloth		7779
+	326142413	sfx_player_land_flesh_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_land_normal_92CE02C2.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_land\sfx_player_land_flesh\sfx_player_land_flesh_02		2566
+	335244092	sfx_enemy_bloodcell_hit_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_bloodcell_hit_02_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemy_bloodcell_hit_02		7858
+	416187476	sfx_weapon_pill_reload_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_pill_reload_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pill Grenade\sfx_weapon_pill_reload_01		5486
+	424309394	UI_Pause	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\UI_Pause_Unpause_AADE3268.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Pause		5713
+	424706265	sfx_weapon_healmatic500_fire_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_healmatic500_fire_01_43F1AF53.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Healmatic500\sfx_weapon_healmatic500_fire_01		19256
+	523310663	sfx_player_fs_flesh_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_normal_2E6765AD.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_flesh\sfx_player_fs_flesh_03		2914
+	564281337	sfx_weapon_healmatic500_reload_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_healmatic500_reload_02_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Healmatic500\Healmatic500 Reload\sfx_weapon_healmatic500_reload_02		7612
+	578939607	sfx_weapon_germoblaster_reload_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_germoblaster_reload_03_8F90EA3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload_03		8286
+	624977598	sfx_weapon_germoblaster_fire_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\GermOBlaster Fire\sfx_weapon_germoblaster_fire_03_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\GermOBlaster Fire\sfx_weapon_germoblaster_fire_03		2254
+	633341211	sfx_weapon_germoblaster_fire_04	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\GermOBlaster Fire\sfx_weapon_germoblaster_fire_04_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\GermOBlaster Fire\sfx_weapon_germoblaster_fire_04		2972
+	685681818	sfx_weapon_pill_explosion_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_pill_explosion_01_29E76CBB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pill Grenade\sfx_weapon_pill_explosion_01		26632
+	686075472	sfx_player_jump_flesh_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_player_jump_flesh_A56A5CF0.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump\sfx_player_jump_flesh\sfx_player_jump_flesh_01		4487
+	692757743	sfx_weapon_pill_reload_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_pill_reload_02_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pill Grenade\sfx_weapon_pill_reload_02		15505
+	703227459	sfx_player_jump_vox_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_jump_990A5BD1.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump_vox\sfx_player_jump_vox_02		3731
+	756462970	sfx_weapon_healmatic500_reload_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_healmatic500_reload_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Healmatic500\Healmatic500 Reload\sfx_weapon_healmatic500_reload_01		16349
+	757333123	sfx_weapon_GermOBlaster_swap	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_all_swap_01_9FE1A354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\sfx_weapon_GermOBlaster_swap		14662
+	767360171	sfx_enemy_germspike_hit_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_01		7881
+	801638011	sfx_enemy_germspike_hit_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_02_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_02		8632
+	803988425	sfx_enemy_bloodcell_hit_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_bloodcell_hit_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Blood Cell\Hit\sfx_enemy_bloodcell_hit_01		8176
+	832609673	sfx_player_jump_flesh_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_player_jump_flesh_4A1D6C53.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump\sfx_player_jump_flesh\sfx_player_jump_flesh_03		5412
+	836494400	sfx_player_land_flesh_03	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_land_normal_88D5A8D9.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_land\sfx_player_land_flesh\sfx_player_land_flesh_03		3986
+	854236484	sfx_weapon_germoblaster_reload_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_weapon_germoblaster_reload_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\Reload\sfx_weapon_germoblaster_reload_01		16356
+	864586043	sfx_weapon_germoblaster_fire_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\GermOBlaster Fire\sfx_weapon_germoblaster_fire_02_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\GermOBlaster\GermOBlaster Fire\sfx_weapon_germoblaster_fire_02		2328
+	880253382	sfx_weapon_Healmatic500_swap	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Gun Whip Up_A35F0C44.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Healmatic500\sfx_weapon_Healmatic500_swap		10798
+	921373543	UI_Hover	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\UI_Hover_683ABB52.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover		2519
+	921723780	sfx_player_land_water	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_jump_land_water_F6233EE1.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_land\sfx_player_land_water		8734
+	932766554	sfx_door&key_door_dissolve_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_door&key_door_dissolve_01_21FF7F99.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Fat Blob\Dissolve\sfx_door&key_door_dissolve_01		96034
+	936462250	sfx_door&key_key_collected_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_door&key_key_collected_01_AC967DE0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Key\sfx_door&key_key_collected_01		96252
+	946668468	sfx_enemy_germspike_death_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_germspike_death_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Death\sfx_enemy_germspike_death_01		18378
+	953187999	sfx_enemy_fatblob_idle_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_fatblob_idle_02_D8A0D580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Fat Blob\Idle\sfx_enemy_fatblob_idle_02		102509
+	953776819	UI_Select	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\UI_Pause_Unpause_B1A8685D.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Select		5299
+	955245020	sfx_player_jump_water	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_jump_land_water_DC5D69CA.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump\sfx_player_jump_water		5345
+	967634214	sfx_player_fs_water_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_water_77DF7487.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_water\sfx_player_fs_water_01		6626
+	1004031063	sfx_enemy_germspike_hit_06	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Hit\sfx_enemy_germspike_hit_06_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Germ Spike\Hit\Hit\sfx_enemy_germspike_hit_06		9549
+	1006237911	sfx_player_jump_vox_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_jump_57CA62D5.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump_vox\sfx_player_jump_vox_01		3919
+	1027807427	sfx_player_jump_flesh_04	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_player_jump_flesh_9F06DF25.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_jump\sfx_player_jump_flesh\sfx_player_jump_flesh_04		6092
+	1062827818	sfx_player_fs_flesh_02	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_foot_normal_C05BC2F9.wem		\Actor-Mixer Hierarchy\Whitney\Player\sfx_player_fs\sfx_player_fs_flesh\sfx_player_fs_flesh_02		2399
+	1064385070	sfx_enemy_all_death_01	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_enemy_all_death_01_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\All\sfx_enemy_all_death_01		11924
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	13354058	sfx_acid_loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\sfx_acid_loop_EC59FBE8.wem	13354058.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\sfx_acid_loop	
+	70606778	Heart Room Loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Main Loop_D8A0D580.wem	70606778.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Heart Room Loop	
+	119552482	amb_brain_energy_loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\259468-Energy_-wave_loop-03_D8A0D580.wem	119552482.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_brain_energy_loop	
+	273973747	Blood Vessel Loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Blood Vessel Loop_D8A0D580.wem	273973747.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Blood Vessel Loop	
+	468109344	amb_stomach_loop_Dripping Amb	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_stomach_loop_Dripping Amb_D8A0D580.wem	468109344.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_stomach_loop_Dripping Amb	
+	604475359	amb_room_small_loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_room_small_loop_D8A0D580.wem	604475359.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_room_small_loop	
+	747429870	IBS_amb_hospital_loop_v2	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\IBS_amb_hospital_loop_v2_216CC57E.wem	747429870.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\IBS_amb_hospital_loop_v2	
+	763917729	Brain Room Loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\Brain Room Loop_D8A0D580.wem	763917729.wem	\Actor-Mixer Hierarchy\Default Work Unit\Music Loops\Brain Room Loop	
+	853583580	amb_room_large_loop	H:\School Stuff\School 2025\Spring 2025\Game Sound II\Repo\Codename_IBS_Repo\Codename_IBS_Beta\Codename_IBS_Beta_WwiseProject\.cache\Windows\SFX\amb_room_large_loop_D8A0D580.wem	853583580.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\amb_room_large_loop	
+

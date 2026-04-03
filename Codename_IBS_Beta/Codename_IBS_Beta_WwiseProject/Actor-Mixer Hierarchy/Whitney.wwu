@@ -285,6 +285,15 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="sfx_player_land" ID="{907ED47B-46AF-4BDA-84E3-030ADBC2865D}" ShortID="182422583">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AA0B882B-5EC0-4BB0-9DE5-F0B72C334D01}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
@@ -308,11 +317,16 @@
 													<Modifier Name="" ID="{EEE62852-78EE-4AD0-85DA-1767E610AD3E}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-120"/>
+															<Property Name="Min" Type="Real64" Value="-246"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -529,50 +543,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="sfx_player_jump_water" ID="{AE592F6D-CD5B-4EA0-B741-7D4B26492140}" ShortID="114204221">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{C4085BAB-AEEC-4CFF-9A2D-8ED3148E2EDE}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="50"/>
-															<Property Name="Min" Type="Real64" Value="-150"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_jump_land_water" ID="{34123362-0751-4493-941A-2269B5FA7077}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.017832541567696"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0873794536817102"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0392315914489311"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.3049364608076"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>sfx_jump_land_water.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="955245020"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_jump_land_water" ID="{34123362-0751-4493-941A-2269B5FA7077}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="sfx_player_jump_flesh" ID="{2DA8C278-FBFF-48A6-9DB7-B06116349F25}" ShortID="546257885">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -722,6 +692,50 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="sfx_player_jump_water" ID="{AE592F6D-CD5B-4EA0-B741-7D4B26492140}" ShortID="114204221">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C4085BAB-AEEC-4CFF-9A2D-8ED3148E2EDE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A83116BB-A8DD-4017-8424-C8577D425937}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{E1E06CEA-A42B-42AA-92F8-BD83387B928F}" WorkUnitID="{52E09DF3-C73D-462F-8637-5CB348F55B42}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_jump_land_water" ID="{34123362-0751-4493-941A-2269B5FA7077}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.017832541567696"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0873794536817102"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0392315914489311"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.3049364608076"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>sfx_jump_land_water.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="955245020"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_jump_land_water" ID="{34123362-0751-4493-941A-2269B5FA7077}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -914,6 +928,11 @@
 						</Sound>
 						<RandomSequenceContainer Name="sfx_player_fs_flesh02" ID="{4CA5F8EB-9E88-41D1-B286-41FF9628AC49}" ShortID="967266542">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1030,30 +1049,14 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="FS_Material" ID="{AE1C3E62-FCA2-4B75-B675-D9F8DE6A5A98}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Water" ID="{13219F1C-024D-44E9-8A06-46B71A88C4B8}"/>
-										<CustomState Name="" ID="{2E7A5F61-8C22-457B-8DCB-5E3D2A384F3F}" ShortID="598251104">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-90"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Flesh" ID="{EF9A2953-B21D-47F2-A90E-EAB4A7C3F153}"/>
-										<CustomState Name="" ID="{6F01DCC9-A9AC-40BA-8377-2C4AEFA60166}" ShortID="265521840"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="sfx_player_fs_water02" ID="{63FC499A-6B8D-43AB-B8A5-657CF238FCC3}" ShortID="423405614">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -1170,27 +1173,6 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="FS_Material" ID="{AE1C3E62-FCA2-4B75-B675-D9F8DE6A5A98}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Water" ID="{13219F1C-024D-44E9-8A06-46B71A88C4B8}"/>
-										<CustomState Name="" ID="{EA113554-880D-4A79-B522-624F0D779F44}" ShortID="88028931"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Flesh" ID="{EF9A2953-B21D-47F2-A90E-EAB4A7C3F153}"/>
-										<CustomState Name="" ID="{AB55C2F5-ECDC-4F71-85CF-78FC4C332BEA}" ShortID="1028623785">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-90"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
